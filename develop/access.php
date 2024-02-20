@@ -21,7 +21,7 @@
 	<!-- パンくずリスト -->
   <div class="breadcrumb sp-hide">
     <ul>
-      <li><a href="./index.html">シティタワー東京田町｜田町 マンション｜トップ</a></li>
+      <li><a href="./index.html">シティタワー錦糸公園｜錦糸町 マンション｜トップ</a></li>
       <li><p>アクセス</p></li>
     </ul>
   </div>
@@ -39,7 +39,7 @@
       <div class="tit-img">
         <img src="./images/access/page-tit.svg">
       </div>
-      <p class="tit"><span>JR山手線・京浜東北線「田町」駅をはじめ</span><br class="pc">4駅5路線利用の快適アクセス。</p>
+      <p class="tit"><span>JR山手線・京浜東北線「錦糸町」駅をはじめ</span><br class="pc">4駅5路線利用の快適アクセス。</p>
       <p class="lead">「東京」や「新宿」へと、“芝浦エリア”ならではのダイレクトアクセス。<br>通勤やショッピングにストレスのない快適さをこの場所で堪能できます。</p>
 				<div class="image img01">
 					<div class="swipe-img right-start01 modify-starts">

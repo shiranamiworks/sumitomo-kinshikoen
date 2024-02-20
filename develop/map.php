@@ -21,9 +21,9 @@
 <section id="submaincontainer">
             	<h2 class="ttl"><img src="images/map/ttl.jpg" alt="現地案内図"></h2>
             	<div class="mapArea"><img src="images/map/map.jpg" alt="現地案内図" id="map1"></div>
-				<p class="zip">東京都港区芝浦2丁目75（地番）<br><span>※住居表示ではありません。</span></p>
+				<p class="zip">東京都墨田区太平4丁目4<br><span>※住居表示ではありません。</span></p>
 				<div id="btnArea">
-					<div id="GoogleMap"><a href="https://maps.app.goo.gl/LsK6ztUNzeDibFMB9" target="_blank"><img src="images/map/btn_googlemap.jpg" alt="Google Map"></a></div>
+					<div id="GoogleMap"><a href="https://maps.app.goo.gl/pXQe8xz8C3nj3Sa19" target="_blank"><img src="images/map/btn_googlemap.jpg" alt="Google Map"></a></div>
 					<div id="PrintMap"><a href="JavaScript:;" onclick="print_out(); return false;"><img src="images/map/btn_print.jpg" alt="印刷" class="pc"></a></div>
 				</div>
 

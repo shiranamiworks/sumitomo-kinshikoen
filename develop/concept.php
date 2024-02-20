@@ -21,7 +21,7 @@
 	<!-- パンくずリスト -->
   <div class="breadcrumb sp-hide">
     <ul>
-      <li><a href="./index.html">シティタワー東京田町｜田町 マンション｜トップ</a></li>
+      <li><a href="./index.html">シティタワー錦糸公園｜錦糸町 マンション｜トップ</a></li>
       <li><p>コンセプト</p></li>
     </ul>
   </div>

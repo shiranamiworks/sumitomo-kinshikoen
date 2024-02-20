@@ -5,22 +5,22 @@
 <?php
 $site_setting = array(
   "area" => "shuto",
-  "prop" => "tamachi",
-  "tel_link" => "tel:0120366433",
+  "prop" => "kinshikouen",
+  "tel_link" => "tel:0120009897",
   "meta_link" => "https://www.sumitomo-rd-mansion.jp/gallery/",
   "requested_only" => "#requested_only",
 );
 $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 ?>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティタワー東京田町,田町 マンション,田町 新築マンション,田町,田町駅,JR山手線,東京都港区,マンション,新築マンション,分譲マンション,住友不動産">
-<meta name="description" content="<?= $page_settings["description"] ?>JR山手線・JR京浜東北線「田町駅」から徒歩10分。住友不動産の新築マンションが田町に誕生。【すみふ　田町】東京都港区のマンションなら住友不動産。">
-<title><?= $page_settings["title"] ?>【公式】シティタワー東京田町｜田町の新築マンション｜住友不動産</title>
+<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティタワー錦糸公園,錦糸町 マンション,錦糸町 新築マンション,錦糸町,錦糸町駅,JR山手線,東京都港区,マンション,新築マンション,分譲マンション,住友不動産">
+<meta name="description" content="<?= $page_settings["description"] ?>東京メトロ半蔵門線「錦糸町駅」から徒歩8分。住友不動産の新築マンションが錦糸町に誕生。【すみふ　錦糸町】東京都港区のマンションなら住友不動産。">
+<title><?= $page_settings["title"] ?>【公式】シティタワー錦糸公園｜錦糸町の新築マンション｜住友不動産</title>
 <meta property="og:url" content="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
 <meta property="og:type" content="website" />
-<meta property="og:title" content="<?= $page_settings["title"] ?>【公式】シティタワー東京田町｜田町の新築マンション｜住友不動産">
-<meta property="og:description" content="<?= $page_settings["description"] ?>JR山手線・JR京浜東北線「田町駅」から徒歩10分。住友不動産の新築マンションが田町に誕生。【すみふ　田町】東京都港区のマンションなら住友不動産。">
-<meta property="og:site_name" content="<?= $page_settings["title"] ?>【公式】シティタワー東京田町｜田町の新築マンション｜住友不動産">
+<meta property="og:title" content="<?= $page_settings["title"] ?>【公式】シティタワー錦糸公園｜錦糸町の新築マンション｜住友不動産">
+<meta property="og:description" content="<?= $page_settings["description"] ?>東京メトロ半蔵門線線「錦糸町駅」から徒歩分。住友不動産の新築マンションが錦糸町に誕生。【すみふ　錦糸町】東京都港区のマンションなら住友不動産。">
+<meta property="og:site_name" content="<?= $page_settings["title"] ?>【公式】シティタワー錦糸公園｜錦糸町の新築マンション｜住友不動産">
 <meta property="og:image" content="<?= $page_settings["directory_pos"] ?>images/top/ogp.jpg" />
 
 <link rel="canonical" href="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
@@ -87,11 +87,11 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
     <h1 class="header-logo">
       <a href="index.html">
         <figure><img src="<?= $page_settings["directory_pos"]  ?>images/common/logo-pc.png" alt=""></figure>
-        <p>田町駅徒歩10分｜シティタワー東京田町｜田町 新築マンション｜<?= $page_settings["logo_text"]  ?>すみふ 田町｜住友不動産</p>
+        <p>錦糸町駅徒歩8分｜シティタワー錦糸公園｜錦糸町 新築マンション｜<?= $page_settings["logo_text"]  ?>すみふ 錦糸町｜住友不動産</p>
       </a>
     </h1><!-- header-logo -->
     <div class="header-right d-flex">
-               <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=tamachi&LINK=header"></script>
+               <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=header"></script>
                     <div id="sp-menu-btn" class="hamburger">
                         <p>MENU</p>
                         <div class="menu-trigger">
@@ -149,12 +149,12 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
       </nav>
       <div class="header-menu-right">
         <ul class="header-menu-btn">
-          <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=tamachi&LINK=header-menu"></script>
+          <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=header-menu"></script>
         </ul>
         <div class="header-menu-other">
           <ul>
             <li><a href="map.html" target="_blank">現地案内図</a></li>
-            <li><a href="/shuto/tamachi/faq.cgi" target="_blank">FAQ</a></li>
+            <li><a href="/shuto/kinshikouen/faq.cgi" target="_blank">FAQ</a></li>
             <li><a href="javascript:outline();">物件概要</a></li>
             <li><p>マンション情報ブログ</p></li>
           </ul>
@@ -184,8 +184,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         <li><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>
         <li><a href="javascript:outline();">物件概要</a></li>
         <li><p href="javascript:blog();">マンション情報ブログ</p></li>
-        <li><a href="/shuto/tamachi/faq.cgi" target="_blank">FAQ</a></li>
-        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=tamachi&LINK=sp-menu"></script>
+        <li><a href="/shuto/kinshikouen/faq.cgi" target="_blank">FAQ</a></li>
+        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=sp-menu"></script>
       </ul>
     </nav>
     <div class="sp-menu-sns d-flex justify-content-center align-items-center">
