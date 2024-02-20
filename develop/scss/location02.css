@@ -1,0 +1,454 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+
+.breadcrumb ul li a {
+  color: #000;
+}
+
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+
+.garamond {
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.location02 main img {
+  max-width: 100%;
+}
+.location02 .image {
+  position: relative;
+}
+.location02 .image .annotation {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 10px;
+}
+.location02 .image .annotation.white {
+  color: #fff;
+  text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+}
+.location02 .location-link {
+  color: #000;
+}
+.location02 main {
+  color: #3e3a39;
+  font-family: "RyuminPro", serif;
+  line-height: 1;
+  background: url(../images/common/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.location02 sup {
+  font-size: 10px;
+  vertical-align: super;
+}
+.location02 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.location02 .main-visual {
+  position: relative;
+  border: none;
+  margin-bottom: 100px;
+}
+.location02 .main-visual .caps {
+  text-align: right;
+  margin: 10px 10px 0 0;
+  font-size: 11px;
+}
+.location02 .sections .tit-img {
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+.location02 .sections .inner {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+.location02 .sections .image {
+  position: relative;
+}
+.location02 .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+.location02 .sections .column02 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 48.5%;
+  margin-right: 2%;
+}
+.location02 .sections .column02 li:nth-child(2n),
+.location02 .sections .column02 li:last-child {
+  margin-right: auto;
+}
+.location02 .sections .column03 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+  margin-bottom: 30px;
+}
+.location02 .sections .column03 li:nth-child(3n),
+.location02 .sections .column03 li:last-child {
+  margin-right: auto;
+}
+.location02 .sections .caps {
+  text-align: right;
+  font-size: 10px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.location02 .intro {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.location02 .intro .inner {
+  max-width: 1200px;
+}
+.location02 .intro .tit {
+  font-size: 34px;
+  line-height: 2;
+  letter-spacing: 0.12em;
+  margin-bottom: 30px;
+}
+.location02 .intro .lead {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+.location02 .shops {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.location02 .shops .column02 {
+  text-align: left;
+  margin-bottom: 80px;
+}
+.location02 .shops .column02 .sub {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.location02 .shops .column02 .name {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.location02 .shops .column02 .lead {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+.location02 .shops .column02.list01 li {
+  width: 35%;
+}
+.location02 .shops .column02.list01 li:last-child {
+  width: 62%;
+}
+.location02 .shops .column02.list02 li {
+  width: 62%;
+}
+.location02 .shops .column02.list02 li:last-child {
+  width: 34%;
+}
+.location02 .shops .column02.list03 li {
+  width: 37%;
+}
+.location02 .shops .column02.list03 li:last-child {
+  width: 60%;
+}
+.location02 .shops .bg {
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding: 10px;
+  box-sizing: border-box;
+}
+.location02 .shops .box {
+  border: 1px solid #a9976d;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.location02 .shops .box .column02 {
+  margin-bottom: 0;
+}
+.location02 .shops .box .txt01 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.location02 .shops .box .txt02 {
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+.location02 .gourmet {
+  text-align: center;
+  background: rgba(146, 156, 162, 0.4);
+  padding: 80px 0;
+  margin-bottom: 100px;
+}
+.location02 .gourmet .sub {
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+  color: #675952;
+}
+.location02 .gourmet .tit {
+  font-size: 34px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.location02 .gourmet .column02 li {
+  margin-bottom: 20px;
+}
+.location02 .gourmet .column02 .texts {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.location02 .gourmet .column02 .texts .name {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.location02 .gourmet .column02 .texts .name span {
+  font-size: 16px;
+}
+.location02 .gourmet .column02 .texts .info {
+  font-size: 16px;
+}
+.location02 .gourmet .mini {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.location02 .life-info {
+  text-align: center;
+}
+.location02 .life-info .sub {
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+  color: #675952;
+}
+.location02 .life-info .tit {
+  font-size: 34px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.location02 .life-info .map {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .location02 sp {
+    display: block;
+  }
+  .location02 pc {
+    display: none;
+  }
+  .location02 main {
+    background: none;
+  }
+  .location02 .main-visual {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  .location02 .sections .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .location02 .sections .column02 li:last-child {
+    margin-bottom: auto;
+  }
+  .location02 .sections .column03 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .location02 .sections .column03 li:last-child {
+    margin-bottom: auto;
+  }
+  .location02 .intro {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .location02 .intro .tit {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .location02 .intro .lead {
+    text-align: left;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+  .location02 .shops {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .location02 .shops .column02 {
+    margin-bottom: 40px;
+  }
+  .location02 .shops .column02 .sub {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  .location02 .shops .column02 .name {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .location02 .shops .column02 .lead {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 52%;
+    margin-right: 2%;
+  }
+  .location02 .shops .column02 .img01 {
+    display: inline-block;
+    width: 44%;
+  }
+  .location02 .shops .column02 .img02 {
+    margin-bottom: 10px;
+  }
+  .location02 .shops .column02.list01 li {
+    width: 100%;
+  }
+  .location02 .shops .column02.list01 li:last-child {
+    width: 100%;
+  }
+  .location02 .shops .column02.list02 li {
+    width: 100%;
+  }
+  .location02 .shops .column02.list02 li:last-child {
+    width: 100%;
+  }
+  .location02 .shops .column02.list03 li {
+    width: 100%;
+  }
+  .location02 .shops .column02.list03 li:last-child {
+    width: 100%;
+  }
+  .location02 .shops .box {
+    padding: 20px 10px;
+  }
+  .location02 .shops .box .column02 {
+    margin-bottom: auto;
+  }
+  .location02 .shops .box .column02 li {
+    margin-bottom: auto;
+  }
+  .location02 .shops .box .list {
+    margin-top: 20px;
+  }
+  .location02 .shops .box .list li {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+  }
+  .location02 .shops .box .list li:last-child {
+    margin-right: auto;
+  }
+  .location02 .shops .box .txt01 {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .location02 .shops .box .txt02 {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .location02 .gourmet {
+    padding: 40px 0;
+    margin-bottom: 60px;
+  }
+  .location02 .gourmet .sub {
+    font-size: 22px;
+  }
+  .location02 .gourmet .tit {
+    text-align: left;
+    font-size: 24px;
+  }
+  .location02 .gourmet .column02 li {
+    margin-bottom: 20px;
+  }
+  .location02 .gourmet .column02 .texts {
+    text-align: left;
+    position: inherit;
+    background: none;
+    padding: 10px 0;
+    color: #000;
+  }
+  .location02 .gourmet .column02 .texts .name {
+    font-size: 22px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .location02 .gourmet .column02 .texts .name span {
+    font-size: 14px;
+  }
+  .location02 .gourmet .column02 .texts .info {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .location02 .life-info .sub {
+    font-size: 22px;
+  }
+  .location02 .life-info .tit {
+    text-align: left;
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=location02.css.map */

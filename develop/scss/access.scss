@@ -1,0 +1,552 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+#adtag {
+  opacity: 0;
+}
+
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+.breadcrumb ul li a {
+  color: #000;
+}
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+.garamond {
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#access {
+  main img {
+    max-width: 100%;
+  }
+  .image {
+    position: relative;
+    .annotation {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      text-align: right;
+      font-size: 10px;
+      &.white {
+        color: #fff;
+        text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000,
+          0px 0px 4px #000;
+      }
+    }
+  }
+
+  main {
+    color: #000;
+    font-family: "RyuminPro", serif;
+    line-height: 1;
+    background: url(../images/common/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  sup {
+    font-size: 10px;
+    vertical-align: super;
+  }
+  sp {
+    display: none;
+  }
+  pc {
+    display: block;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .main-visual {
+    position: relative;
+    border: none;
+    margin-bottom: 100px;
+  }
+  .sections {
+    .tit-img {
+      max-width: 500px;
+      margin: 0 auto 40px;
+    }
+    .inner {
+      margin: 0 auto;
+      width: 84%;
+      max-width: 1200px;
+    }
+    .image {
+      position: relative;
+    }
+    .annotation {
+      font-size: 10px;
+      text-align: right;
+    }
+    .column02 {
+      li {
+        vertical-align: top;
+        display: inline-block;
+        width: 48%;
+        margin-right: 2%;
+      }
+      li:nth-child(2n),
+      li:last-child {
+        margin-right: auto;
+      }
+    } //column02
+    .column03 {
+      li {
+        vertical-align: top;
+        display: inline-block;
+        width: 32%;
+        margin-right: 1%;
+      }
+      li:nth-child(3n),
+      li:last-child {
+        margin-right: auto;
+      }
+    } //column03
+    .distance {
+      margin: 100px auto;
+      .text {
+        text-align: left;
+        font-size: 22px;
+        line-height: 1.6;
+        border-bottom: 1px solid #000;
+        margin-bottom: 20px;
+      }
+    }
+  } //sections
+  .intro {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    .inner {
+      max-width: 1000px;
+    }
+    .tit {
+      font-size: 30px;
+      line-height: 2;
+      letter-spacing: 0.15em;
+      margin-bottom: 30px;
+      span {
+        font-size: 18px;
+      }
+    }
+    .lead {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 60px;
+    }
+    .img01 {
+      .annotation {
+        bottom: -20px;
+      }
+    }
+    .mini {
+      text-align: left;
+      font-size: 11px;
+      line-height: 1.5;
+      margin: 40px 0 0;
+    }
+  } //intro
+  .airport {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 60px 0;
+    margin-bottom: 100px;
+    .inner {
+      max-width: 1000px;
+    }
+    .img01,
+    .img04 {
+      margin-bottom: 30px;
+    }
+    .tit {
+      font-size: 30px;
+      line-height: 2;
+      letter-spacing: 0.15em;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+    .column02 {
+      margin-bottom: 100px;
+      li {
+        width: 34%;
+        margin-right: 8%;
+      }
+      li:last-child {
+        width: 57%;
+        margin-right: auto;
+      }
+    }
+    .distance {
+      margin: 0 auto;
+      color: #fff;
+      .text {
+        border-bottom: 1px solid #fff;
+      }
+    }
+    .column03 {
+      li {
+        width: 31%;
+        margin-right: 2.5%;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+      .img {
+        margin-bottom: 20px;
+      }
+    }
+  } //airport
+  .other {
+    text-align: center;
+    .inner {
+      max-width: 1000px;
+      background: #fff;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+      margin: 0 auto 100px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .box {
+      border: 1px solid #a9976d;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    .tit {
+      font-size: 30px;
+      line-height: 2;
+      letter-spacing: 0.15em;
+      margin-bottom: 30px;
+    }
+    .column02 {
+      text-align: left;
+    }
+    .txt01 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    .txt02 {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .list01 {
+      margin-bottom: 20px;
+      li {
+        width: 40%;
+      }
+      li:last-child {
+        width: 58%;
+      }
+    }
+    .list02 {
+      .image {
+        margin-bottom: 20px;
+      }
+      li {
+        width: 57%;
+      }
+      li:last-child {
+        width: 40%;
+      }
+    }
+  } //other
+  .taxi {
+    text-align: center;
+    margin-bottom: 100px;
+    .inner {
+      max-width: 1000px;
+    }
+    .title {
+      font-size: 34px;
+      color: #675952;
+      letter-spacing: 0.2em;
+      margin-bottom: 30px;
+    }
+    .tit {
+      font-size: 30px;
+      line-height: 2;
+      margin: 30px auto 10px;
+    }
+    .lead {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+    .list-tit {
+      font-size: 22px;
+      line-height: 1.8;
+      padding: 3px 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid;
+      border-top: 1px solid;
+    }
+    .column02 {
+      margin-bottom: 30px;
+    } //column02
+    .txt-img {
+      margin-top: -20px;
+    }
+  } //taxi
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 768px) {
+    sp {
+      display: block;
+    }
+    pc {
+      display: none;
+    }
+    // main {
+    //   background: none;
+    // }
+
+    @media screen and (max-width: 768px) {
+      .main-visual .annotation {
+        bottom: -20px;
+      }
+      .swipe-img {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+      }
+      .swipe-img img {
+        max-width: auto !important;
+        max-width: inherit !important;
+        width: auto !important;
+      }
+      .swipe {
+        display: block;
+        text-align: center;
+        margin: 20px auto 40px;
+      }
+      .swipe img {
+        max-width: 75px;
+        width: 15%;
+        height: auto;
+        margin: auto;
+        pointer-events: none;
+      }
+    }
+
+    .main-visual {
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+    }
+    .sections {
+      .column02 {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        li:last-child {
+          margin-bottom: auto;
+        }
+      } //column02
+      .column03 {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          .txt img {
+            display: block;
+            height: 80px;
+            margin: auto;
+          }
+          .txt.h15 img {
+            display: block;
+            height: 95px;
+            margin: auto;
+          }
+        }
+        li:last-child {
+          margin-bottom: auto;
+        }
+      } //column03
+      .distance {
+        margin: 40px auto 0;
+        .text {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+      }
+    } //sections
+    .intro {
+      text-align: left;
+      padding: 0 0 60px;
+      .tit {
+        font-size: 22px;
+        margin-bottom: 20px;
+        span {
+          font-size: 22px;
+        }
+      }
+      .lead {
+        text-align: left;
+        font-size: 16px;
+        line-height: 2;
+        margin-bottom: 20px;
+      }
+      .swipe-img img {
+        width: 720px !important;
+      }
+    } //intro
+    .airport {
+      padding: 40px 0;
+      margin-bottom: 60px;
+      .img01,
+      .img04 {
+        margin-bottom: 20px;
+      }
+      .tit {
+        text-align: left;
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      .text {
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #fff;
+        border-bottom: 1px solid;
+        margin-bottom: 20px;
+      }
+      .column02 {
+        margin-bottom: 60px;
+        li {
+          width: 100%;
+          margin: auto;
+        }
+        li:last-child {
+          width: 100%;
+        }
+        .image.sp {
+          margin-bottom: 20px;
+        }
+      }
+      .distance {
+        margin: 0 auto;
+      }
+      .column03 {
+        li {
+          width: 100%;
+          margin-right: auto;
+        }
+        li:last-child {
+          margin-right: auto;
+        }
+      }
+    } //airport
+    .other {
+      .inner {
+        margin: 0 auto 60px;
+      }
+      .box {
+        padding: 20px 10px;
+      }
+      .tit {
+        text-align: left;
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      .column02 {
+        text-align: left;
+      }
+      .txt01 {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .txt02 {
+        font-size: 14px;
+      }
+      .list01 {
+        margin-bottom: 40px;
+        li {
+          width: 100%;
+        }
+        li:last-child {
+          width: 100%;
+        }
+        .image.sp {
+          margin-bottom: 20px;
+        }
+      }
+      .list02 {
+        .image {
+          margin-bottom: 20px;
+        }
+        li {
+          width: 100%;
+        }
+        li:last-child {
+          width: 100%;
+          margin-top: 40px;
+        }
+      }
+    } //other
+    .taxi {
+      text-align: center;
+      margin-bottom: 60px;
+      .title {
+        font-size: 26px;
+        margin-bottom: 20px;
+      }
+      .tit {
+        text-align: left;
+        font-size: 22px;
+        margin: 20px auto 10px;
+      }
+      .lead {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      .list-tit {
+        font-size: 18px;
+      }
+      .txt-img.txt05{
+        margin-top: -1px;
+      }
+    } //taxi
+  } //sp
+} //access
