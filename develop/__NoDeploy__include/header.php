@@ -138,8 +138,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
           <li class="has-child">
             <p class="active"><span class="f-en">LOCATION</span><br>ロケーション</p>
             <div class="sub-menu">
-              <a href="<?= $page_settings["directory_pos"]  ?>location01.html">煌びやかに、上質な日常を楽しむ</a>
-              <a href="<?= $page_settings["directory_pos"]  ?>location02.html">暮らしを満たし、心を潤す住環境</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location01.html">心地よい錦糸町ライフ</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location02.html">東京イーストエリア</a>
             </div>
           </li>
           <li>

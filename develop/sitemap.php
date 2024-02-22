@@ -41,7 +41,7 @@
 	<!-- <li class="location">ロケーション</li>
 	<li class="access">アクセス</li>-->
 	<li class="location"><span>ロケーション<br />
-	（ <a href="location01.html">煌びやかに、上質な日常を楽しむ</a> ／ <a href="location02.html">暮らしを満たし、心を潤す住環境</a> ）</span></li>
+	（ <a href="location01.html">心地よい錦糸町ライフ</a> ／ <a href="location02.html">東京イーストエリア</a> ）</span></li>
 	<li class="access"><a href="access.html">アクセス</a></li>
 	<li class="map"><a href="map.html" target="_blank">現地案内図</a></li>
 	<li class="outline"><a href="javascript:outline()">物件概要</a></li>
