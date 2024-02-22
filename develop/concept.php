@@ -9,7 +9,7 @@
   "keywords" => "コンセプト,",
   "description" => "コンセプトページ。",
   "add_stylesheet" => ["css/concept.css"],
-  "add_script" =>  [],
+  "add_script" =>  ["js/top.js"],
   "canonical_page_id" => "concept", 
   "logo_text" => "コンセプト｜"
 );
@@ -29,7 +29,18 @@
 
   <header class="main-visual clearfix">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/concept/mv.jpg" alt="" class="pc"><img src="./images/concept/mv-sp.jpg" alt="" class="sp"><p class="annotation white">航空写真</p></div>
+    <div class="top-mv__slide pc">
+    <figure><img src="./images/concept/mv01-pc.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/concept/mv02-pc.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/concept/mv03-pc.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/concept/mv04-pc.jpg" alt="" class="w_100 pc"></figure>
+  </div>
+  <div class="top-mv__slide sp tb">
+    <figure><img src="./images/concept/mv01-sp.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/concept/mv02-sp.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/concept/mv03-sp.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/concept/mv04-sp.jpg" alt="" class="w_100 pc"></figure>
+  </div>
   </header><!-- main-visual -->
 
   
