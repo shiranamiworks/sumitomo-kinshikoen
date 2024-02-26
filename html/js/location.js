@@ -73,3 +73,17 @@ $(window).on("load resize", function () {
 $(window).one("load resize", function () {
   $("#wrap .box").scrollLeft(688);
 });
+
+$(function () {
+  $(".slider01").slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: true,
+    slidesToShow: 1,
+    centerMode: true,
+    centerPadding: "16%",
+    focusOnSelect: true,
+    dots: true,
+    arrows: false,
+  });
+});
