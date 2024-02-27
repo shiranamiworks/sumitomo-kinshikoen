@@ -250,7 +250,7 @@
 #access .train .slick-next {
   width: 27px;
   height: 37px;
-  background: url(../images/access/arrow.png) no-repeat center/contain !important;
+  background: url(../images/access/arrow.svg) no-repeat center/contain !important;
   top: auto;
   bottom: -60px;
   left: 50%;
