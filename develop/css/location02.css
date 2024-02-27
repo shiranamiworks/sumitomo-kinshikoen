@@ -77,7 +77,7 @@
   color: #3e3a39;
   font-family: "RyuminPro", serif;
   line-height: 1;
-  background: url(../images/common/bg.png);
+  background: #f5f7f8;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,146 +146,154 @@
   text-align: center;
   position: relative;
   z-index: 1;
+  margin-bottom: 100px;
 }
 .location02 .intro .inner {
   max-width: 1200px;
 }
 .location02 .intro .tit {
-  font-size: 34px;
+  font-size: 44px;
+  color: #697b85;
+  letter-spacing: 0.15em;
+  margin-bottom: 100px;
+}
+.location02 .intro .txt {
+  font-size: 24px;
   line-height: 2;
-  letter-spacing: 0.12em;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .location02 .intro .lead {
-  font-size: 18px;
-  line-height: 1.8;
-  margin-bottom: 60px;
-}
-.location02 .shops {
-  text-align: center;
-  margin-bottom: 100px;
-}
-.location02 .shops .column02 {
-  text-align: left;
-  margin-bottom: 80px;
-}
-.location02 .shops .column02 .sub {
-  font-size: 22px;
-  line-height: 1.2;
-  margin-bottom: 10px;
-}
-.location02 .shops .column02 .name {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-.location02 .shops .column02 .lead {
-  font-size: 18px;
-  line-height: 1.8;
-  margin-bottom: 10px;
-}
-.location02 .shops .column02.list01 li {
-  width: 35%;
-}
-.location02 .shops .column02.list01 li:last-child {
-  width: 62%;
-}
-.location02 .shops .column02.list02 li {
-  width: 62%;
-}
-.location02 .shops .column02.list02 li:last-child {
-  width: 34%;
-}
-.location02 .shops .column02.list03 li {
-  width: 37%;
-}
-.location02 .shops .column02.list03 li:last-child {
-  width: 60%;
-}
-.location02 .shops .bg {
-  background: #fff;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  padding: 10px;
-  box-sizing: border-box;
-}
-.location02 .shops .box {
-  border: 1px solid #a9976d;
-  padding: 30px;
-  box-sizing: border-box;
-}
-.location02 .shops .box .column02 {
-  margin-bottom: 0;
-}
-.location02 .shops .box .txt01 {
-  font-size: 30px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-.location02 .shops .box .txt02 {
-  font-size: 20px;
-  line-height: 2;
-  margin-bottom: 10px;
-}
-.location02 .gourmet {
-  text-align: center;
-  background: rgba(146, 156, 162, 0.4);
-  padding: 80px 0;
-  margin-bottom: 100px;
-}
-.location02 .gourmet .sub {
-  font-size: 24px;
-  letter-spacing: 0.2em;
-  margin-bottom: 20px;
-  color: #675952;
-}
-.location02 .gourmet .tit {
-  font-size: 34px;
-  line-height: 2;
-  margin-bottom: 20px;
-}
-.location02 .gourmet .column02 li {
-  margin-bottom: 20px;
-}
-.location02 .gourmet .column02 .texts {
-  text-align: left;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.2);
-  padding: 10px;
-  box-sizing: border-box;
-  color: #fff;
-}
-.location02 .gourmet .column02 .texts .name {
-  font-size: 24px;
-  line-height: 1.4;
-}
-.location02 .gourmet .column02 .texts .name span {
   font-size: 16px;
-}
-.location02 .gourmet .column02 .texts .info {
-  font-size: 16px;
-}
-.location02 .gourmet .mini {
-  text-align: left;
-  font-size: 12px;
-  line-height: 1.4;
-}
-.location02 .life-info {
-  text-align: center;
-}
-.location02 .life-info .sub {
-  font-size: 24px;
-  letter-spacing: 0.2em;
-  margin-bottom: 20px;
-  color: #675952;
-}
-.location02 .life-info .tit {
-  font-size: 34px;
-  line-height: 2;
-  margin-bottom: 20px;
-}
-.location02 .life-info .map {
+  line-height: 2.2;
   margin-bottom: 40px;
+}
+.location02 .intro .slide-items {
+  width: 100%;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto 60px;
+}
+.location02 .intro .slide-items li {
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.location02 .intro .slide-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.location02 .intro .slick-prev {
+  display: none !important;
+}
+.location02 .intro .slick-next {
+  width: 27px;
+  height: 37px;
+  background: url(../images/location02/arrow.png) no-repeat center/contain !important;
+  top: auto;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+.location02 .intro .mini {
+  text-align: right;
+  font-size: 10px;
+  margin-top: -50px;
+}
+.location02 .intro .img01 {
+  margin-top: 140px;
+}
+.location02 .intro .caps {
+  text-align: right;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.location02 .btns {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.location02 .btns .inner {
+  max-width: 800px;
+  margin: auto;
+}
+.location02 .moments,
+.location02 .green,
+.location02 .tokyo {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.location02 .moments .inner,
+.location02 .green .inner,
+.location02 .tokyo .inner {
+  max-width: 1000px;
+}
+.location02 .moments .tit,
+.location02 .green .tit,
+.location02 .tokyo .tit {
+  font-size: 44px;
+  color: #697b85;
+  margin: 60px auto;
+}
+.location02 .moments .list li,
+.location02 .green .list li,
+.location02 .tokyo .list li {
+  vertical-align: middle;
+  display: inline-block;
+  width: 48%;
+  margin-right: 8%;
+}
+.location02 .moments .list li:last-child,
+.location02 .green .list li:last-child,
+.location02 .tokyo .list li:last-child {
+  width: 42%;
+  margin-right: auto;
+}
+.location02 .moments .list .lead,
+.location02 .green .list .lead,
+.location02 .tokyo .list .lead {
+  text-align: left;
+  font-size: 20px;
+  line-height: 2.2;
+}
+.location02 .moments .slick-dots,
+.location02 .green .slick-dots,
+.location02 .tokyo .slick-dots {
+  bottom: 38%;
+}
+.location02 .moments .slick-dots li,
+.location02 .green .slick-dots li,
+.location02 .tokyo .slick-dots li {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.location02 .moments .slick-dots li:last-child,
+.location02 .green .slick-dots li:last-child,
+.location02 .tokyo .slick-dots li:last-child {
+  width: 10px;
+  height: 10px;
+}
+.location02 .moments .slick-dots li button,
+.location02 .green .slick-dots li button,
+.location02 .tokyo .slick-dots li button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #231815;
+}
+.location02 .moments .slick-dots li.slick-active button,
+.location02 .green .slick-dots li.slick-active button,
+.location02 .tokyo .slick-dots li.slick-active button {
+  background-color: #231815;
+}
+.location02 .moments .slick-dots li button:before,
+.location02 .green .slick-dots li button:before,
+.location02 .tokyo .slick-dots li button:before {
+  display: none;
 }
 @media screen and (max-width: 768px) {
   .location02 sp {
@@ -315,140 +323,89 @@
     margin-bottom: auto;
   }
   .location02 .intro {
-    text-align: left;
-    margin-bottom: 0;
+    margin-bottom: 60px;
   }
   .location02 .intro .tit {
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+  .location02 .intro .txt {
+    text-align: left;
+    margin-bottom: 20px;
   }
   .location02 .intro .lead {
     text-align: left;
-    font-size: 16px;
-    line-height: 2;
     margin-bottom: 20px;
   }
-  .location02 .shops {
-    text-align: center;
-    margin-bottom: 60px;
+  .location02 .intro .slide-items {
+    margin: 0 auto 60px;
   }
-  .location02 .shops .column02 {
-    margin-bottom: 40px;
+  .location02 .intro .img01 {
+    margin-top: 60px;
   }
-  .location02 .shops .column02 .sub {
-    font-size: 18px;
-    line-height: 1.2;
-    margin-bottom: 10px;
+  .location02 .intro .caps {
+    text-align: right;
+    font-size: 10px;
+    margin-top: 10px;
   }
-  .location02 .shops .column02 .name {
-    font-size: 30px;
-    margin-bottom: 10px;
+  .location02 .btns {
+    margin-bottom: 30px;
   }
-  .location02 .shops .column02 .lead {
-    font-size: 14px;
-    line-height: 1.8;
-    margin-bottom: 0;
-    vertical-align: top;
+  .location02 .btns .column03 li {
     display: inline-block;
-    width: 52%;
-    margin-right: 2%;
-  }
-  .location02 .shops .column02 .img01 {
-    display: inline-block;
-    width: 44%;
-  }
-  .location02 .shops .column02 .img02 {
-    margin-bottom: 10px;
-  }
-  .location02 .shops .column02.list01 li {
-    width: 100%;
-  }
-  .location02 .shops .column02.list01 li:last-child {
-    width: 100%;
-  }
-  .location02 .shops .column02.list02 li {
-    width: 100%;
-  }
-  .location02 .shops .column02.list02 li:last-child {
-    width: 100%;
-  }
-  .location02 .shops .column02.list03 li {
-    width: 100%;
-  }
-  .location02 .shops .column02.list03 li:last-child {
-    width: 100%;
-  }
-  .location02 .shops .box {
-    padding: 20px 10px;
-  }
-  .location02 .shops .box .column02 {
-    margin-bottom: auto;
-  }
-  .location02 .shops .box .column02 li {
-    margin-bottom: auto;
-  }
-  .location02 .shops .box .list {
-    margin-top: 20px;
-  }
-  .location02 .shops .box .list li {
-    display: inline-block;
-    width: 48%;
-    margin-right: 2%;
-  }
-  .location02 .shops .box .list li:last-child {
+    width: 32%;
     margin-right: auto;
   }
-  .location02 .shops .box .txt01 {
-    text-align: left;
-    font-size: 22px;
-    margin-bottom: 10px;
+  .location02 .moments,
+  .location02 .green,
+  .location02 .tokyo {
+    text-align: center;
+    margin-bottom: 80px;
   }
-  .location02 .shops .box .txt02 {
-    text-align: left;
+  .location02 .moments .tit,
+  .location02 .green .tit,
+  .location02 .tokyo .tit {
+    font-size: 30px;
+    margin: 30px auto;
+  }
+  .location02 .moments .list li,
+  .location02 .green .list li,
+  .location02 .tokyo .list li {
+    display: block;
+    width: 100%;
+    margin-right: auto;
+  }
+  .location02 .moments .list li:last-child,
+  .location02 .green .list li:last-child,
+  .location02 .tokyo .list li:last-child {
+    width: 100%;
+    margin-right: auto;
+  }
+  .location02 .moments .list .lead,
+  .location02 .green .list .lead,
+  .location02 .tokyo .list .lead {
     font-size: 16px;
-    margin-bottom: 20px;
-  }
-  .location02 .gourmet {
-    padding: 40px 0;
+    line-height: 2;
     margin-bottom: 60px;
   }
-  .location02 .gourmet .sub {
-    font-size: 22px;
+  .location02 .moments .slick-dots,
+  .location02 .green .slick-dots,
+  .location02 .tokyo .slick-dots {
+    bottom: -30px;
   }
-  .location02 .gourmet .tit {
-    text-align: left;
-    font-size: 24px;
+  .location02 .moments .slick-dots li,
+  .location02 .green .slick-dots li,
+  .location02 .tokyo .slick-dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
   }
-  .location02 .gourmet .column02 li {
-    margin-bottom: 20px;
-  }
-  .location02 .gourmet .column02 .texts {
-    text-align: left;
-    position: inherit;
-    background: none;
-    padding: 10px 0;
-    color: #000;
-  }
-  .location02 .gourmet .column02 .texts .name {
-    font-size: 22px;
-    line-height: 1.1;
-    margin-bottom: 10px;
-  }
-  .location02 .gourmet .column02 .texts .name span {
-    font-size: 14px;
-  }
-  .location02 .gourmet .column02 .texts .info {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-  .location02 .life-info .sub {
-    font-size: 22px;
-  }
-  .location02 .life-info .tit {
-    text-align: left;
-    font-size: 24px;
-  }
-  .location02 .life-info .leaflet-top {
-    bottom: 25px;
+  .location02 .moments .slick-dots li:last-child,
+  .location02 .green .slick-dots li:last-child,
+  .location02 .tokyo .slick-dots li:last-child {
+    width: 10px;
+    height: 10px;
   }
 }/*# sourceMappingURL=location02.css.map */
