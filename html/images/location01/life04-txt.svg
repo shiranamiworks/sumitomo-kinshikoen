@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 701.86 61.56">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.59em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.59em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.59em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-16 {
+        letter-spacing: -.26em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-20 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-21 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-22 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-23 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-24 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-26 {
+        letter-spacing: -.17em;
+      }
+
+      .cls-27 {
+        letter-spacing: -.17em;
+      }
+
+      .cls-28 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-29 {
+        fill: #231815;
+        font-size: 11px;
+      }
+
+      .cls-29, .cls-30, .cls-31 {
+        font-family: YuMinPr6N-Regular-83pv-RKSJ-H, 'Yu Mincho Pr6N';
+      }
+
+      .cls-32 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-33 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-36 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-37 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-38 {
+        letter-spacing: .02em;
+      }
+
+      .cls-30 {
+        fill: #3e3a39;
+        font-size: 9.8px;
+      }
+
+      .cls-39 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-40 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-41 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-42 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-43 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-44 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-45 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-46 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-47 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-48 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-49 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-50 {
+        fill: none;
+        stroke: #231815;
+        stroke-miterlimit: 10;
+        stroke-width: .3px;
+      }
+
+      .cls-51 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-52 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-53 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-54 {
+        letter-spacing: 0em;
+      }
+
+      .cls-55 {
+        letter-spacing: -.24em;
+      }
+
+      .cls-56 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-57 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-58 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-59 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-60 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-61 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-62 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-63 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-64 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-65 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-66 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-67 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-68 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-31 {
+        fill: #fff;
+        font-size: 8px;
+      }
+
+      .cls-69 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-70 {
+        letter-spacing: -.23em;
+      }
+
+      .cls-71 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-72 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-73 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <text class="cls-30" transform="translate(145.27 9.68)"><tspan x="0" y="0">約20</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩3分</tspan></text>
+    <line class="cls-50" x1="225.35" y1="15.41" x2=".29" y2="15.41"/>
+    <text class="cls-30" transform="translate(145.27 32.68)"><tspan x="0" y="0">約22</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩3分</tspan></text>
+    <line class="cls-50" x1="225.35" y1="38.41" x2=".29" y2="38.41"/>
+    <text class="cls-30" transform="translate(145.27 55.68)"><tspan x="0" y="0">約24</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩3分</tspan></text>
+    <line class="cls-50" x1="225.35" y1="61.41" x2=".29" y2="61.41"/>
+    <text class="cls-30" transform="translate(11.84 9.68) scale(.79 1)"><tspan class="cls-42" x="0" y="0">わ</tspan><tspan class="cls-72" x="8.81" y="0">ら</tspan><tspan class="cls-38" x="17.59" y="0">び</tspan><tspan x="27.56" y="0">内</tspan><tspan class="cls-58" x="37.36" y="0">科</tspan><tspan class="cls-18" x="44.71" y="0">・</tspan><tspan class="cls-41" x="52.02" y="0">ペ</tspan><tspan class="cls-70" x="60.84" y="0">イ</tspan><tspan class="cls-24" x="68.35" y="0">ン</tspan><tspan class="cls-44" x="76.3" y="0">ク</tspan><tspan class="cls-5" x="84.13" y="0">リ</tspan><tspan class="cls-22" x="92.51" y="0">ニ</tspan><tspan class="cls-35" x="100.58" y="0">ッ</tspan><tspan class="cls-13" x="108.12" y="0">ク</tspan><tspan x="112.14" y="0">【内</tspan><tspan class="cls-58" x="131.74" y="0">科・</tspan><tspan x="146.44" y="0">麻酔科</tspan><tspan class="cls-64" x="175.84" y="0">】</tspan></text>
+    <text class="cls-30" transform="translate(12.01 32.68)"><tspan class="cls-9" x="0" y="0">ほ</tspan><tspan class="cls-15" x="8.39" y="0">り</tspan><tspan class="cls-71" x="16.92" y="0">川</tspan><tspan class="cls-40" x="26.47" y="0">デ</tspan><tspan class="cls-11" x="35.18" y="0">ン</tspan><tspan class="cls-49" x="43.48" y="0">タ</tspan><tspan class="cls-37" x="52.31" y="0">ル</tspan><tspan class="cls-43" x="61.04" y="0">ク</tspan><tspan class="cls-6" x="68.88" y="0">リ</tspan><tspan class="cls-21" x="77.25" y="0">ニ</tspan><tspan class="cls-33" x="85.32" y="0">ッ</tspan><tspan class="cls-7" x="92.87" y="0">ク</tspan><tspan x="96.88" y="0">【歯科</tspan><tspan class="cls-59" x="126.28" y="0">】</tspan></text>
+    <text class="cls-30" transform="translate(11.97 55.68) scale(.66 1)"><tspan x="0" y="0">総</tspan><tspan class="cls-39" x="9.8" y="0">合</tspan><tspan class="cls-46" x="18.44" y="0">ク</tspan><tspan class="cls-2" x="26.27" y="0">リ</tspan><tspan class="cls-19" x="34.65" y="0">ニ</tspan><tspan class="cls-36" x="42.72" y="0">ッ</tspan><tspan class="cls-16" x="50.26" y="0">ク</tspan><tspan class="cls-51" x="57.55" y="0">ド</tspan><tspan class="cls-27" x="65.4" y="0">ク</tspan><tspan class="cls-52" x="73.5" y="0">タ</tspan><tspan class="cls-67" x="82.08" y="0">ー</tspan><tspan class="cls-25" x="90.56" y="0">ラ</tspan><tspan class="cls-55" x="98.53" y="0">ン</tspan><tspan class="cls-14" x="106.01" y="0">ド</tspan><tspan class="cls-73" x="115.01" y="0">錦糸</tspan><tspan class="cls-60" x="134.61" y="0">町</tspan><tspan class="cls-73" x="139.51" y="0">【総</tspan><tspan class="cls-39" x="159.11" y="0">合</tspan><tspan class="cls-46" x="167.76" y="0">ク</tspan><tspan class="cls-2" x="175.59" y="0">リ</tspan><tspan class="cls-23" x="183.97" y="0">ニ</tspan><tspan class="cls-36" x="192.03" y="0">ッ</tspan><tspan class="cls-48" x="199.58" y="0">ク</tspan><tspan class="cls-60" x="208.5" y="0">】</tspan></text>
+    <g>
+      <text class="cls-29" transform="translate(0 9.68)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(3.33 8.65)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g>
+      <text class="cls-29" transform="translate(0 32.68)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(3.33 31.65)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g>
+      <text class="cls-29" transform="translate(0 55.78)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(3.33 54.75)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <text class="cls-30" transform="translate(383.52 9.68)"><tspan x="0" y="0">約24</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩3分</tspan></text>
+    <line class="cls-50" x1="463.61" y1="15.41" x2="238.55" y2="15.41"/>
+    <text class="cls-30" transform="translate(383.52 32.68)"><tspan x="0" y="0">約41</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩6分</tspan></text>
+    <line class="cls-50" x1="463.61" y1="38.41" x2="238.55" y2="38.41"/>
+    <text class="cls-30" transform="translate(383.52 55.68)"><tspan x="0" y="0">約52</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩7分</tspan></text>
+    <line class="cls-50" x1="463.61" y1="61.41" x2="238.55" y2="61.41"/>
+    <text class="cls-30" transform="translate(250.22 9.68)"><tspan class="cls-28" x="0" y="0">望</tspan><tspan class="cls-1" x="9.61" y="0">月</tspan><tspan class="cls-8" x="18.96" y="0">眼</tspan><tspan class="cls-59" x="28.76" y="0">科</tspan><tspan class="cls-8" x="33.66" y="0">【眼科</tspan><tspan class="cls-61" x="63.06" y="0">】</tspan></text>
+    <text class="cls-30" transform="translate(250.22 32.68) scale(.87 1)"><tspan x="0" y="0">天神</tspan><tspan class="cls-53" x="19.6" y="0">通</tspan><tspan class="cls-66" x="28.08" y="0">り</tspan><tspan class="cls-47" x="35.46" y="0">ク</tspan><tspan class="cls-3" x="43.29" y="0">リ</tspan><tspan class="cls-20" x="51.67" y="0">ニ</tspan><tspan class="cls-34" x="59.73" y="0">ッ</tspan><tspan class="cls-12" x="67.28" y="0">ク</tspan><tspan class="cls-54" x="71.3" y="0">【内</tspan><tspan class="cls-57" x="90.9" y="0">科・</tspan><tspan x="105.6" y="0">循環器科</tspan><tspan class="cls-63" x="144.8" y="0">】</tspan></text>
+    <text class="cls-30" transform="translate(250.22 55.68)"><tspan x="0" y="0">友仁病</tspan><tspan class="cls-59" x="29.4" y="0">院</tspan><tspan class="cls-8" x="34.3" y="0">【内</tspan><tspan class="cls-56" x="53.9" y="0">科・</tspan><tspan x="68.6" y="0">外科</tspan><tspan class="cls-59" x="88.2" y="0">】</tspan></text>
+    <g>
+      <text class="cls-29" transform="translate(238.25 9.68)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(241.58 8.65)"><tspan x="0" y="0">4</tspan></text>
+    </g>
+    <g>
+      <text class="cls-29" transform="translate(238.25 32.68)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(241.58 31.65)"><tspan x="0" y="0">5</tspan></text>
+    </g>
+    <g>
+      <text class="cls-29" transform="translate(238.25 55.78)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(241.58 54.75)"><tspan x="0" y="0">6</tspan></text>
+    </g>
+    <text class="cls-30" transform="translate(621.77 9.68)"><tspan x="0" y="0">約54</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩7分</tspan></text>
+    <line class="cls-50" x1="701.86" y1="15.41" x2="476.8" y2="15.41"/>
+    <text class="cls-30" transform="translate(621.77 32.68)"><tspan x="0" y="0">約64</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩8分</tspan></text>
+    <line class="cls-50" x1="701.86" y1="38.41" x2="476.8" y2="38.41"/>
+    <text class="cls-30" transform="translate(616.46 55.68)"><tspan x="0" y="0">約96</tspan><tspan class="cls-17" x="20.42" y="0">0</tspan><tspan class="cls-68" x="25.4" y="0">ｍ</tspan><tspan class="cls-8" x="34.86" y="0">／徒歩12分</tspan></text>
+    <line class="cls-50" x1="701.86" y1="61.41" x2="476.8" y2="61.41"/>
+    <text class="cls-30" transform="translate(488.47 9.68)"><tspan x="0" y="0">賛育会病</tspan><tspan class="cls-62" x="39.2" y="0">院</tspan><tspan class="cls-10" x="44.1" y="0">【総合病院</tspan><tspan class="cls-61" x="93.1" y="0">】</tspan></text>
+    <text class="cls-30" transform="translate(488.47 32.68)"><tspan x="0" y="0">錦糸</tspan><tspan class="cls-32" x="19.6" y="0">町</tspan><tspan class="cls-26" x="28.68" y="0">こ</tspan><tspan class="cls-69" x="36.78" y="0">ど</tspan><tspan class="cls-65" x="45.3" y="0">も</tspan><tspan class="cls-45" x="52.68" y="0">ク</tspan><tspan class="cls-4" x="60.51" y="0">リ</tspan><tspan class="cls-21" x="68.88" y="0">ニ</tspan><tspan class="cls-33" x="76.95" y="0">ッ</tspan><tspan class="cls-7" x="84.5" y="0">ク</tspan><tspan class="cls-8" x="88.51" y="0">【小児科</tspan><tspan class="cls-59" x="127.71" y="0">】</tspan></text>
+    <text class="cls-30" transform="translate(488.47 55.68)"><tspan x="0" y="0">東京都立墨東病</tspan><tspan class="cls-59" x="68.6" y="0">院</tspan><tspan x="73.5" y="0">【総合病院</tspan><tspan class="cls-59" x="122.5" y="0">】</tspan></text>
+    <g>
+      <text class="cls-29" transform="translate(476.5 9.68)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(479.84 8.65)"><tspan x="0" y="0">7</tspan></text>
+    </g>
+    <g>
+      <text class="cls-29" transform="translate(476.5 32.68)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(479.84 31.65)"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <g>
+      <text class="cls-29" transform="translate(476.5 55.78)"><tspan x="0" y="0">●</tspan></text>
+      <text class="cls-31" transform="translate(479.84 54.75)"><tspan x="0" y="0">9</tspan></text>
+    </g>
+  </g>
+</svg>
