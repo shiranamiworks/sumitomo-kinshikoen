@@ -5,13 +5,13 @@
   "gnav_set" => "location",
   "page_class" => "location02",
   "url" => "location02.html",
-  "title" => "暮らしを満たし、心を潤す住環境｜",
-  "keywords" => "暮らしを満たし、心を潤す住環境,",
-  "description" => "暮らしを満たし、心を潤す住環境ページ。",
+  "title" => "東京イーストエリア｜",
+  "keywords" => "東京イーストエリア,",
+  "description" => "東京イーストエリアページ。",
   "add_stylesheet" => ["css/location.css","css/location02.css"],
   "add_script" =>  ["js/location.js"],
   "canonical_page_id" => "location", 
-  "logo_text" => "暮らしを満たし、心を潤す住環境｜"
+  "logo_text" => "東京イーストエリア｜"
 );
 ?>
 
@@ -23,14 +23,14 @@
     <ul>
     <li><a href="./index.html">シティタワー錦糸公園｜錦糸町 マンション｜トップ</a></li>
       <li><a href="./location01.html">ロケーション</a></li>
-      <li><p>暮らしを満たし、心を潤す住環境</p></li>
+      <li><p>東京イーストエリア</p></li>
     </ul>
   </div>
 	<!--// パンくずリスト -->
 
   <div class="location-link location-link--2">
-    <a href="location01.html"><p>煌びやかに、上質な日常を楽しむ</p></a>
-    <a href="location02.html" class="current"><p>暮らしを満たし、心を潤す住環境</p></a>
+    <a href="location01.html"><p>心地よい錦糸町ライフ</p></a>
+    <a href="location02.html" class="current"><p>東京イーストエリア</p></a>
   </div>
 
   <header class="main-visual clearfix">
@@ -299,8 +299,8 @@
 </main>
 
   <div class="location-link location-link--2">
-    <a href="location01.html"><p>煌びやかに、上質な日常を楽しむ</p></a>
-    <a href="location02.html" class="current"><p>暮らしを満たし、心を潤す住環境</p></a>
+    <a href="location01.html"><p>心地よい錦糸町ライフ</p></a>
+    <a href="location02.html" class="current"><p>東京イーストエリア</p></a>
   </div>
 
 <?php require(INCLUDES."footer.php"); ?>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 303.81 53.69">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .05em;
+      }
+
+      .cls-2 {
+        letter-spacing: .05em;
+      }
+
+      .cls-3 {
+        letter-spacing: .05em;
+      }
+
+      .cls-4, .cls-5 {
+        letter-spacing: .03em;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-size: 20.27px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.2em;
+      }
+
+      .cls-5, .cls-8, .cls-9, .cls-6 {
+        fill: #3e3a39;
+        font-family: YuMinPr6N-Regular-83pv-RKSJ-H, 'Yu Mincho Pr6N';
+      }
+
+      .cls-10 {
+        letter-spacing: .07em;
+      }
+
+      .cls-11 {
+        letter-spacing: .02em;
+      }
+
+      .cls-11, .cls-12 {
+        font-size: 12.01px;
+      }
+
+      .cls-13 {
+        letter-spacing: -.45em;
+      }
+
+      .cls-8 {
+        font-size: 10px;
+      }
+
+      .cls-14 {
+        font-size: 34.99px;
+        letter-spacing: .02em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.47em;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_1-2" data-name="レイヤー 1">
+    <text class="cls-6" transform="translate(-8.69 29.45)"><tspan class="cls-2" x="0" y="0">「秋葉原</tspan><tspan class="cls-13" x="85.14" y="0">」</tspan><tspan class="cls-1" x="96.29" y="0">駅</tspan><tspan class="cls-10" x="117.55" y="0">へ</tspan></text>
+    <text class="cls-5" transform="translate(183.39 29.45)"><tspan x="0" y="0">直通</tspan></text>
+    <text class="cls-9" transform="translate(231.76 30.79)"><tspan class="cls-14" x="0" y="0">8</tspan><tspan class="cls-4" x="19.84" y="-1.84">分</tspan><tspan class="cls-11" x="34.61" y="-1.97">（7分</tspan><tspan class="cls-12" x="66.05" y="-1.97">）</tspan></text>
+    <text class="cls-8" transform="translate(.17 50.06)"><tspan class="cls-3" x="0" y="0">JR中</tspan><tspan class="cls-7" x="22.02" y="0">央・</tspan><tspan class="cls-3" x="38.02" y="0">総武線各駅停車利用</tspan></text>
+  </g>
+</svg>

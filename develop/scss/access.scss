@@ -77,7 +77,8 @@
     color: #000;
     font-family: "RyuminPro", serif;
     line-height: 1;
-    background: url(../images/common/bg.png);
+    background: #f5f7f8;
+    letter-spacing: 0.12em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -141,16 +142,6 @@
         margin-right: auto;
       }
     } //column03
-    .distance {
-      margin: 100px auto;
-      .text {
-        text-align: left;
-        font-size: 22px;
-        line-height: 1.6;
-        border-bottom: 1px solid #000;
-        margin-bottom: 20px;
-      }
-    }
   } //sections
   .intro {
     text-align: center;
@@ -160,171 +151,214 @@
       max-width: 1000px;
     }
     .tit {
-      font-size: 30px;
+      font-size: 18px;
+      color: #697b85;
+      margin-bottom: 6px;
+    }
+    .tit01 {
+      font-size: 40px;
+      color: #697b85;
+      margin-bottom: 100px;
+    }
+    .text {
+      font-size: 22px;
       line-height: 2;
-      letter-spacing: 0.15em;
-      margin-bottom: 30px;
-      span {
-        font-size: 18px;
-      }
+      margin-bottom: 40px;
     }
     .lead {
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.8;
-      margin-bottom: 60px;
-    }
-    .img01 {
-      .annotation {
-        bottom: -20px;
-      }
+      margin-bottom: 100px;
     }
     .mini {
-      text-align: left;
+      text-align: right;
       font-size: 11px;
       line-height: 1.5;
-      margin: 40px 0 0;
+      margin: 10px 0 20px;
+    }
+    .column03 {
+      margin-bottom: 100px;
+      .caps {
+        font-size: 10px;
+        text-align: right;
+        margin: 2px 0 10px;
+      }
+      .info {
+        text-align: left;
+        font-size: 16px;
+        span {
+          background: #231815;
+          border-radius: 50px;
+          color: #fff;
+          padding: 2px 6px;
+          margin-right: 6px;
+        }
+      }
     }
   } //intro
-  .airport {
+  .train {
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+    .tit {
+      font-size: 44px;
+      color: #697b85;
+      letter-spacing: 0.15em;
+      margin-bottom: 100px;
+    }
+    .text {
+      font-size: 22px;
+      line-height: 1.8;
+      letter-spacing: 0.12em;
+      margin-bottom: 60px;
+    }
+    .mini {
+      text-align: right;
+      font-size: 11px;
+      line-height: 1.5;
+      margin: 10px 10px 100px 0;
+    }
+    .txt {
+      text-align: left;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .txt01 {
+      text-align: left;
+      font-size: 18px;
+      margin: 60px 0 20px;
+    }
+    .inner01 {
+      max-width: 1000px;
+      width: 84%;
+      margin: auto;
+    }
+    .slide-items {
+      width: 100%;
+      display: flex;
+      max-width: 100%;
+      margin: 0 auto 160px;
+    }
+    .slide-items li {
+      height: auto;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .slide-items img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .slick-prev {
+      display: none !important;
+    }
+    .slick-next {
+      width: 27px;
+      height: 37px;
+      background: url(../images/access/arrow.png) no-repeat center / contain !important;
+      top: auto;
+      bottom: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+    .lead {
+      font-size: 16px;
+      line-height: 2.2;
+      letter-spacing: 0.12em;
+      margin-bottom: 80px;
+    }
+    .column02 {
+      margin-bottom: 40px;
+    }
+  } //train
+  .box {
+    text-align: center;
+    background: #cfdae1;
     padding: 60px 0;
+    margin-bottom: 160px;
+    .inner {
+      max-width: 1000px;
+    }
+    .caps {
+      text-align: left;
+      font-size: 10px;
+      margin-top: 6px;
+    }
+    .txt {
+      font-size: 18px;
+      line-height: 2;
+      letter-spacing: 0.12em;
+      margin-bottom: 40px;
+    }
+    .lead {
+      font-size: 14px;
+      line-height: 2.2;
+      letter-spacing: 0.12em;
+      margin-bottom: 10px;
+    }
+    .mini {
+      font-size: 10px;
+    }
+    .column02 {
+      li {
+        vertical-align: bottom;
+        text-align: left;
+        width: 34%;
+        margin-right: 2%;
+      }
+      li:last-child {
+        width: 48%;
+        padding-bottom: 20px;
+      }
+    }
+  } //box
+
+  .car {
+    text-align: center;
     margin-bottom: 100px;
     .inner {
       max-width: 1000px;
     }
-    .img01,
-    .img04 {
-      margin-bottom: 30px;
-    }
     .tit {
-      font-size: 30px;
-      line-height: 2;
+      font-size: 44px;
+      color: #697b85;
       letter-spacing: 0.15em;
-      margin-bottom: 30px;
-      color: #fff;
-    }
-    .column02 {
       margin-bottom: 100px;
-      li {
-        width: 34%;
-        margin-right: 8%;
-      }
-      li:last-child {
-        width: 57%;
-        margin-right: auto;
-      }
     }
-    .distance {
-      margin: 0 auto;
-      color: #fff;
-      .text {
-        border-bottom: 1px solid #fff;
-      }
-    }
-    .column03 {
-      li {
-        width: 31%;
-        margin-right: 2.5%;
-      }
-      li:last-child {
-        margin-right: auto;
-      }
-      .img {
-        margin-bottom: 20px;
-      }
-    }
-  } //airport
-  .other {
-    text-align: center;
-    .inner {
-      max-width: 1000px;
-      background: #fff;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-      margin: 0 auto 100px;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-    .box {
-      border: 1px solid #a9976d;
-      padding: 30px;
-      box-sizing: border-box;
-    }
-    .tit {
-      font-size: 30px;
-      line-height: 2;
-      letter-spacing: 0.15em;
-      margin-bottom: 30px;
-    }
-    .column02 {
-      text-align: left;
+    .text {
+      font-size: 22px;
+      line-height: 1.8;
+      letter-spacing: 0.12em;
+      margin-bottom: 100px;
     }
     .txt01 {
-      font-size: 26px;
-      margin-bottom: 10px;
+      font-size: 20px;
+      color: #595757;
+      margin-bottom: 40px;
     }
     .txt02 {
       font-size: 18px;
-      line-height: 1.8;
-    }
-    .list01 {
-      margin-bottom: 20px;
-      li {
-        width: 40%;
-      }
-      li:last-child {
-        width: 58%;
+      color: #fff;
+      background: #697b85;
+      padding: 10px 0;
+      margin-bottom: 40px;
+      span {
+        font-size: 12px;
       }
     }
-    .list02 {
-      .image {
-        margin-bottom: 20px;
-      }
-      li {
-        width: 57%;
-      }
-      li:last-child {
-        width: 40%;
-      }
-    }
-  } //other
-  .taxi {
-    text-align: center;
-    margin-bottom: 100px;
-    .inner {
-      max-width: 1000px;
-    }
-    .title {
-      font-size: 34px;
-      color: #675952;
-      letter-spacing: 0.2em;
-      margin-bottom: 30px;
-    }
-    .tit {
-      font-size: 30px;
-      line-height: 2;
-      margin: 30px auto 10px;
-    }
-    .lead {
-      font-size: 18px;
-      line-height: 1.8;
-      margin-bottom: 30px;
-    }
-    .list-tit {
-      font-size: 22px;
-      line-height: 1.8;
-      padding: 3px 0;
-      margin-bottom: 20px;
-      border-bottom: 1px solid;
-      border-top: 1px solid;
+    .info01 {
+      margin-bottom: 100px;
     }
     .column02 {
-      margin-bottom: 30px;
-    } //column02
-    .txt-img {
-      margin-top: -20px;
+      li {
+        width: 33%;
+      }
+      li:last-child {
+        width: 64%;
+      }
     }
-  } //taxi
+  } //car
 
   @media screen and (max-width: 1300px) {
   }
@@ -403,150 +437,127 @@
           margin-bottom: auto;
         }
       } //column03
-      .distance {
-        margin: 40px auto 0;
-        .text {
-          font-size: 18px;
-          margin-bottom: 20px;
-        }
-      }
     } //sections
     .intro {
       text-align: left;
-      padding: 0 0 60px;
       .tit {
-        font-size: 22px;
-        margin-bottom: 20px;
-        span {
-          font-size: 22px;
-        }
+        font-size: 18px;
+        color: #697b85;
+        margin-bottom: 6px;
       }
-      .lead {
-        text-align: left;
-        font-size: 16px;
-        line-height: 2;
-        margin-bottom: 20px;
-      }
-      .swipe-img img {
-        width: 720px !important;
-      }
-    } //intro
-    .airport {
-      padding: 40px 0;
-      margin-bottom: 60px;
-      .img01,
-      .img04 {
-        margin-bottom: 20px;
-      }
-      .tit {
-        text-align: left;
-        font-size: 22px;
+      .tit01 {
+        font-size: 26px;
+        line-height: 1.6;
         margin-bottom: 20px;
       }
       .text {
-        text-align: left;
-        font-size: 18px;
-        line-height: 1.6;
-        color: #fff;
-        border-bottom: 1px solid;
+        font-size: 20px;
         margin-bottom: 20px;
       }
-      .column02 {
-        margin-bottom: 60px;
-        li {
-          width: 100%;
-          margin: auto;
-        }
-        li:last-child {
-          width: 100%;
-        }
-        .image.sp {
-          margin-bottom: 20px;
-        }
+      .lead {
+        margin-bottom: 40px;
       }
-      .distance {
-        margin: 0 auto;
-      }
-      .column03 {
-        li {
-          width: 100%;
-          margin-right: auto;
-        }
-        li:last-child {
-          margin-right: auto;
-        }
-      }
-    } //airport
-    .other {
-      .inner {
-        margin: 0 auto 60px;
-      }
-      .box {
-        padding: 20px 10px;
-      }
+    } //intro
+    .train {
+      margin-bottom: 40px;
       .tit {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 40px;
+      }
+      .text {
         text-align: left;
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: 0.12em;
         margin-bottom: 20px;
       }
-      .column02 {
-        text-align: left;
+      .mini {
+        margin: 10px 10px 40px 0;
+      }
+      .txt {
+        font-size: 16px;
       }
       .txt01 {
-        font-size: 22px;
-        margin-bottom: 10px;
-      }
-      .txt02 {
-        font-size: 14px;
-      }
-      .list01 {
-        margin-bottom: 40px;
-        li {
-          width: 100%;
-        }
-        li:last-child {
-          width: 100%;
-        }
-        .image.sp {
-          margin-bottom: 20px;
-        }
-      }
-      .list02 {
-        .image {
-          margin-bottom: 20px;
-        }
-        li {
-          width: 100%;
-        }
-        li:last-child {
-          width: 100%;
-          margin-top: 40px;
-        }
-      }
-    } //other
-    .taxi {
-      text-align: center;
-      margin-bottom: 60px;
-      .title {
-        font-size: 26px;
-        margin-bottom: 20px;
-      }
-      .tit {
         text-align: left;
-        font-size: 22px;
-        margin: 20px auto 10px;
+        font-size: 18px;
+        margin: 60px 0 20px;
+      }
+      .slide-items {
+        margin: 0 auto 100px;
       }
       .lead {
         text-align: left;
-        font-size: 16px;
         margin-bottom: 20px;
       }
-      .list-tit {
+      .column02 {
+        margin-bottom: 20px;
+      }
+      .swipe-img img {
+        width: 1000px !important;
+      }
+    } //train
+    .box {
+      padding: 60px 0;
+      margin-bottom: 60px;
+      .txt {
+        margin-bottom: 20px;
+      }
+      .mini {
+        line-height: 1.4;
+      }
+      .column02 {
+        li {
+          width: 100%;
+        }
+        li:last-child {
+          width: 100%;
+          padding-bottom: 0;
+        }
+      }
+    } //box
+
+    .car {
+      margin-bottom: 60px;
+      .tit {
+        font-size: 36px;
+        line-height: 1.4;
+        margin-bottom: 40px;
+      }
+      .text {
+        text-align: left;
+        font-size: 20px;
+        line-height: 1.8;
+        letter-spacing: 0.12em;
+        margin-bottom: 20px;
+      }
+      .txt01 {
+        text-align: left;
         font-size: 18px;
+        line-height: 1.4;
+        margin-bottom: 20px;
       }
-      .txt-img.txt05{
-        margin-top: -1px;
+      .txt02 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.4;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        span {
+          font-size: 12px;
+        }
       }
-    } //taxi
+      .info01 {
+        margin-bottom: 40px;
+      }
+      .column02 {
+        li {
+          width: 70%;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+    } //car
   } //sp
 } //access
