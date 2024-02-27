@@ -100,3 +100,23 @@ $(function () {
     });
   }
 });
+
+$(function () {
+  $(".slide-items").slick({
+    autoplay: true,
+    slidesToShow: 1,
+    infinite: true,
+    slidesToScroll: 1,
+  });
+});
+
+$(function () {
+  $(".slide-items01").slick({
+    autoplay: true,
+    slidesToShow: 1,
+    infinite: true,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+  });
+});

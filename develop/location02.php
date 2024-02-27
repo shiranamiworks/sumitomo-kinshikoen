@@ -35,267 +35,202 @@
 
   <header class="main-visual clearfix">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/location02/mv.jpg" alt="" class="pc"><img src="./images/location02/mv-sp.jpg" alt="" class="tb"><p class="annotation white">image photo</p>
+   <div class="image"><img src="./images/location02/mv.jpg" alt="" class="pc"><img src="./images/location02/mv-sp.jpg" alt="" class="tb"><p class="annotation white">東京スカイツリー<sup>&reg;</sup>（約1,510m）</p>
   </div>
-  <p class="caps">田町駅芝浦口（約750m/徒歩10分）</p>
   </header><!-- main-visual -->
 
 
   <section class="intro sections clearfix">
     <div class="inner">
-      <!--<div class="tit-img">
-        <img src="./images/location02/page-tit.svg">
-      </div>-->
-      <p class="tit">再開発により得られた美と利便性。</p>
-      <p class="lead">街の顔が一新され、生活利便性が向上。<br>魅力的な商業施設と緑豊かな公園、癒しをくれる運河がこの街での日常を心地良さへといざないます。</p>
+      <p class="tit">LIKE A JOURNEY</p>
+      <p class="txt">新しい出逢いと発見に満ちた、<br>旅するような日常へ。</p>
+      <p class="lead">ここは、新旧の多彩な魅力が詰まった東京イーストエリア。<br>家族でお出かけしたくなる人気スポットが充実しています。</p>
+      <ul class="slide-items">
+        <li>
+          <img src="./images/location02/slide01.png" alt="">
+        </li>
+        <li>
+          <img src="./images/location02/slide02.png" alt="">
+        </li>
+      </ul>
+      <p class="mini">全てimage photo</p>
+      <div class="images img01">
+        <figure class="pc"><img src="./images/location02/intro.jpg" class="sp-hide" alt="中域エリアマップ"></figure>
+        <figure class="tb"><img src="./images/location02/intro.jpg" class="zoomImg tb" alt=""/></figure>
+        <p class="caps">中域エリアマップ</p>
+      </div>
     </div><!-- inner -->
   </section><!-- intro -->
 
 
 
-  <div class="sections shops clearfix">
+  <div class="sections btns clearfix">
     <div class="inner">
-      <ul class="column02 list01">
-        <li>
-          <div class="image img02 sp">
-          <img src="./images/location02/shop01-01.jpg" alt="" class="">
-          <p class="annotation white">msb ムスブ田町（約550m/徒歩7分）</p>
-          </div>
-          <p class="sub">スーパーや飲食店の揃う</p>
-          <p class="name">msb ムスブ田町</p>
-          <p class="lead">JR「田町」駅芝浦口からペデストリアンデッキで直結した複合施設。30店舗以上のテナントが入る2つのタワーと、ホテル「プルマン東京田町」で構成されています。</p>
-          <div class="image img01">
-          <img src="./images/location02/shop01-02.jpg" alt="" class="">
-          <p class="annotation white">ライフムスブ田町店（約550m/徒歩7分）</p>
-          </div>
-        </li>
-        <li>
-          <div class="image img02 pc">
-          <img src="./images/location02/shop01-01.jpg" alt="" class="">
-          <p class="annotation white">msb ムスブ田町<br class="sp">（約550m/徒歩7分）</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="column02 list02">
-        <li>
-          <div class="image img02">
-          <img src="./images/location02/shop02-01.jpg" alt="" class="">
-          <p class="annotation white">芝浦公園（約340m/徒歩5分）</p>
-          </div>
-        </li>
-        <li>
-          <p class="sub">整備された美しい公園</p>
-          <p class="name">芝浦公園</p>
-          <p class="lead">開放感のある草地広場や子ども達に人気の「ふわふわドーム」など遊具も揃っており、休日は家族の憩いの場となります。</p>
-          <div class="image img01">
-          <img src="./images/location02/shop02-02.jpg" alt="" class="">
-          <p class="annotation white">芝浦公園<br class="sp">（約340m/徒歩5分）</p>
-          </div>
-        </li>
-      </ul>
-      <ul class="column02 list03">
-        <li>
-          <div class="image img02 sp">
-          <img src="./images/location02/shop03-01.jpg" alt="" class="">
-          <p class="annotation white">芝浦西運河沿緑地（約450m/徒歩6分）</p>
-          </div>
-          <p class="sub">運河のある癒しの空間</p>
-          <p class="name">芝浦運河</p>
-          <p class="lead">運河に沿う遊歩道で気持ちの良い風を感じながら、お散歩やランニングを楽しむことができます。</p>
-          <div class="image img01">
-          <img src="./images/location02/shop03-02.jpg" alt="" class="">
-          <p class="annotation white">芝浦西運河沿緑地<br class="sp">（約450m/徒歩6分）</p>
-          </div>
-        </li>
-        <li>
-          <div class="image img02 pc">
-          <img src="./images/location02/shop03-01.jpg" alt="" class="">
-          <p class="annotation white">芝浦西運河沿緑地（約450m/徒歩6分）</p>
-          </div>
-        </li>
-      </ul>
-      <div class="bg">
-        <div class="box">
-          <p class="txt01">歴史ある「愛育病院」をはじめ医療施設も身近に。</p>
-          <ul class="column02">
-            <li>
-              <p class="txt02">徒歩圏に多彩な病院が揃っているので様々な医療サポートをいざという時に受けることが出来ます。また、歴史ある「愛育病院」は、女性やお子様の診療を専門とした病院で、皇族の方が出産される場所としても有名です。</p>
-              <div class="image sp">
-                <img src="./images/location02/hospital01.jpg" alt="" class="">
-                <p class="annotation white">愛育病院（約340m/徒歩5分）</p>
-              </div>
-              <ul class="list">
-                <li>
-                  <div class="image">
-                  <img src="./images/location02/hospital02.jpg" alt="" class="">
-                  <p class="annotation white">有明みんなクリニック田町芝浦院<br>（約380m/徒歩5分）</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="image">
-                  <img src="./images/location02/hospital03.jpg" alt="" class="">
-                  <p class="annotation white">みなと整形外科内科クリニック<br>（約540m/徒歩7分）</p>
-                  </div>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <div class="image pc">
-                <img src="./images/location02/hospital01.jpg" alt="" class="">
-                <p class="annotation white">愛育病院（約340m/徒歩5分）</p>
-              </div>
-            </li>
-          </ul>
-        </div><!-- box -->
-      </div><!-- bg -->
-    </div><!-- inner -->
-  </div><!-- shops -->
+    <ul class="column03">
+      <li>
+        <a href="#moments" class="scroll">
+          <img src="./images/location02/btn01.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#green">
+          <img src="./images/location02/btn02.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#tokyo">
+          <img src="./images/location02/btn03.png" alt="">
+        </a>
+      </li>
+    </ul>
+    </div>
+  </div>
 
 
 
-  <div class="sections gourmet clearfix">
+  <div class="sections moments clearfix" id="moments">
     <div class="inner">
-      <p class="sub garamond">GOURMET</p>
-      <p class="tit">“贅沢なひととき”を味わえる場所がここにある。</p>
-      <ul class="column02">
-        <li>
-          <div class="image">
-            <img src="./images/location02/gourmet01.jpg" alt="" class="">
-            <p class="annotation white">提供写真</p>
-            <div class="texts pc">
-              <p class="name">ツキ シュール ラメール<span>（約1,380m／徒歩18分）</span></p>
-              <p class="info">天井高約７ｍある空間で楽しむフレンチと江戸前寿司。</p>
-            </div>
-          </div>
-          <div class="texts sp">
-            <p class="name">ツキ シュール ラメール<br><span>（約1,380m／徒歩18分）</span></p>
-            <p class="info">天井高約７ｍある空間で楽しむフレンチと江戸前寿司。</p>
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/gourmet02.jpg" alt="" class="">
-            <p class="annotation white">提供写真</p>
-            <div class="texts pc">
-              <p class="name">Mi tiempo <span>［ミ・ティエンポ］（約330ｍ/徒歩5分）</span></p>
-              <p class="info">パエリアやワインを楽しめる運河沿いの隠れ家レストラン。</p>
-            </div>
-          </div>
-          <div class="texts sp">
-            <p class="name">Mi tiempo <br><span>［ミ・ティエンポ］（約330ｍ/徒歩5分）</span></p>
-            <p class="info">パエリアやワインを楽しめる運河沿いの隠れ家レストラン。</p>
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/gourmet03.jpg" alt="" class="">
-            <p class="annotation white">提供写真</p>
-            <div class="texts pc">
-              <p class="name">ビストロ ア ラ ドゥマンド<span>（約240ｍ/徒歩3分）</span></p>
-              <p class="info">併設されたパン工房の美味しいパンとフランス料理。</p>
-            </div>
-          </div>
-          <div class="texts sp">
-            <p class="name">ビストロ ア ラ ドゥマンド<br><span>（約240ｍ/徒歩3分）</span></p>
-            <p class="info">併設されたパン工房の美味しいパンとフランス料理。</p>
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/gourmet04.jpg" alt="" class="">
-            <p class="annotation white">提供写真</p>
-            <div class="texts pc">
-              <p class="name">Ptisserie PORT SINCERE<span>（約670ｍ/徒歩9分）</span></p>
-              <p class="info">四季折々のフランス菓子を提供するテイクアウト専門店。</p>
-            </div>
-          </div>
-          <div class="texts sp">
-            <p class="name">Ptisserie PORT SINCERE<br><span>（約670ｍ/徒歩9分）</span></p>
-            <p class="info">四季折々のフランス菓子を提供するテイクアウト専門店。</p>
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/gourmet05.jpg" alt="" class="">
-            <p class="annotation white">提供写真</p>
-            <div class="texts pc">
-              <p class="name">Lounge CRIB<span>（約880ｍ/徒歩11分）</span></p>
-              <p class="info">運河沿いで本格バーベキューが楽しめる貸切専門パーティスペース。</p>
-            </div>
-          </div>
-          <div class="texts sp">
-            <p class="name">Lounge CRIB<br><span>（約880ｍ/徒歩11分）</span></p>
-            <p class="info">運河沿いで本格バーベキューが楽しめる貸切専門パーティスペース。</p>
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/gourmet06.jpg" alt="" class="">
-            <p class="annotation white">提供写真</p>
-            <div class="texts pc">
-              <p class="name">BAGUS BAR Shibaura Island<span>（約880ｍ/徒歩11分）</span></p>
-              <p class="info">運河を臨めるオープンテラスのあるリゾートダイニング。</p>
-            </div>
-          </div>
-          <div class="texts sp">
-            <p class="name">BAGUS BAR Shibaura Island<br><span>（約880ｍ/徒歩11分）</span></p>
-            <p class="info">運河を臨めるオープンテラスのあるリゾートダイニング。</p>
-          </div>
-        </li>
-      </ul>
-      <p class="mini">※掲載の情報は、2023年12月現在のものです。※掲載の店舗・施設の内容等は将来変わる場合があります。<br>※掲載の距離表示については地図上の概測距離を、徒歩分数表示については80mを１分として算出し、端数を切り上げたものです。 </p>
-    </div><!-- inner -->
-  </div><!-- gourmet -->
-
-
-
-  <section class="sections life-info clearfix">
-    <div class="inner">
-      <p class="sub garamond">LIFE INFORMATION</p>
-      <p class="tit">周辺には商業・医療やスポーツ施設など<br class="pc">生活利便施設が充実しています。</p>
-      <div class="image map">
-        <figure class="pc"><img src="./images/location02/map.jpg" class="sp-hide" alt="生活利便施設マップ"></figure>
-        <figure class="tb"><img src="./images/location02/map.jpg" class="zoomImg tb" alt=""/></figure>
+      <div class="image img01">
+        <img src="./images/location02/moments01.png" alt="">
+        <p class="annotation white">image photo</p>
       </div>
+      <p class="tit">FINE MOMENTS</p>
+      <ul class="list">
+        <li>
+          <div class="slide-items01">
+            <div>
+              <img src="./images/location02/list01-01.png" alt="">
+            </div>
+            <div>
+              <img src="./images/location02/list01-02.png" alt="">
+            </div>
+            <div>
+              <img src="./images/location02/list01-03.png" alt="">
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="lead">東京スカイツリー<sup>&reg;</sup>の足元に広がる<br>「東京ソラマチ」をはじめ、<br>周辺には、家族で楽しめる<br>大規模な商業施設が充実。<br>週末のちょっとしたお出かけも<br>特別な時間に変わっていきます。</p>
+        </li>
+      </ul>
       <ul class="column03">
         <li>
           <div class="image">
-            <img src="./images/location02/info01.svg" alt="" class="">
+            <img src="./images/location02/list01-04.png" alt="">
           </div>
         </li>
         <li>
           <div class="image">
-            <img src="./images/location02/info02.svg" alt="" class="">
+            <img src="./images/location02/list01-05.png" alt="">
           </div>
         </li>
         <li>
           <div class="image">
-            <img src="./images/location02/info03.svg" alt="" class="">
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/info04.svg" alt="" class="">
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/info05.svg" alt="" class="">
-          </div>
-        </li>
-        <li>
-          <div class="image">
-            <img src="./images/location02/info06.svg" alt="" class="">
+            <img src="./images/location02/list01-06.png" alt="">
           </div>
         </li>
       </ul>
     </div><!-- inner -->
-  </section><!-- life-info -->
+  </div><!-- moments -->
+
+
+
+  <div class="sections green clearfix" id="green">
+    <div class="inner">
+      <div class="image img01">
+        <img src="./images/location02/green01.png" alt="">
+        <p class="annotation white">image photo</p>
+      </div>
+      <p class="tit">FEEL GREEN</p>
+      <ul class="list">
+        <li>
+          <div class="slide-items01">
+            <div>
+              <img src="./images/location02/list02-01.png" alt="">
+            </div>
+            <div>
+              <img src="./images/location02/list02-02.png" alt="">
+            </div>
+            <div>
+              <img src="./images/location02/list02-03.png" alt="">
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="lead">住まいのすぐそばにある<br>錦糸公園の他にも、<br>周辺には水と緑の潤いに溢れた<br>大規模な公園が点在。<br>ピクニックの行き先も、<br>よりどりみどりの環境です。</p>
+        </li>
+      </ul>
+      <ul class="column03">
+        <li>
+          <div class="image">
+            <img src="./images/location02/list02-04.png" alt="">
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="./images/location02/list02-05.png" alt="">
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="./images/location02/list02-06.png" alt="">
+          </div>
+        </li>
+      </ul>
+    </div><!-- inner -->
+  </div><!-- green -->
+
+
+
+  <div class="sections tokyo clearfix" id="tokyo">
+    <div class="inner">
+      <div class="image img01">
+        <img src="./images/location02/tokyo01.png" alt="">
+        <p class="annotation white">image photo</p>
+      </div>
+      <p class="tit">ENJOY TOKYO</p>
+      <ul class="list">
+        <li>
+          <div class="slide-items01">
+            <div>
+              <img src="./images/location02/list03-01.png" alt="">
+            </div>
+            <div>
+              <img src="./images/location02/list03-02.png" alt="">
+            </div>
+            <div>
+              <img src="./images/location02/list03-03.png" alt="">
+            </div>
+          </div>
+        </li>
+        <li>
+          <p class="lead">東京スカイツリー<sup>&reg;</sup>に浅草仲見世通り、<br>隅田川クルーズに大相撲観戦。<br>世界の人々魅了する<br>TOKYOの人気観光スポットも、<br>この住まいなら、<br>日常のテリトリーになります。</p>
+        </li>
+      </ul>
+      <ul class="column03">
+        <li>
+          <div class="image">
+            <img src="./images/location02/list03-04.png" alt="">
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="./images/location02/list03-05.png" alt="">
+          </div>
+        </li>
+        <li>
+          <div class="image">
+            <img src="./images/location02/list03-06.png" alt="">
+          </div>
+        </li>
+      </ul>
+    </div><!-- inner -->
+  </div><!-- tokyo -->
 
 
 
 <div class="annotation-area">
-  <p class="page-annotation js-scroll wrap clearfix">※1. 都営三田線・浅草線「三田」駅A7出口 徒歩10分。公園ルートの場合（イベント実施時除く）であり、公道ルートの場合はA9出口徒歩13分。<br>※掲載の地図は一部道路・施設等を抜粋しています。<br>※掲載の距離表示については地図上の概測距離を、徒歩分数表示については80mを１分として算出し、端数を切り上げたものです。<br>※掲載の環境写真は2023年9月に撮影。<br>※店舗・施設の内容等は将来変わる場合があります。<br>※掲載の情報は2023年12月現在のものです。</p></div>
+  <p class="page-annotation js-scroll wrap clearfix">※1.掲載の距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。 掲載の自転車分数表示については実測（東京スカイツリータウン・猿江恩賜公園・亀戸中央公園・両国リバーセンター発着場・仲見世商店街の起点：現地／東京スカイツリータウン・猿江恩賜公園・亀戸中央公園・両国リバーセンター発着場・仲見世商店街の着点：各施設／計測：2023年12月14日PM1時～PM3時）によるものです。但し、天候不順、周辺の交通状況（朝・夕の混雑、交通事故等）等により大幅な遅延が生じる場合があります。<br>※2.掲載のバス所要時間は、待ち時間・乗換え時間を含んだ通勤時（カッコ内は日中平常時）の目安であり、時間帯により多少異なります。出典：東京都交通局HP（2024年1月現在）。<br>※掲載の写真は2023年6月・11月撮影。<br>※掲載の中域エリアマップは、一部道路・施設等を抜粋して表記しています。<br>※掲載の情報は2023年11月現在のものです。<br>※店舗・施設の内容等は将来変わる場合があります。</p></div>
 </main>
 
   <div class="location-link location-link--2">

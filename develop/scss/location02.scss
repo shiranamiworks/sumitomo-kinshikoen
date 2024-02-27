@@ -76,7 +76,7 @@
     color: #3e3a39;
     font-family: "RyuminPro", serif;
     line-height: 1;
-    background: url(../images/common/bg.png);
+    background: #f5f7f8;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,155 +152,135 @@
     text-align: center;
     position: relative;
     z-index: 1;
+    margin-bottom: 100px;
     .inner {
       max-width: 1200px;
     }
     .tit {
-      font-size: 34px;
-      line-height: 2;
-      letter-spacing: 0.12em;
-      margin-bottom: 30px;
+      font-size: 44px;
+      color: #697b85;
+      letter-spacing: 0.15em;
+      margin-bottom: 100px;
     }
-    .lead {
-      font-size: 18px;
-      line-height: 1.8;
-      margin-bottom: 60px;
-    }
-  } //intro
-  .shops {
-    text-align: center;
-    margin-bottom: 100px;
-    .column02 {
-      text-align: left;
-      margin-bottom: 80px;
-      .sub {
-        font-size: 22px;
-        line-height: 1.2;
-        margin-bottom: 10px;
-      }
-      .name {
-        font-size: 40px;
-        margin-bottom: 10px;
-      }
-      .lead {
-        font-size: 18px;
-        line-height: 1.8;
-        margin-bottom: 10px;
-      }
-      &.list01 {
-        li {
-          width: 35%;
-        }
-        li:last-child {
-          width: 62%;
-        }
-      }
-      &.list02 {
-        li {
-          width: 62%;
-        }
-        li:last-child {
-          width: 34%;
-        }
-      }
-      &.list03 {
-        li {
-          width: 37%;
-        }
-        li:last-child {
-          width: 60%;
-        }
-      }
-    }
-    .bg {
-      background: #fff;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-      padding: 10px;
-      box-sizing: border-box;
-    }
-    .box {
-      border: 1px solid #a9976d;
-      padding: 30px;
-      box-sizing: border-box;
-      .column02 {
-        margin-bottom: 0;
-      }
-      .txt01 {
-        font-size: 30px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-      }
-      .txt02 {
-        font-size: 20px;
-        line-height: 2;
-        margin-bottom: 10px;
-      }
-    }
-  } //shops
-  .gourmet {
-    text-align: center;
-    background: rgba(146, 156, 162, 0.4);
-    padding: 80px 0;
-    margin-bottom: 100px;
-    .sub {
+    .txt {
       font-size: 24px;
-      letter-spacing: 0.2em;
-      margin-bottom: 20px;
-      color: #675952;
-    }
-    .tit {
-      font-size: 34px;
       line-height: 2;
-      margin-bottom: 20px;
-    }
-    .column02 {
-      li {
-        margin-bottom: 20px;
-      }
-      .texts {
-        text-align: left;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background: rgba(0, 0, 0, 0.2);
-        padding: 10px;
-        box-sizing: border-box;
-        color: #fff;
-        .name {
-          font-size: 24px;
-          line-height: 1.4;
-          span {
-            font-size: 16px;
-          }
-        }
-        .info {
-          font-size: 16px;
-        }
-      }
-    }
-    .mini {
-      text-align: left;
-      font-size: 12px;
-      line-height: 1.4;
-    }
-  } //gourmet
-  .life-info {
-    text-align: center;
-    .sub {
-      font-size: 24px;
-      letter-spacing: 0.2em;
-      margin-bottom: 20px;
-      color: #675952;
-    }
-    .tit {
-      font-size: 34px;
-      line-height: 2;
-      margin-bottom: 20px;
-    }
-    .map {
       margin-bottom: 40px;
     }
-  } //life-info
+    .lead {
+      font-size: 16px;
+      line-height: 2.2;
+      margin-bottom: 40px;
+    }
+    .slide-items {
+      width: 100%;
+      display: flex;
+      max-width: 100%;
+      margin: 0 auto 60px;
+    }
+    .slide-items li {
+      height: auto;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .slide-items img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .slick-prev {
+      display: none !important;
+    }
+    .slick-next {
+      width: 27px;
+      height: 37px;
+      background: url(../images/location02/arrow.png) no-repeat center / contain !important;
+      top: auto;
+      bottom: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+    .mini {
+      text-align: right;
+      font-size: 10px;
+      margin-top: -50px;
+    }
+    .img01 {
+      margin-top: 140px;
+    }
+    .caps {
+      text-align: right;
+      font-size: 10px;
+      margin-top: 10px;
+    }
+  } //intro
+  .btns {
+    text-align: center;
+    margin-bottom: 100px;
+    .inner {
+      max-width: 800px;
+      margin: auto;
+    }
+  }
+  .moments,
+  .green,
+  .tokyo {
+    text-align: center;
+    margin-bottom: 100px;
+    .inner {
+      max-width: 1000px;
+    }
+    .tit {
+      font-size: 44px;
+      color: #697b85;
+      margin: 60px auto;
+    }
+    .list {
+      li {
+        vertical-align: middle;
+        display: inline-block;
+        width: 48%;
+        margin-right: 8%;
+      }
+      li:last-child {
+        width: 42%;
+        margin-right: auto;
+      }
+      .lead {
+        text-align: left;
+        font-size: 20px;
+        line-height: 2.2;
+      }
+    }
+    .slick-dots {
+      bottom: 38%;
+    }
+    .slick-dots li {
+      width: 10px;
+      height: 10px;
+      margin-right: 5px;
+    }
+    .slick-dots li:last-child {
+      width: 10px;
+      height: 10px;
+    }
+    .slick-dots li button {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      border-radius: 50%;
+      background-color: #fff;
+      border: 1px solid #231815;
+    }
+    .slick-dots li.slick-active button {
+      background-color: #231815;
+    }
+    .slick-dots li button:before {
+      display: none;
+    }
+  } //moments
 
   @media screen and (max-width: 1287px) {
   } //1287px
@@ -344,152 +324,80 @@
       } //column03
     } //sections
     .intro {
-      text-align: left;
-      margin-bottom: 0;
+      margin-bottom: 60px;
       .tit {
-        font-size: 22px;
-        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+      }
+      .txt {
+        text-align: left;
+        margin-bottom: 20px;
       }
       .lead {
         text-align: left;
-        font-size: 16px;
-        line-height: 2;
         margin-bottom: 20px;
       }
+      .slide-items {
+        margin: 0 auto 60px;
+      }
+      .img01 {
+        margin-top: 60px;
+      }
+      .caps {
+        text-align: right;
+        font-size: 10px;
+        margin-top: 10px;
+      }
     } //intro
-
-    .shops {
-      text-align: center;
-      margin-bottom: 60px;
-      .column02 {
-        margin-bottom: 40px;
-        .sub {
-          font-size: 18px;
-          line-height: 1.2;
-          margin-bottom: 10px;
+    .btns {
+      margin-bottom: 30px;
+      .column03 {
+        li {
+          display: inline-block;
+          width: 32%;
+          margin-right: auto;
         }
-        .name {
-          font-size: 30px;
-          margin-bottom: 10px;
+      }
+    }
+    .moments,
+    .green,
+    .tokyo {
+      text-align: center;
+      margin-bottom: 80px;
+      .tit {
+        font-size: 30px;
+        margin: 30px auto;
+      }
+      .list {
+        li {
+          display: block;
+          width: 100%;
+          margin-right: auto;
+        }
+        li:last-child {
+          width: 100%;
+          margin-right: auto;
         }
         .lead {
-          font-size: 14px;
-          line-height: 1.8;
-          margin-bottom: 0;
-          vertical-align: top;
-          display: inline-block;
-          width: 52%;
-          margin-right: 2%;
-        }
-        .img01 {
-          display: inline-block;
-          width: 44%;
-        }
-        .img02 {
-          margin-bottom: 10px;
-        }
-        &.list01 {
-          li {
-            width: 100%;
-          }
-          li:last-child {
-            width: 100%;
-          }
-        }
-        &.list02 {
-          li {
-            width: 100%;
-          }
-          li:last-child {
-            width: 100%;
-          }
-        }
-        &.list03 {
-          li {
-            width: 100%;
-          }
-          li:last-child {
-            width: 100%;
-          }
-        }
-      }
-      .box {
-        padding: 20px 10px;
-        .column02 {
-          margin-bottom: auto;
-          li {
-            margin-bottom: auto;
-          }
-        }
-        .list {
-          margin-top: 20px;
-          li {
-            display: inline-block;
-            width: 48%;
-            margin-right: 2%;
-          }
-          li:last-child {
-            margin-right: auto;
-          }
-        }
-        .txt01 {
-          text-align: left;
-          font-size: 22px;
-          margin-bottom: 10px;
-        }
-        .txt02 {
-          text-align: left;
           font-size: 16px;
-          margin-bottom: 20px;
+          line-height: 2;
+          margin-bottom: 60px;
         }
       }
-    } //shops
-    .gourmet {
-      padding: 40px 0;
-      margin-bottom: 60px;
-      .sub {
-        font-size: 22px;
+      .slick-dots {
+        bottom: -30px;
       }
-      .tit {
-        text-align: left;
-        font-size: 24px;
+      .slick-dots li {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
       }
-      .column02 {
-        li {
-          margin-bottom: 20px;
-        }
-        .texts {
-          text-align: left;
-          position: inherit;
-          background: none;
-          padding: 10px 0;
-          color: #000;
-          .name {
-            font-size: 22px;
-            line-height: 1.1;
-            margin-bottom: 10px;
-            span {
-              font-size: 14px;
-            }
-          }
-          .info {
-            font-size: 16px;
-            line-height: 1.6;
-          }
-        }
+      .slick-dots li:last-child {
+        width: 10px;
+        height: 10px;
       }
-    } //gourmet
-    .life-info {
-      .sub {
-        font-size: 22px;
-      }
-      .tit {
-        text-align: left;
-        font-size: 24px;
-      }
-    .leaflet-top{
-      bottom: 25px;
-    }
-    } //life-info
+    } //moments
   } //sp
 }
