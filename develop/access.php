@@ -93,7 +93,7 @@
       <li><img src="./images/access/slide03.png" alt=""></li>
       <li><img src="./images/access/slide04.png" alt=""></li>
     </ul>
-    <p class="lead">東京メトロ半蔵門線をはじめ、<br>JR総武線とJR総武線快速の計３路線が利用可能。<br>大手町、東京、秋葉原、品川など、都心の主要駅がダイレクトにつながります。</p>
+    <p class="lead">東京メトロ半蔵門線をはじめ、<br>JR総武線とJR総武線快速の計3路線が利用可能。<br>大手町、東京、秋葉原、品川など、都心の主要駅がダイレクトにつながります。</p>
     <div class="image img02">
       <div class="swipe-img right-start modify-starts">
         <img src="./images/access/train02.png" alt="">
@@ -177,16 +177,18 @@
         <p class="txt01">首都高速道路を利用しやすいポジション。</p>
         <p class="txt02">首都高速7号線「錦糸町」<br class="sp">入口まで約1,250m</p>
         <div class="image">
-          <img src="./images/access/car01.svg" alt="">
+          <img src="./images/access/car01.svg" alt="" class="pc">
+              <img src="./images/access/car01-sp.svg" alt="" class="tb sp">
         </div>
       </div><!-- infos -->
       <div class="infos info02">
         <p class="txt01">「錦糸町」駅前には、羽田空港行きのスカイツリーシャトル<sup>&reg;</sup>が発着。</p>
-        <p class="txt02">「錦糸町」駅南口 スカイツリーシャトル<sup>&reg;</sup>乗り場 <span>（約850m／徒歩11分）</span></p>
+        <p class="txt02">「錦糸町」駅南口 <br class="sp">スカイツリーシャトル<sup>&reg;</sup>乗り場 <br class="sp"><span>（約850m／徒歩11分）</span></p>
         <ul class="column02">
           <li>
             <div class="image">
-              <img src="./images/access/car02.svg" alt="">
+              <img src="./images/access/car02.svg" alt="" class="pc">
+              <img src="./images/access/car02-sp.svg" alt="" class="tb sp">
             </div>
           </li>
           <li>

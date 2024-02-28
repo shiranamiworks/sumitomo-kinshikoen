@@ -146,6 +146,11 @@
 #access .intro .inner {
   max-width: 1000px;
 }
+#access .intro .images.img01 {
+  width: 84%;
+  max-width: 1000px;
+  margin: auto;
+}
 #access .intro .tit {
   font-size: 18px;
   color: #697b85;
@@ -183,6 +188,7 @@
 #access .intro .column03 .info {
   text-align: left;
   font-size: 16px;
+  line-height: 1.4;
 }
 #access .intro .column03 .info span {
   background: #231815;
@@ -206,6 +212,11 @@
   line-height: 1.8;
   letter-spacing: 0.12em;
   margin-bottom: 60px;
+}
+#access .train .images.img01 {
+  width: 84%;
+  max-width: 1000px;
+  margin: auto;
 }
 #access .train .mini {
   text-align: right;
@@ -373,7 +384,7 @@
   #access .swipe {
     display: block;
     text-align: center;
-    margin: 20px auto 40px;
+    margin: 20px auto 0;
   }
   #access .swipe img {
     max-width: 75px;
@@ -465,13 +476,13 @@
   }
   #access .train .lead {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   #access .train .column02 {
     margin-bottom: 20px;
   }
   #access .train .swipe-img img {
-    width: 1000px !important;
+    width: 760px !important;
   }
   #access .box {
     padding: 60px 0;
@@ -521,11 +532,11 @@
   #access .car .txt02 span {
     font-size: 12px;
   }
+  #access .car .image img {
+    margin: auto;
+  }
   #access .car .info01 {
     margin-bottom: 40px;
-  }
-  #access .car .column02 li {
-    width: 70%;
   }
   #access .car .column02 li:last-child {
     width: 100%;

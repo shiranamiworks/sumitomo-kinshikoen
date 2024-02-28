@@ -46,15 +46,15 @@
         <li>シティタワー錦糸公園</li>
         <li>東京都墨田区</li>
         <li>東京メトロ半蔵門線</li>
-        <li>錦糸町</li>
+        <li>錦糸町駅</li>
         <li>新築分譲マンション</li>
         <li>住友不動産</li>
-        <li>すみふ 錦糸町</li>
+        <li>すみふ錦糸町</li>
       </ul>
 
       <!-- おススメ物件 -->
-      <!-- <p class="footer-recommend__ttl">おすすめ物件</p>
-      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script> -->
+      <p class="footer-recommend__ttl">おすすめ物件</p>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script>
 			<!-- //おススメ物件 -->
     </div>
   </div>
