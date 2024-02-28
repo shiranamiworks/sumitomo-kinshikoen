@@ -105,6 +105,9 @@ pc {
   font-family: "RyuminPro", serif;
   text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
 }
+.top-mv__slide figure .annotation.white.left {
+  right: 50%;
+}
 
 @media screen and (max-width: 1400px) {
   .mv-access__main {

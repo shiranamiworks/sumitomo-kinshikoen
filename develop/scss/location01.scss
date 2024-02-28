@@ -88,12 +88,16 @@
   }
   .page-annotation {
     font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 0;;
   }
 
   .main-visual {
     position: relative;
     border: none;
     margin-bottom: 100px;
+  }
+  .top-mv__slide figure .annotation.white{
+    bottom: 15px;
   }
   .sections {
     .tit-img {
@@ -128,8 +132,8 @@
       li {
         vertical-align: top;
         display: inline-block;
-        width: 32%;
-        margin-right: 1%;
+        width: 31%;
+        margin-right: 1.5%;
       }
       li:nth-child(3n),
       li:last-child {
@@ -176,6 +180,7 @@
       text-align: right;
       font-size: 10px;
       margin: 10px 0 100px;
+      letter-spacing: 0;
     }
     .slider01 {
       color: #3e3a39;
@@ -214,6 +219,7 @@
       text-align: right;
       font-size: 10px;
       margin: 10px 0 30px;
+      letter-spacing: 0;
     }
     .event {
       text-align: left;
@@ -222,6 +228,12 @@
       margin-bottom: 20px;
       span {
         color: #0082a4;
+      }
+      &.red {
+        margin-top: 40px;
+        span {
+        color: #db5e28;
+        }
       }
     }
     .lead {
@@ -232,10 +244,7 @@
     .column02 {
       text-align: left;
       &.top {
-        margin-top: 40px;
-        .event span {
-          color: #db5e28;
-        }
+        margin-top: 20px;
       }
       .mini {
         font-size: 10px;
@@ -324,9 +333,10 @@
       }
       .name {
         text-align: right;
-        font-size: 16px;
+        font-size: 14px;
         letter-spacing: 0.1em;
         margin: 6px 0 5px;
+        letter-spacing: 0;
       }
       .min {
         text-align: right;
@@ -481,6 +491,12 @@
         -ms-transform: translate(-50%, -50%);
       }
     }
+    .gourmet-list.list03 {
+      .texts {
+        left: auto;
+        right: -10%;
+      }
+    }
   } //gourmet
   .life-info {
     text-align: center;
@@ -542,7 +558,7 @@
       border-left: 1px solid #231815;
       border-right: 1px solid #231815;
       box-sizing: border-box;
-      width: 13%;
+      width: 16%;
     }
     .change-buttons .button:hover {
       cursor: pointer;
@@ -584,11 +600,11 @@
       }
       .change-buttons li {
         display: inline-block;
-        width: 48%;
+        width: 49%;
         margin-bottom: 10px;
       }
       .change-buttons li:last-child {
-        width: 100%;
+        width: 99%;
       }
       .change-buttons .button {
         font-size: 12px;
@@ -632,6 +648,13 @@
 
     .main-visual .annotation {
       bottom: -20px;
+    }
+    .top-mv__slide figure .annotation.white{
+      bottom: 15px;
+      &.left{
+        bottom: 52.5%;
+        right: 10px;
+      }
     }
 
     sp {
@@ -881,8 +904,13 @@
           -webkit-transform: translate(0, -50%);
           -ms-transform: translate(0, -50%);
         }
+      } 
+      .gourmet-list.list03 {
+        .texts {
+          right: 0;
+        }
       }
-    } //gourmet
+    }//gourmet
     .life-info {
       margin-bottom: 60px;
       .tit {
@@ -896,8 +924,17 @@
         line-height: 2;
         margin-bottom: 40px;
       }
+      .change-buttons li{
+        width: 100%;
+        &:last-child{
+          width: 100%;
+        }
+      }
       .img-txt {
         margin: 10px auto 20px;
+        img{
+          width: 100%;
+        }
       }
     } //life-info
   } //sp

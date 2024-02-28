@@ -36,14 +36,14 @@
   <header class="main-visual clearfix">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
     <div class="top-mv__slide pc">
-    <figure><img src="./images/location01/mv01-pc.jpg" alt="" class="w_100 pc"></figure>
-    <figure><img src="./images/location01/mv02-pc.jpg" alt="" class="w_100 pc"></figure>
-    <figure><img src="./images/location01/mv03-pc.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/location01/mv01-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">カスミフードスクエアオリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p><</figure>
+    <figure><img src="./images/location01/mv02-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
+    <figure><img src="./images/location01/mv03-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
   </div>
   <div class="top-mv__slide sp tb">
-    <figure><img src="./images/location01/mv01-sp.jpg" alt="" class="w_100 pc"></figure>
-    <figure><img src="./images/location01/mv02-sp.jpg" alt="" class="w_100 pc"></figure>
-    <figure><img src="./images/location01/mv03-sp.jpg" alt="" class="w_100 pc"></figure>
+    <figure><img src="./images/location01/mv01-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">カスミフードスクエアオリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
+    <figure><img src="./images/location01/mv02-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
+    <figure><img src="./images/location01/mv03-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
   </div>
   </header><!-- main-visual -->
 
@@ -105,7 +105,7 @@
       <ul class="column02">
         <li>
           <p class="event"><span>■</span>1928年7月「錦糸公園」開園</p>
-          <p class="lead">関東?震災の復興事業によって?まれた歴史ある公園。<br>2011年に完了した再整備事業による美しい環境が広がり、憩いの場として、防災拠点として、地域の?々に親しまれています。</p>
+          <p class="lead">関東大震災の復興事業によって生まれた歴史ある公園。<br>2011年に完了した再整備事業による美しい環境が広がり、憩いの場として、防災拠点として、地域の人々に親しまれています。</p>
         </li>
         <li>
           <div class="image">
@@ -116,10 +116,10 @@
       </ul>
       <p class="event"><span>■</span>1997年10月錦糸町駅北口地区第一種市街地再開発事業工事完了</p>
       <p class="event"><span>■</span>2006年4月商業施設「オリナスモール」「オリナスコア」オープン</p>
+      <p class="event red"><span>■</span>2023年度錦糸町駅前<br>「放射第32号線（錦糸町Ⅰ期）」拡幅事業開始</p>
       <ul class="column02 top">
         <li>
-          <p class="event"><span>■</span>2023年度錦糸町駅前<br>「放射第32号線（錦糸町Ⅰ期）」拡幅事業開始</p>
-          <p class="lead">放射第32号線（錦糸町Ⅰ期）は、錦?町駅前の錦?公園前交差点から、春?通りと交わる横川交番前交差点までの約715mが幅員約22mの道路から約27mに拡幅整備されます。<br>?道はこれまで通り4?線、その両側に?転?通?空間と歩道が整備され、歩道は現在よりも拡幅されるほか電線を地下に埋める無電柱化や街路樹の植栽により、良好な都市景観が創出される予定です。</p>
+          <p class="lead">放射第32号線（錦糸町Ⅰ期）は、錦糸町駅前の錦糸公園前交差点から、春日通りと交わる横川交番前交差点までの約715mが幅員約22mの道路から約27mに拡幅整備されます。<br>車道はこれまで通り4車線、その両側に自転車通行空間と歩道が整備され、歩道は現在よりも拡幅されるほか電線を地下に埋める無電柱化や街路樹の植栽により、良好な都市景観が創出される予定です。</p>
           <p class="mini">放射第32号線（錦糸町Ⅰ期）事業（2032年度完成予定）／出典：東京都HP（2024年1月現在）</p>
         </li>
         <li>
@@ -136,7 +136,7 @@
 
   <section class="shopping sections clearfix">
     <div class="inner">
-      <p class="tit">SHOPPNG</p>
+      <p class="tit">SHOPPING</p>
       <ul class="column02">
         <li>
           <p class="txt">多彩な大型商業施設を、<br>普段使いできるしあわせ。</p>
@@ -323,13 +323,13 @@
             <p class="min">（約560ｍ／徒歩7分）</p>
           </div>
       </div>
-      <div class="gourmet-list">
+      <div class="gourmet-list list03">
           <div class="image">
             <img src="./images/location01/gourmet03.jpg" alt="" class="">
           </div>
           <div class="texts">
             <p class="category">［和菓子］</p>
-            <p class="name">船橋屋亀戸天神前本店</p>
+            <p class="name">船橋屋<br class="sp">亀戸天神前本店</p>
             <p class="min">（約180ｍ／徒歩3分）</p>
           </div>
       </div>
