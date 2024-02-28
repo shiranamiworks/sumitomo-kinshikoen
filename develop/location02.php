@@ -69,17 +69,20 @@
     <ul class="column03">
       <li>
         <a href="#moments" class="scroll">
-          <img src="./images/location02/btn01.png" alt="">
+          <img src="./images/location02/btn01.png" alt="" class="pc">
+          <img src="./images/location02/btn01-sp.png" alt="" class="sp">
         </a>
       </li>
       <li>
         <a href="#green">
-          <img src="./images/location02/btn02.png" alt="">
+          <img src="./images/location02/btn02.png" alt="" class="pc">
+          <img src="./images/location02/btn02-sp.png" alt="" class="sp">
         </a>
       </li>
       <li>
         <a href="#tokyo">
-          <img src="./images/location02/btn03.png" alt="">
+          <img src="./images/location02/btn03.png" alt="" class="pc">
+          <img src="./images/location02/btn03-sp.png" alt="" class="sp">
         </a>
       </li>
     </ul>
@@ -204,7 +207,7 @@
           </div>
         </li>
         <li>
-          <p class="lead">東京スカイツリー<sup>&reg;</sup>に浅草仲見世通り、<br>隅田川クルーズに大相撲観戦。<br>世界の人々魅了する<br>TOKYOの人気観光スポットも、<br>この住まいなら、<br>日常のテリトリーになります。</p>
+          <p class="lead">東京スカイツリー<sup>&reg;</sup>に浅草仲見世通り、<br>隅田川クルーズに大相撲観戦。<br>世界の人々を魅了する<br>TOKYOの人気観光スポットも、<br>この住まいなら、<br>日常のテリトリーになります。</p>
         </li>
       </ul>
       <ul class="column03">
