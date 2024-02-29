@@ -118,7 +118,7 @@
 .location01 .sections .column02 li {
   vertical-align: top;
   display: inline-block;
-  width: 48%;
+  width: 40%;
   margin-right: 2%;
 }
 .location01 .sections .column02 li:nth-child(2n),
@@ -161,7 +161,7 @@
   margin-right: 12%;
 }
 .location01 .intro .column02 li:last-child {
-  width: 36%;
+  width: 46%;
 }
 .location01 .intro .txt {
   font-size: 24px;
@@ -270,11 +270,11 @@
 }
 .location01 .shopping .column02 li {
   vertical-align: middle;
-  width: 43%;
-  margin-right: 12%;
+  width: 49%;
+  margin-right: 1%;
 }
 .location01 .shopping .column02 li:last-child {
-  width: 44%;
+  width: 48%;
 }
 .location01 .shopping .txt {
   font-size: 24px;
@@ -364,8 +364,8 @@
 }
 .location01 .nature .column02 li {
   vertical-align: middle;
-  width: 46%;
-  margin-right: 8%;
+  width: 50%;
+  margin-right: 5%;
 }
 .location01 .nature .column02 li:last-child {
   letter-spacing: 0.1em;
@@ -488,7 +488,7 @@
 }
 .location01 .gourmet .gourmet-list.list03 .texts {
   left: auto;
-  right: -10%;
+  right: -12%;
 }
 .location01 .life-info {
   text-align: center;
@@ -581,6 +581,51 @@
   margin-top: 10px;
 }
 @media screen and (max-width: 1024px) {
+  .location01 br {
+    display: block;
+  }
+  .location01 br.pc {
+    display: none;
+  }
+  .location01 br.pc {
+    display: none;
+  }
+  .location01 .intro .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .intro .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .location01 .shopping .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .shopping .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .location01 .nature .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .nature .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .location01 .gourmet .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .gourmet .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
   .location01 .life-info .change-buttons {
     text-align: center;
     margin: 20px auto;
@@ -636,10 +681,10 @@
     bottom: -20px;
   }
   .location01 .top-mv__slide figure .annotation.white {
-    bottom: 15px;
+    bottom: 52.5%;
   }
   .location01 .top-mv__slide figure .annotation.white.left {
-    bottom: 52.5%;
+    bottom: 15px;
     right: 10px;
   }
   .location01 sp {
@@ -899,5 +944,11 @@
   }
   .location01 .life-info .img-txt img {
     width: 100%;
+  }
+  .location01 .life-info .image figure.sp {
+    display: block !important;
+  }
+  .location01 .life-info .image figure.sp img {
+    display: block !important;
   }
 }/*# sourceMappingURL=location01.css.map */

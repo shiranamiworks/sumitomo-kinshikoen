@@ -56,7 +56,7 @@
           <p class="txt">都市生活の理想を<br>満たす舞台へ。</p>
         </li>
         <li>
-          <p class="lead">都心のオフィスに近いこと。<br>商業施設が身近に揃っていること。<br>豊かな自然に恵まれていること。<br>美味しいお店があること。<br>そんないくつもの理想の条件を、<br>この街はさりげなく満たしている。</p>
+          <p class="lead">都心のオフィスに近いこと。<br>商業施設が身近に揃っていること。<br>豊かな自然に恵まれていること。<br>美味しいお店があること。<br>そんないくつもの理想の条件を、<br class="pc">この街はさりげなく満たしている。</p>
         </li>
       </ul>
       <div class="images img01">
@@ -73,7 +73,7 @@
         <div>
           <img src="./images/location01/position02.jpg" alt="" class="">
           <p class="name">錦糸公園 <br class="sp"><span>（約210m／徒歩3分）</span></p>
-          <p class="info">自然の潤いに満たされる<br>のびやかな空と緑が日常になる。</p>
+          <p class="info">自然の潤いに満たされる<br>のびやかな空と緑が <br class="sp">日常になる。</p>
         </div>
         <div>
           <img src="./images/location01/position03.jpg" alt="" class="">
@@ -82,7 +82,7 @@
         <div>
           <img src="./images/location01/position04.jpg" alt="" class="">
           <p class="name">錦糸公園 <br class="sp"><span>（約210m／徒歩3分）</span></p>
-          <p class="info">歩いですぐの公園が、<br>春には桜を愛でる花見スポットに。</p>
+          <p class="info">歩いてすぐの公園が、<br>春には桜を愛でる<br class="sp">花見スポットに。</p>
         </div>
         <div>
           <img src="./images/location01/position05.jpg" alt="" class="">
@@ -142,7 +142,7 @@
           <p class="txt">多彩な大型商業施設を、<br>普段使いできるしあわせ。</p>
         </li>
         <li>
-          <p class="lead">バラエティ豊かなショップ＆レストラン、<br>映画館などで構成された<br>オリナス錦糸町を普段使いに。<br>駅周辺には、アルカキット錦糸町、<br>錦糸町マルイ、錦糸町PARCOなど、<br>多彩な商業施設が集積しています。</p>
+          <p class="lead">バラエティ豊かなショップ＆レストラン、<br class="pc">映画館などで構成された<br class="pc">オリナス錦糸町を普段使いに。<br>駅周辺には、アルカキット錦糸町、<br class="pc">錦糸町マルイ、錦糸町PARCOなど、<br class="pc">多彩な商業施設が集積しています。</p>
         </li>
       </ul>
       <div class="image img01">
@@ -240,10 +240,10 @@
       <p class="tit">NATURE</p>
       <ul class="column02">
         <li>
-          <p class="txt">広場に遊具、春の桜、<br>東京スカイツリーに出逢える、<br>錦糸公園へ徒歩３分。</p>
+          <p class="txt">広場に遊具、春の桜、<br>東京スカイツリーに出逢える、<br class="pc">錦糸公園へ徒歩3分。</p>
         </li>
         <li>
-          <p class="lead">ここに住むメリットは、<br>錦糸公園を庭のように使えること。<br>園内には、多彩な広場や遊具、噴水、<br>ランニングコースなどが充実。<br>東京スカイツリー（約1,510m／徒歩19分）の眺めも良く、<br>春にはお花見も楽しめます。</p>
+          <p class="lead">ここに住むメリットは、<br class="pc">錦糸公園を庭のように使えること。<br>園内には、多彩な広場や遊具、噴水、<br class="pc">ランニングコースなどが充実。<br>東京スカイツリー（約1,510m／徒歩19分）の眺めも良く、<br class="pc">春にはお花見も楽しめます。</p>
         </li>
       </ul>
       <div class="images img01">
@@ -300,7 +300,7 @@
           <p class="txt">大人のグルメを魅了する、<br>上質な飲食店の数々。</p>
         </li>
         <li>
-          <p class="lead">こだわりが光る和の名店、<br>お洒落なビストロやカフェ。<br>錦糸町の周辺には、<br>舌の肥えたグルメに愛される、<br>上質な飲食店が充実しています。</p>
+          <p class="lead">こだわりが光る和の名店、<br class="pc">お洒落なビストロやカフェ。<br>錦糸町の周辺には、<br class="pc">舌の肥えたグルメに愛される、<br class="pc">上質な飲食店が充実しています。</p>
         </li>
       </ul>
       <div class="gourmet-list">
@@ -319,7 +319,7 @@
           </div>
           <div class="texts">
             <p class="category">［ホットケーキ］</p>
-            <p class="name">厚焼きホットケーキのお店<br>「ねこづき」</p>
+            <p class="name">厚焼き <br class="sp">ホットケーキのお店<br>「ねこづき」</p>
             <p class="min">（約560ｍ／徒歩7分）</p>
           </div>
       </div>
@@ -393,11 +393,11 @@
         </ul>
         <div class="img-txt">
           <img src="./images/location01/life01-txt.svg" alt="" class="pc">
-          <img src="./images/location01/life01-txt-sp.svg" alt="" class="sp">
+          <img src="./images/location01/life01-txt-sp.svg" alt="" class="tb">
         </div>
         <div class="image map">
           <figure class="pc"><img src="./images/location01/life01-map.png" class="sp-hide" alt="現地周辺地図"></figure>
-          <figure class="tb"><img src="./images/location01/life01-map.png" class="zoomImg sp" alt=""/></figure>
+          <figure class="sp"><img src="./images/location01/life01-map.png" class="zoomImg sp" alt=""/></figure>
           <p class="mini">現地周辺地図</p>
         </div>
       </div>
@@ -424,11 +424,11 @@
         </ul>
         <div class="img-txt">
           <img src="./images/location01/life02-txt.svg" alt="" class="pc">
-          <img src="./images/location01/life02-txt-sp.svg" alt="" class="sp">
+          <img src="./images/location01/life02-txt-sp.svg" alt="" class="tb">
         </div>
         <div class="image map">
           <figure class="pc"><img src="./images/location01/life02-map.png" class="sp-hide" alt="現地周辺地図"></figure>
-          <figure class="tb"><img src="./images/location01/life02-map.png" class="zoomImg2 sp" alt=""/></figure>
+          <figure class="sp"><img src="./images/location01/life02-map.png" class="zoomImg2 sp" alt=""/></figure>
           <p class="mini">現地周辺地図</p>
         </div>
       </div>
@@ -455,11 +455,11 @@
         </ul>
         <div class="img-txt">
           <img src="./images/location01/life03-txt.svg" alt="" class="pc">
-          <img src="./images/location01/life03-txt-sp.svg" alt="" class="sp">
+          <img src="./images/location01/life03-txt-sp.svg" alt="" class="tb">
         </div>
         <div class="image map">
           <figure class="pc"><img src="./images/location01/life03-map.png" class="sp-hide" alt="現地周辺地図"></figure>
-          <figure class="tb"><img src="./images/location01/life03-map.png" class="zoomImg3 sp" alt=""/></figure>
+          <figure class="sp"><img src="./images/location01/life03-map.png" class="zoomImg3 sp" alt=""/></figure>
           <p class="mini">現地周辺地図</p>
         </div>
       </div>
@@ -486,11 +486,11 @@
         </ul>
         <div class="img-txt">
           <img src="./images/location01/life04-txt.svg" alt="" class="pc">
-          <img src="./images/location01/life04-txt-sp.svg" alt="" class="sp">
+          <img src="./images/location01/life04-txt-sp.svg" alt="" class="tb">
         </div>
         <div class="image map">
           <figure class="pc"><img src="./images/location01/life04-map.png" class="sp-hide" alt="現地周辺地図"></figure>
-          <figure class="tb"><img src="./images/location01/life04-map.png" class="zoomImg4 sp" alt=""/></figure>
+          <figure class="sp"><img src="./images/location01/life04-map.png" class="zoomImg4 sp" alt=""/></figure>
           <p class="mini">現地周辺地図</p>
         </div>
       </div>
@@ -521,7 +521,7 @@
         </div>
         <div class="image map">
           <figure class="pc"><img src="./images/location01/life05-map.png" class="sp-hide" alt="現地周辺地図"></figure>
-          <figure class="tb"><img src="./images/location01/life05-map.png" class="zoomImg5 sp" alt=""/></figure>
+          <figure class="sp"><img src="./images/location01/life05-map.png" class="zoomImg5 sp" alt=""/></figure>
           <p class="mini">現地周辺地図</p>
         </div>
       </div>
