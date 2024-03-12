@@ -194,7 +194,7 @@
     .slick-next {
       width: 27px;
       height: 37px;
-      background: url(../images/location02/arrow.png) no-repeat center / contain !important;
+      background: url(../images/location02/arrow.svg) no-repeat center / contain !important;
       top: auto;
       bottom: -60px;
       left: 50%;
@@ -255,7 +255,7 @@
       }
     }
     .slick-dots {
-      bottom: 38%;
+      bottom: 42%;
     }
     .slick-dots li {
       width: 10px;
@@ -281,6 +281,9 @@
       display: none;
     }
   } //moments
+  .green .slick-dots {
+    bottom: 40%;
+  }
 
   @media screen and (max-width: 1287px) {
   } //1287px

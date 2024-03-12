@@ -96,6 +96,7 @@
 }
 #access .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
 }
 #access .main-visual {
   position: relative;
@@ -161,6 +162,9 @@
   color: #697b85;
   margin-bottom: 100px;
 }
+#access .intro .tit01 span {
+  font-size: 120%;
+}
 #access .intro .text {
   font-size: 22px;
   line-height: 2;
@@ -189,12 +193,13 @@
   text-align: left;
   font-size: 16px;
   line-height: 1.4;
+  letter-spacing: 0.1em;
 }
 #access .intro .column03 .info span {
-  background: #231815;
+  background: #0F4569;
   border-radius: 50px;
   color: #fff;
-  padding: 2px 6px;
+  padding: 2px 4px 2px 6px;
   margin-right: 6px;
 }
 #access .train {
@@ -278,6 +283,9 @@
 #access .train .column02 {
   margin-bottom: 40px;
 }
+#access .train .column02 .image.min {
+  margin-top: 10px;
+}
 #access .box {
   text-align: center;
   background: #cfdae1;
@@ -306,6 +314,7 @@
 }
 #access .box .mini {
   font-size: 10px;
+  line-height: 1.4;
 }
 #access .box .column02 li {
   vertical-align: bottom;
