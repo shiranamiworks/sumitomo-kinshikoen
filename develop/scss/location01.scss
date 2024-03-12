@@ -727,6 +727,9 @@
           display: block;
           width: 100%;
           margin-bottom: 20px;
+          &.image,&.lead01{
+            width: 100%;
+          }
         }
         li:last-child {
           margin-bottom: auto;

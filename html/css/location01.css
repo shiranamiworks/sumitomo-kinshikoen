@@ -707,6 +707,9 @@
     width: 100%;
     margin-bottom: 20px;
   }
+  .location01 .sections .column02 li.image, .location01 .sections .column02 li.lead01 {
+    width: 100%;
+  }
   .location01 .sections .column02 li:last-child {
     margin-bottom: auto;
   }
