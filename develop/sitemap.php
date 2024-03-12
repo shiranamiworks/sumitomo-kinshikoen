@@ -21,7 +21,7 @@
   <h2 class="ttl">サイトマップ</h2>
   <div class="sitemap_area">
   <ul>
-	<li class="top"><a href="/shuto/kinshikouen/">シティタワー錦糸町 トップ</a></li>
+	<li class="top"><a href="/shuto/kinshikouen/">シティタワー錦糸公園 トップ</a></li>
 	<li class="concept"><a href="concept.html">コンセプト</a></li>
 	<!--li class="design"><a href="design.html">デザイン</a></li-->
 	<li class="design">デザイン</li>

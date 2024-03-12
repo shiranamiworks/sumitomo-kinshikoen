@@ -89,11 +89,15 @@
 }
 .location01 .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
 }
 .location01 .main-visual {
   position: relative;
   border: none;
   margin-bottom: 100px;
+}
+.location01 .top-mv__slide figure .annotation.white {
+  bottom: 15px;
 }
 .location01 .sections .tit-img {
   max-width: 500px;
@@ -114,20 +118,22 @@
 .location01 .sections .column02 li {
   vertical-align: top;
   display: inline-block;
-  width: 48%;
-  margin-right: 2%;
+  width: 100%;
 }
-.location01 .sections .column02 li:nth-child(2n),
+.location01 .sections .column02 li.image, .location01 .sections .column02 li.lead01 {
+  width: 40%;
+  margin-right: 2%;
+  margin-top: 20px;
+}
 .location01 .sections .column02 li:last-child {
   margin-right: auto;
 }
 .location01 .sections .column03 li {
   vertical-align: top;
   display: inline-block;
-  width: 32%;
-  margin-right: 1%;
+  width: 40%;
+  margin-right: 2%;
 }
-.location01 .sections .column03 li:nth-child(3n),
 .location01 .sections .column03 li:last-child {
   margin-right: auto;
 }
@@ -157,7 +163,7 @@
   margin-right: 12%;
 }
 .location01 .intro .column02 li:last-child {
-  width: 36%;
+  width: 46%;
 }
 .location01 .intro .txt {
   font-size: 24px;
@@ -171,6 +177,7 @@
   text-align: right;
   font-size: 10px;
   margin: 10px 0 100px;
+  letter-spacing: 0;
 }
 .location01 .intro .slider01 {
   color: #3e3a39;
@@ -209,6 +216,7 @@
   text-align: right;
   font-size: 10px;
   margin: 10px 0 30px;
+  letter-spacing: 0;
 }
 .location01 .history .event {
   text-align: left;
@@ -219,6 +227,12 @@
 .location01 .history .event span {
   color: #0082a4;
 }
+.location01 .history .event.red {
+  margin-top: 40px;
+}
+.location01 .history .event.red span {
+  color: #db5e28;
+}
 .location01 .history .lead {
   text-align: left;
   font-size: 14px;
@@ -228,10 +242,7 @@
   text-align: left;
 }
 .location01 .history .column02.top {
-  margin-top: 40px;
-}
-.location01 .history .column02.top .event span {
-  color: #db5e28;
+  margin-top: 20px;
 }
 .location01 .history .column02 .mini {
   font-size: 10px;
@@ -261,11 +272,11 @@
 }
 .location01 .shopping .column02 li {
   vertical-align: middle;
-  width: 43%;
-  margin-right: 12%;
+  width: 49%;
+  margin-right: 1%;
 }
 .location01 .shopping .column02 li:last-child {
-  width: 44%;
+  width: 48%;
 }
 .location01 .shopping .txt {
   font-size: 24px;
@@ -320,9 +331,10 @@
 }
 .location01 .shopping .shops .name {
   text-align: right;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.1em;
   margin: 6px 0 5px;
+  letter-spacing: 0;
 }
 .location01 .shopping .shops .min {
   text-align: right;
@@ -347,19 +359,19 @@
   margin-bottom: 100px;
 }
 .location01 .nature .column02 {
-  max-width: 800px;
+  max-width: 840px;
   margin: 0 auto 100px;
   text-align: left;
   color: #3e3a39;
 }
 .location01 .nature .column02 li {
   vertical-align: middle;
-  width: 46%;
-  margin-right: 8%;
+  width: 44%;
+  margin-right: 3%;
 }
 .location01 .nature .column02 li:last-child {
   letter-spacing: 0.1em;
-  width: 44%;
+  width: 52%;
 }
 .location01 .nature .txt {
   font-size: 24px;
@@ -368,6 +380,9 @@
 .location01 .nature .lead {
   font-size: 16px;
   line-height: 2.2;
+}
+.location01 .nature .lead span {
+  font-size: 12px;
 }
 .location01 .nature .mini {
   text-align: right;
@@ -476,6 +491,10 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+.location01 .gourmet .gourmet-list.list03 .texts {
+  left: auto;
+  right: -12%;
+}
 .location01 .life-info {
   text-align: center;
   position: relative;
@@ -537,7 +556,7 @@
   border-left: 1px solid #231815;
   border-right: 1px solid #231815;
   box-sizing: border-box;
-  width: 13%;
+  width: 16%;
 }
 .location01 .life-info .change-buttons .button:hover {
   cursor: pointer;
@@ -567,6 +586,51 @@
   margin-top: 10px;
 }
 @media screen and (max-width: 1024px) {
+  .location01 br {
+    display: block;
+  }
+  .location01 br.pc {
+    display: none;
+  }
+  .location01 br.pc {
+    display: none;
+  }
+  .location01 .intro .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .intro .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .location01 .shopping .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .shopping .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .location01 .nature .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .nature .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .location01 .gourmet .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .location01 .gourmet .column02 li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
   .location01 .life-info .change-buttons {
     text-align: center;
     margin: 20px auto;
@@ -574,11 +638,11 @@
   }
   .location01 .life-info .change-buttons li {
     display: inline-block;
-    width: 48%;
+    width: 49%;
     margin-bottom: 10px;
   }
   .location01 .life-info .change-buttons li:last-child {
-    width: 100%;
+    width: 99%;
   }
   .location01 .life-info .change-buttons .button {
     font-size: 12px;
@@ -621,6 +685,13 @@
   .location01 .main-visual .annotation {
     bottom: -20px;
   }
+  .location01 .top-mv__slide figure .annotation.white {
+    bottom: 52.5%;
+  }
+  .location01 .top-mv__slide figure .annotation.white.left {
+    bottom: 15px;
+    right: 10px;
+  }
   .location01 sp {
     display: block;
   }
@@ -635,6 +706,9 @@
     display: block;
     width: 100%;
     margin-bottom: 20px;
+  }
+  .location01 .sections .column02 li.image, .location01 .sections .column02 li.lead01 {
+    width: 100%;
   }
   .location01 .sections .column02 li:last-child {
     margin-bottom: auto;
@@ -850,6 +924,9 @@
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
   }
+  .location01 .gourmet .gourmet-list.list03 .texts {
+    right: 0;
+  }
   .location01 .life-info {
     margin-bottom: 60px;
   }
@@ -864,7 +941,22 @@
     line-height: 2;
     margin-bottom: 40px;
   }
+  .location01 .life-info .change-buttons li {
+    width: 100%;
+  }
+  .location01 .life-info .change-buttons li:last-child {
+    width: 100%;
+  }
   .location01 .life-info .img-txt {
     margin: 10px auto 20px;
+  }
+  .location01 .life-info .img-txt img {
+    width: 100%;
+  }
+  .location01 .life-info .image figure.sp {
+    display: block !important;
+  }
+  .location01 .life-info .image figure.sp img {
+    display: block !important;
   }
 }/*# sourceMappingURL=location01.css.map */

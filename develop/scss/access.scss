@@ -95,6 +95,7 @@
   }
   .page-annotation {
     font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 0;
   }
   .main-visual {
     position: relative;
@@ -150,6 +151,11 @@
     .inner {
       max-width: 1000px;
     }
+    .images.img01{
+      width: 84%;
+      max-width: 1000px;
+      margin: auto;
+    }
     .tit {
       font-size: 18px;
       color: #697b85;
@@ -159,6 +165,9 @@
       font-size: 40px;
       color: #697b85;
       margin-bottom: 100px;
+      span{
+        font-size: 120%;
+      }
     }
     .text {
       font-size: 22px;
@@ -186,11 +195,13 @@
       .info {
         text-align: left;
         font-size: 16px;
+        line-height: 1.4;
+        letter-spacing: .1em;
         span {
-          background: #231815;
+          background: #0F4569;
           border-radius: 50px;
           color: #fff;
-          padding: 2px 6px;
+          padding: 2px 4px 2px 6px;
           margin-right: 6px;
         }
       }
@@ -210,6 +221,11 @@
       line-height: 1.8;
       letter-spacing: 0.12em;
       margin-bottom: 60px;
+    }
+    .images.img01{
+      width: 84%;
+      max-width: 1000px;
+      margin: auto;
     }
     .mini {
       text-align: right;
@@ -270,6 +286,9 @@
     }
     .column02 {
       margin-bottom: 40px;
+      .image.min{
+        margin-top: 10px;
+      }
     }
   } //train
   .box {
@@ -299,6 +318,7 @@
     }
     .mini {
       font-size: 10px;
+      line-height: 1.4;
     }
     .column02 {
       li {
@@ -391,7 +411,7 @@
       .swipe {
         display: block;
         text-align: center;
-        margin: 20px auto 40px;
+        margin: 20px auto 0;
       }
       .swipe img {
         max-width: 75px;
@@ -488,13 +508,13 @@
       }
       .lead {
         text-align: left;
-        margin-bottom: 20px;
+        margin-bottom: 0;
       }
       .column02 {
         margin-bottom: 20px;
       }
       .swipe-img img {
-        width: 1000px !important;
+        width: 760px !important;
       }
     } //train
     .box {
@@ -547,12 +567,15 @@
           font-size: 12px;
         }
       }
+      .image img{
+        margin: auto;
+      }
       .info01 {
         margin-bottom: 40px;
       }
       .column02 {
         li {
-          width: 70%;
+          // width: 70%;
         }
         li:last-child {
           width: 100%;

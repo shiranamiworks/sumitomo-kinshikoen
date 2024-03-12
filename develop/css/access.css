@@ -96,6 +96,7 @@
 }
 #access .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
 }
 #access .main-visual {
   position: relative;
@@ -146,6 +147,11 @@
 #access .intro .inner {
   max-width: 1000px;
 }
+#access .intro .images.img01 {
+  width: 84%;
+  max-width: 1000px;
+  margin: auto;
+}
 #access .intro .tit {
   font-size: 18px;
   color: #697b85;
@@ -155,6 +161,9 @@
   font-size: 40px;
   color: #697b85;
   margin-bottom: 100px;
+}
+#access .intro .tit01 span {
+  font-size: 120%;
 }
 #access .intro .text {
   font-size: 22px;
@@ -183,12 +192,14 @@
 #access .intro .column03 .info {
   text-align: left;
   font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
 }
 #access .intro .column03 .info span {
-  background: #231815;
+  background: #0F4569;
   border-radius: 50px;
   color: #fff;
-  padding: 2px 6px;
+  padding: 2px 4px 2px 6px;
   margin-right: 6px;
 }
 #access .train {
@@ -206,6 +217,11 @@
   line-height: 1.8;
   letter-spacing: 0.12em;
   margin-bottom: 60px;
+}
+#access .train .images.img01 {
+  width: 84%;
+  max-width: 1000px;
+  margin: auto;
 }
 #access .train .mini {
   text-align: right;
@@ -267,6 +283,9 @@
 #access .train .column02 {
   margin-bottom: 40px;
 }
+#access .train .column02 .image.min {
+  margin-top: 10px;
+}
 #access .box {
   text-align: center;
   background: #cfdae1;
@@ -295,6 +314,7 @@
 }
 #access .box .mini {
   font-size: 10px;
+  line-height: 1.4;
 }
 #access .box .column02 li {
   vertical-align: bottom;
@@ -373,7 +393,7 @@
   #access .swipe {
     display: block;
     text-align: center;
-    margin: 20px auto 40px;
+    margin: 20px auto 0;
   }
   #access .swipe img {
     max-width: 75px;
@@ -465,13 +485,13 @@
   }
   #access .train .lead {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   #access .train .column02 {
     margin-bottom: 20px;
   }
   #access .train .swipe-img img {
-    width: 1000px !important;
+    width: 760px !important;
   }
   #access .box {
     padding: 60px 0;
@@ -521,11 +541,11 @@
   #access .car .txt02 span {
     font-size: 12px;
   }
+  #access .car .image img {
+    margin: auto;
+  }
   #access .car .info01 {
     margin-bottom: 40px;
-  }
-  #access .car .column02 li {
-    width: 70%;
   }
   #access .car .column02 li:last-child {
     width: 100%;

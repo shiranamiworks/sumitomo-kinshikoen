@@ -5,7 +5,7 @@
     <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script>
       <div class="entry-tel">
         <p>お問い合わせは住友不動産<br class="sp">「総合マンションギャラリー秋葉原館」</p>
-        <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-009-897</span></a><br>
+        <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-839-861</span></a><br>
         <a href="mailto:ct-kinshikouen@j.sumitomo-rd.co.jp" class="disabled">ct-kinshikouen@j.sumitomo-rd.co.jp</a>
       </div>
       <p class="entry-info">営業時間／平日 午前11時～午後7時／土・日・祝日 午前10時～午後6時<br class="sp">（火曜・水曜定休、年末年始は休業）</p>
@@ -46,15 +46,15 @@
         <li>シティタワー錦糸公園</li>
         <li>東京都墨田区</li>
         <li>東京メトロ半蔵門線</li>
-        <li>錦糸町</li>
+        <li>錦糸町駅</li>
         <li>新築分譲マンション</li>
         <li>住友不動産</li>
-        <li>すみふ 錦糸町</li>
+        <li>すみふ錦糸町</li>
       </ul>
 
       <!-- おススメ物件 -->
-      <!-- <p class="footer-recommend__ttl">おすすめ物件</p>
-      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script> -->
+      <p class="footer-recommend__ttl">おすすめ物件</p>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script>
 			<!-- //おススメ物件 -->
     </div>
   </div>

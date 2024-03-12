@@ -189,7 +189,7 @@
 .location02 .intro .slick-next {
   width: 27px;
   height: 37px;
-  background: url(../images/location02/arrow.png) no-repeat center/contain !important;
+  background: url(../images/location02/arrow.svg) no-repeat center/contain !important;
   top: auto;
   bottom: -60px;
   left: 50%;
@@ -260,7 +260,7 @@
 .location02 .moments .slick-dots,
 .location02 .green .slick-dots,
 .location02 .tokyo .slick-dots {
-  bottom: 38%;
+  bottom: 42%;
 }
 .location02 .moments .slick-dots li,
 .location02 .green .slick-dots li,
@@ -295,6 +295,9 @@
 .location02 .tokyo .slick-dots li button:before {
   display: none;
 }
+.location02 .green .slick-dots {
+  bottom: 40%;
+}
 @media screen and (max-width: 768px) {
   .location02 sp {
     display: block;
@@ -316,8 +319,8 @@
   }
   .location02 .sections .column03 li {
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto 20px;
   }
   .location02 .sections .column03 li:last-child {
     margin-bottom: auto;
@@ -387,7 +390,7 @@
   .location02 .tokyo .list .lead {
     font-size: 16px;
     line-height: 2;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
   .location02 .moments .slick-dots,
   .location02 .green .slick-dots,

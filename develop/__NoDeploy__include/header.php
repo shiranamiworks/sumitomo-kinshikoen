@@ -6,20 +6,20 @@
 $site_setting = array(
   "area" => "shuto",
   "prop" => "kinshikouen",
-  "tel_link" => "tel:0120009897",
+  "tel_link" => "tel:0120839861",
   "meta_link" => "https://www.sumitomo-rd-mansion.jp/gallery/",
   "requested_only" => "#requested_only",
 );
 $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 ?>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティタワー錦糸公園,錦糸町 マンション,錦糸町 新築マンション,錦糸町,錦糸町駅,JR山手線,東京都港区,マンション,新築マンション,分譲マンション,住友不動産">
-<meta name="description" content="<?= $page_settings["description"] ?>東京メトロ半蔵門線「錦糸町駅」から徒歩8分。住友不動産の新築マンションが錦糸町に誕生。【すみふ　錦糸町】東京都港区のマンションなら住友不動産。">
+<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティタワー錦糸公園,錦糸町 マンション,錦糸町 新築マンション,錦糸町,錦糸町駅,東京メトロ半蔵門線,墨田区,マンション,新築マンション,分譲マンション,住友不動産">
+<meta name="description" content="<?= $page_settings["description"] ?>東京メトロ半蔵門線「錦糸町駅」から徒歩8分。住友不動産の新築マンションが錦糸町に誕生。【すみふ錦糸町】東京都港区のマンションなら住友不動産。">
 <title><?= $page_settings["title"] ?>【公式】シティタワー錦糸公園｜錦糸町の新築マンション｜住友不動産</title>
 <meta property="og:url" content="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="<?= $page_settings["title"] ?>【公式】シティタワー錦糸公園｜錦糸町の新築マンション｜住友不動産">
-<meta property="og:description" content="<?= $page_settings["description"] ?>東京メトロ半蔵門線線「錦糸町駅」から徒歩分。住友不動産の新築マンションが錦糸町に誕生。【すみふ　錦糸町】東京都港区のマンションなら住友不動産。">
+<meta property="og:description" content="<?= $page_settings["description"] ?>東京メトロ半蔵門線「錦糸町駅」から徒歩8分。住友不動産の新築マンションが錦糸町に誕生。【すみふ錦糸町】東京都港区のマンションなら住友不動産。">
 <meta property="og:site_name" content="<?= $page_settings["title"] ?>【公式】シティタワー錦糸公園｜錦糸町の新築マンション｜住友不動産">
 <meta property="og:image" content="<?= $page_settings["directory_pos"] ?>images/top/ogp.jpg" />
 
