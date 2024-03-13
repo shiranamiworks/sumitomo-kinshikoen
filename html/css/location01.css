@@ -118,23 +118,24 @@
 .location01 .sections .column02 li {
   vertical-align: top;
   display: inline-block;
-  width: 100%;
+  width: 48%;
+  margin-right: 2%;
 }
 .location01 .sections .column02 li.image, .location01 .sections .column02 li.lead01 {
-  width: 40%;
+  width: 48%;
   margin-right: 2%;
   margin-top: 20px;
 }
-.location01 .sections .column02 li:last-child {
+.location01 .sections .column02 li:nth-child(2n) {
   margin-right: auto;
 }
 .location01 .sections .column03 li {
   vertical-align: top;
   display: inline-block;
-  width: 40%;
-  margin-right: 2%;
+  width: 32%;
+  margin-right: 1%;
 }
-.location01 .sections .column03 li:last-child {
+.location01 .sections .column03 li:nth-child(3n) {
   margin-right: auto;
 }
 .location01 .intro {
@@ -521,6 +522,13 @@
 .location01 .life-info .tab-inner.current {
   display: inherit;
 }
+.location01 .life-info .tab-inner.current .column03 li {
+  width: 32%;
+  margin-right: 1%;
+}
+.location01 .life-info .tab-inner.current .column03 li:last-child {
+  margin-right: auto;
+}
 .location01 .life-info .change-buttons {
   text-align: center;
   margin: 0 auto 40px;
@@ -534,6 +542,7 @@
   width: 19%;
 }
 .location01 .life-info .change-buttons .button {
+  max-width: 190px;
   position: relative;
   display: block;
   font-size: 11px;

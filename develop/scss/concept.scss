@@ -92,9 +92,6 @@
     border: none;
     background: #f5f7f8;
   }
-  .top-mv__slide figure .annotation.white{
-    bottom: 25%;
-  }
   .sections {
     .inner {
       margin: 0 auto;
@@ -178,7 +175,9 @@
     pc {
       display: none;
     }
-
+    .top-mv__slide figure .annotation.white{
+      bottom: 25%;
+    }
     .intro {
       text-align: left;
       .title {
