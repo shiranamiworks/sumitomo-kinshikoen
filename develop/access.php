@@ -33,7 +33,6 @@
    <p class="annotation white">錦糸公園（約210m／徒歩3分）</p>
   </header><!-- main-visual -->
 
-  s
   <section class="intro sections clearfix">
     <div class="inner">
       <p class="tit">東京メトロ半蔵門線</p>
@@ -86,7 +85,7 @@
         <p class="mini">東京メトロ半蔵門線路線概念図</p>
       </div>
   <div class="inner01">
-    <p class="txt">東京メトロ半蔵門線「錦糸町」駅（徒歩11分）より</p>
+    <p class="txt">東京メトロ半蔵門線「錦糸町」駅<br class="sp">（徒歩11分）より</p>
     <ul class="slide-items">
       <li><img src="./images/access/slide01.png" alt=""></li>
       <li><img src="./images/access/slide02.png" alt=""></li>

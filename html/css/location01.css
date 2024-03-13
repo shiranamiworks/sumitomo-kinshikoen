@@ -654,6 +654,7 @@
     width: 99%;
   }
   .location01 .life-info .change-buttons .button {
+    max-width: none;
     font-size: 12px;
     padding: 10px 0;
   }
@@ -954,6 +955,9 @@
     width: 100%;
   }
   .location01 .life-info .change-buttons li:last-child {
+    width: 100%;
+  }
+  .location01 .life-info .tab-inner.current .column03 li {
     width: 100%;
   }
   .location01 .life-info .img-txt {

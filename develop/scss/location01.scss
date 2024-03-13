@@ -666,6 +666,7 @@
         width: 99%;
       }
       .change-buttons .button {
+        max-width: none;
         font-size: 12px;
         padding: 10px 0;
       }
@@ -991,6 +992,9 @@
         &:last-child{
           width: 100%;
         }
+      }
+      .tab-inner.current .column03 li{
+        width: 100%;
       }
       .img-txt {
         margin: 10px auto 20px;
