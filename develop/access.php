@@ -86,7 +86,7 @@
         <p class="mini">東京メトロ半蔵門線路線概念図</p>
       </div>
   <div class="inner01">
-    <p class="txt">東京メトロ半蔵門線「錦糸町」駅より</p>
+    <p class="txt">東京メトロ半蔵門線「錦糸町」駅（徒歩11分）より</p>
     <ul class="slide-items">
       <li><img src="./images/access/slide01.png" alt=""></li>
       <li><img src="./images/access/slide02.png" alt=""></li>
