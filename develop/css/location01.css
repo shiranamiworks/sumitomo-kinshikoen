@@ -523,8 +523,8 @@
   display: inherit;
 }
 .location01 .life-info .tab-inner.current .column03 li {
-  width: 32%;
-  margin-right: 1%;
+  width: 31%;
+  margin-right: 2%;
 }
 .location01 .life-info .tab-inner.current .column03 li:last-child {
   margin-right: auto;
