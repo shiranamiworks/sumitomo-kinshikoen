@@ -29,8 +29,6 @@
         <li class="access"><a href="<?= $page_settings["directory_pos"]  ?>access.html">アクセス</a></li>
         <li class="start map"><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>
         <li class="outline"><a href="javascript:outline()">物件概要</a></li>
-        <!-- <li class="blog"><a href="javascript:blog();">マンション情報ブログ</a></li> -->
-        <li class="blog">BLOG</li>
         <li class="faq"><a href="/shuto/kinshikouen/faq.cgi" target="_blank">FAQ</a></li>
         <li class="sitemap"><a href="<?= $page_settings["directory_pos"]  ?>sitemap.html">サイトマップ</a></li>
         <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=footer"></script>
