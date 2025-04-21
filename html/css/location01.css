@@ -759,6 +759,7 @@
   .location01 .intro .slider01 .name {
     font-size: 14px;
     margin: 10px auto 5px;
+    line-height: 1.6;
   }
   .location01 .intro .slider01 .name span {
     font-size: 11px;

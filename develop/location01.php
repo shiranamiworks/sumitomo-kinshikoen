@@ -36,12 +36,12 @@
   <header class="main-visual clearfix">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
     <div class="top-mv__slide pc">
-    <figure><img src="./images/location01/mv01-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">カスミフードスクエアオリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p><</figure>
+    <figure><img src="./images/location01/mv01-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">オリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p><</figure>
     <figure><img src="./images/location01/mv02-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
     <figure><img src="./images/location01/mv03-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
   </div>
   <div class="top-mv__slide sp tb">
-    <figure><img src="./images/location01/mv01-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">カスミフードスクエアオリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
+    <figure><img src="./images/location01/mv01-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">オリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
     <figure><img src="./images/location01/mv02-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
     <figure><img src="./images/location01/mv03-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
   </div>
@@ -87,7 +87,7 @@
         </div>
         <div>
           <img src="./images/location01/position05.jpg" alt="" class="">
-          <p class="name">墨田区総合体育館 <br class="sp"><span>（約380m／徒歩5分）</span></p>
+          <p class="name">ひがしんアリーナ<br class="sp">（墨田区総合体育館） <br class="sp"><span>（約380m／徒歩5分）</span></p>
           <p class="info">リフレッシュできる<br>スポーツ施設もすぐそばに。</p>
         </div>
       </div>
@@ -183,7 +183,7 @@
         <ul class="column02">
           <li>
             <p class="txt01">暮らしに欠かせない店舗も、<br>住まいのすぐそばに。</p>
-            <p class="txt02">オリナス錦糸町地下１階のカスミフードスクエアをはじめ、近隣には複数のスーパーやドラッグストアが揃っています。</p>
+            <p class="txt02">オリナス錦糸町地下１階のBLΛNDEオリナス錦糸町店をはじめ、近隣には複数のスーパーやドラッグストアが揃っています。</p>
           </li>
           <li>
             <div class="image">
@@ -198,7 +198,7 @@
             <div class="image">
               <img src="./images/location01/shop07.jpg" alt="" class="">
             </div>
-            <p class="name">カスミフードスクエア<br class="sp">オリナス錦糸町店</p>
+            <p class="name">BLΛNDE<br class="sp">オリナス錦糸町店</p>
             <p class="min">（約240m／徒歩3分）</p>
           </li>
           <li>
@@ -420,7 +420,7 @@
           <li>
             <div class="image">
               <img src="./images/location01/life02-02.jpg" alt="" class="">
-              <p class="annotation">墨田区総合体育館</p>
+              <p class="annotation">ひがしんアリーナ（墨田区総合体育館）</p>
             </div>
           </li>
           <li>
@@ -601,7 +601,7 @@ $(document).on("click", ".button05", function(){
 
 
   <div class="annotation-area">
-  <p class="page-annotation js-scroll wrap clearfix">※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の写真は2023年6月・11月撮影。<br>※掲載の航空写真は江東区亀戸付近上空から西方面を撮影（2023年10月）したものに現地部分の光などCG合成・加工をしたものです。また、周辺環境は将来変わる場合があります。<br>※掲載の現地周辺イラストマップ・現地周辺地図は、一部道路・施設等を抜粋して表記しています。<br>※掲載の情報は2023年11月現在のものです。<br>※店舗・施設の内容等は将来変わる場合があります。</p></div>
+  <p class="page-annotation js-scroll wrap clearfix">※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の写真は2023年6月・11月、2025年2月撮影。<br>※掲載の航空写真は江東区亀戸付近上空から西方面を撮影（2023年10月）したものに現地部分の光などCG合成・加工をしたものです。また、周辺環境は将来変わる場合があります。<br>※掲載の現地周辺イラストマップ・現地周辺地図は、一部道路・施設等を抜粋して表記しています。<br>※掲載の情報は2025年3月現在のものです。<br>※店舗・施設の内容等は将来変わる場合があります。</p></div>
 </main>
 
   <div class="location-link location-link--2">
