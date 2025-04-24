@@ -4,7 +4,7 @@
     <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=entry"></script>
     <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script>
       <div class="entry-tel">
-        <p>お問い合わせは住友不動産<br class="sp">「シティタワー錦糸公園販売準備室」</p>
+        <p>お問い合わせは住友不動産<br class="sp">「シティタワー錦糸公園」</p>
         <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><span class="f-en">0120-839-861</span></a><br>
         <a href="mailto:ct-kinshikouen@j.sumitomo-rd.co.jp" class="disabled">ct-kinshikouen@j.sumitomo-rd.co.jp</a>
       </div>

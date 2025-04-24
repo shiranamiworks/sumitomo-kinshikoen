@@ -58,7 +58,7 @@
 }
 
 #access main img {
-  max-width: 100%;
+  width: 100%;
 }
 #access .image {
   position: relative;

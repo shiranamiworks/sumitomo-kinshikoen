@@ -36,12 +36,12 @@
   <header class="main-visual clearfix">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
     <div class="top-mv__slide pc">
-    <figure><img src="./images/location01/mv01-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">オリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p><</figure>
+    <figure><img src="./images/location01/mv01-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">オリナス錦糸町 （約240m／徒歩3分）</p><p class="annotation white">image photo</p><</figure>
     <figure><img src="./images/location01/mv02-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
     <figure><img src="./images/location01/mv03-pc.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
   </div>
   <div class="top-mv__slide sp tb">
-    <figure><img src="./images/location01/mv01-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">オリナス錦糸町店 （約240m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
+    <figure><img src="./images/location01/mv01-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">オリナス錦糸町 （約240m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
     <figure><img src="./images/location01/mv02-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
     <figure><img src="./images/location01/mv03-sp.jpg" alt="" class="w_100 pc"><p class="annotation white left">錦糸公園 （約210m／徒歩3分）</p><p class="annotation white">image photo</p></figure>
   </div>
