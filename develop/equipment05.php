@@ -1,0 +1,281 @@
+<!doctype html><?php
+ $page_settings = array(
+  "directory_pos" => "./",
+  "page_id" => "equipment",
+  "gnav_set" => "equipment",
+  "page_class" => "equipment05",
+  "url" => "equipment05.html",
+  "title" => "快適提案｜",
+  "keywords" => "快適提案,",
+  "description" => "快適提案ページ。",
+  "add_stylesheet" => ["css/equipment.css","css/equipment05.css"],
+  "add_script" =>  [],
+    
+  "logo_text" => "快適提案｜"
+);
+?>
+
+<?php require(INCLUDES."header.php"); ?>
+
+<main>
+	<!-- パンくずリスト -->
+  <div class="breadcrumb sp-hide">
+    <ul>
+      <li><a href="./index.html">シティタワー錦糸公園｜錦糸町 マンション｜トップ</a></li>
+      <li><a href="./equipment05.html">設備・仕様</a></li>
+      <li><p>快適提案</p></li>
+    </ul>
+  </div>
+	<!--// パンくずリスト -->
+
+  <div class="equipment-link equipment-link--5">
+    <a href="equipment01.html"><p>キッチン・サニタリー</p></a>
+    <a href="equipment02.html"><p>健康・エコ・省エネ</p></a>
+    <a href="equipment03.html"><p>収納</p></a>
+    <a href="equipment04.html"><p>マルチメディア</p></a>
+    <a href="equipment05.html" class="current"><p>快適提案</p></a>
+  </div>
+
+
+  <section class="sections sec01 clearfix">
+    <div class="wrap">
+      <h2 class="tit">ユニバーサルデザイン</h2>
+      <ul class="lists list01">
+        <li>
+          <p class="tit-img"><span>室内の段差を極力解消した</span>フラットフロア</p>
+          <p class="lead">つまずいて転倒するなど住戸内での思わぬ事故を防ぐために、住戸内の床段差を極力なくしたフラットフロアを実現しました。<br><span>※玄関、バスルーム、バルコニーの出入口を除く。</p>
+          <div class="image tb">
+            <img src="./images/equipment05/img01.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真1</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>高齢者の安全に配慮した</span>手すり／手すり取付下地補強</p>
+          <p class="lead">バスルームには手すり、玄関や廊下、トイレには手すり取付下地補強を施しています。<span>※手すり取付下地補強は一部分のみ。</span></p>
+          <div class="image tb">
+            <img src="./images/equipment05/img02.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真1</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>玄関ドアの開閉がスムーズな</span>プッシュプルドアハンドル</p>
+          <p class="lead">ドアハンドルを回す必要がなく「押す・引く」だけで開閉できる、プッシュプル式のドアハンドルを採用しています。</p>
+          <div class="image tb">
+            <img src="./images/equipment05/img03.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真2</p>
+          </div>
+        </li>
+        <li>
+          <div class="image pc">
+            <img src="./images/equipment05/img01.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真1</p>
+          </div>
+        </li>
+        <li>
+          <div class="image pc">
+            <img src="./images/equipment05/img02.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真1</p>
+          </div>
+        </li>
+        <li>
+          <div class="image pc">
+            <img src="./images/equipment05/img03.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真2</p>
+          </div>
+        </li>
+      </ul>
+      <ul class="lists list02">
+        <li>
+          <p class="tit-img"><span>またぎが低く入浴しやすい</span>低床型ユニットバス</p>
+          <p class="lead">浴槽へのまたぎ高を約450㎜に抑え、出入口の段差も極力解消した、低床設計のユニットバスを採用しました。さらに、壁には手すりを設置した、人にやさしい仕様です。</p>
+          <div class="image">
+            <img src="./images/equipment05/img04.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真1</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>使い易さに配慮した</span>車椅子利用者対応エレベーター</p>
+          <p class="lead">車椅子などでの利用に配慮して、正面壁面は鏡貼りとし、エレベーター内に手摺を設置。また、カゴ内と乗場の低い位置に車椅子専用ボタンを設けています。</p>
+          <p class="tit-img mt30"><span>毎日の安全な暮らしをサポートする</span>共用部の手すり・<br>フラットフロア・スロープ</p>
+          <p class="lead">共用階段の要所に手すりを設けました。さらに、エントランスや共用廊下などの床段差も極力解消し、車椅子の通行しやすいスロープを多用するなど、安全に配慮しています。</p>
+        </li>
+        <li>
+          <p class="tit-img"><span>鍵を取り出すことなく解錠可能な</span>ハンズフリーキー</p>
+          <p class="lead">主なオートロックドアには、鍵をカバンやポケットに入れたままで解錠可能な、ハンズフリーキーを採用。<span>※周辺通行時の意図しない解錠・誤作動防止のため、設置箇所により認証方法・検知範囲が異なります。また、検知範囲には限度があり、構造上、動線がカバーされていない箇所もあります。</span></p>
+          <div class="image">
+            <img src="./images/equipment05/img05.jpg" alt="" class="">
+            <p class="annotation gothic">参考写真2</p>
+            <p class="annotation left gothic">（概念図）</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section><!-- sec01 -->
+
+
+
+  <section class="sections sec02 clearfix">
+    <div class="wrap">
+      <h2 class="tit">快適提案</h2>
+      <ul class="lists list01">
+        <li>
+          <p class="tit-img"><span>m<sup>2</sup>からm<sup>3</sup>へ</span>最大約2500mmの天井高<br><span class="mini">（リビング・ダイニング、洋室、サービスルーム（納戸））</span></p>
+          <p class="lead">天井高最大約2500mmを確保しました。天井を高くすることにより、同じ面積でも、空間の広がりが感じられるよう配慮した、開放感あふれる設計です。<span>※天井の高さは予定であり、施工上多少の差異があります。詳細は図面集をご確認ください。</span></p>
+          <div class="image tb">
+            <img src="./images/equipment05/img06.jpg" alt="" class=""><p class="annotation gothic">（概念図）</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>広がりのある住空間を創出</span>アウトフレーム設計</p>
+          <p class="lead">躯体柱をリビング・ダイニングの外に出したアウトフレーム設計を採用しました。家具のレイアウトなどスペースが有効活用できます。<span>※室内の壁の形状は概念図上では一部省略しています。詳細は図面集をご確認ください。</span></p>
+          <div class="image tb">
+            <img src="./images/equipment05/img07.jpg" alt="" class=""><p class="annotation gothic">（概念図）</p><p class="annotation left gothic">（概念図）</p>
+          </div>
+        </li>
+        <li>
+          <div class="image pc">
+            <img src="./images/equipment05/img06.jpg" alt="" class=""><p class="annotation gothic">（概念図）</p>
+          </div>
+        </li>
+        <li>
+          <div class="image pc">
+            <img src="./images/equipment05/img07.jpg" alt="" class=""><p class="annotation gothic">（概念図）</p><p class="annotation left gothic">（概念図）</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>床近くから天井近くまで、壁一面に窓を設けた</span>ダイナミックパノラマウインドウ</p>
+          <p class="lead">リビング・ダイニングの開口部に、ダイナミックパノラマウインドウを採用しました。バルコニーの無いあたかもスクリーンのようなサッシュを通して、空との一体感をもたらす圧倒的な開放感と、視界がひときわワイドに広がるダイナミックな眺望（ダイレクトスカイビュー）を座ったままでもお楽しみいただけます。<span>※D（6～15階）タイプのみ。</span></p>
+          <div class="image mb30">
+            <img src="./images/equipment05/img08.jpg" alt="" class="pc"><img src="./images/equipment05/img08-sp.jpg" alt="" class="tb"><p class="annotation gothic">ダイナミックパノラマウインドウの場合<br class="pc">（概念図）</p><p class="annotation left left01 gothic">バルコニーのある開口部の場合 <br class="pc">（概念図）</p>
+          </div>
+          <p class="tit-img mt45"><span>床眺望を妨げることがなく、熱にも強い</span>透明耐熱強化ガラス</p>
+          <p class="lead">一部住戸には、透明耐熱強化ガラスを採用し、眺望を妨げる網をなくすと同時に強化処理を加えた防火ガラスとなっています。また万一割れた際には破片が細かく砕けるので、安全性にも優れています。<span>※詳細は係員にお尋ねください。</span></p>
+        </li>
+        <li>
+          <p class="tit-img"><span>梁の少ない空間に</span>中空スラブ工法</p>
+          <p class="lead">住戸の主な床スラブは中空スラブ工法を採用しました。天井に梁の出張りが少ない住空間となります。<span>※住戸境には梁の出張りがあります。<br>※スラブの厚さは場所により異なります。</span></p>
+          <div class="image">
+            <img src="./images/equipment05/img09-01.jpg" alt="" class=""><p class="annotation gothic">（概念図）</p>
+          </div>
+          <div class="image">
+            <img src="./images/equipment05/img09-02.jpg" alt="" class=""><p class="annotation left left02 gothic">（概念図）</p><p class="annotation gothic">（概念図）</p>
+          </div>
+        </li>
+        <li class="full">
+          <p class="tit-img mt30"><span>ライフスタイルに合わせて間取りを変更できる</span>ダブルオープンフレキシブルプラン</p>
+          <p class="lead">リビング・ダイニングと隣接する洋室を可動式間仕切り扉で開放的な一体空間にもプライバシーの保たれた個室にも変更可能なダブルオープンフレキシブルプランを採用しました。リビング・ダイニングとの一体感を高めるため、主開口側であるサッシュ面に余計な袖壁を作らない従来の設計に加え、主開口とは反対側からも単独で開くことができる扉を採用することで洋室のプライベート性や家具レイアウトの自由度が大きくアップしました。ライフスタイルの変化にリフォームすることなく自在に対応できます。</p>
+          <div class="image">
+            <img src="./images/equipment05/img10.jpg" alt="" class="pc"><img src="./images/equipment05/img10-sp.jpg" alt="" class="tb">
+            <p class="annotation left left03 gothic">※設備・仕様はタイプにより異なります。</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>遠隔操作が便利</span>無線LAN給湯リモコン</p>
+          <p class="lead">専用アプリケーションを使ってお手元のスマートフォンから給湯器・床暖房などの操作や機器の状態をどこからでも確認することができます。 帰宅途中にスマートフォンからお湯はり・追い焚きをしておけば、帰ってすぐお風呂に入れます。また、寒い冬の日は床暖房を運転ONにしておけば、家に帰るころにはお部屋あたたか。</p>
+          <div class="image">
+            <img src="./images/equipment05/img11.jpg" alt="" class=""><p class="annotation left left01 gothic">参考写真2</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>ガーデニングやお掃除などに役立つ</span>スロップシンク</p>
+          <div class="lead-box">
+          <p class="lead">バルコニーにスロップシンクを備えました。ガーデニングやお掃除など、便利に活用できます。</p>
+          <div class="image">
+            <img src="./images/equipment05/img12.jpg" alt="" class=""><p class="annotation gothic">参考写真1</p>
+          </div>
+          </div>
+          <p class="tit-img mt30"><span>散歩帰りに重宝する</span>ペット足洗い場</p>
+          <p class="lead">散歩で汚れたペットの足を清潔に保つペット専用の足洗い場を設けました。</p>
+        </li>
+      </ul>
+      <h2 class="tit">メンテナンス／アフターサービス</h2>
+      <ul class="lists list02">
+        <li>
+          <p class="tit-img"><span>マンションの資産価値を維持するための</span>長期修繕計画</p>
+          <p class="lead">実績などに基づいて部位毎に設定した標準の修繕周期をベースに、経年劣化により将来必要となるであろう、各種の修繕工事を予想した「長期修繕計画表（期間は30年間）」を作成します。「長期修繕計画表」は、一定の期間中に予想される修繕工事の費用総額（概算）と、それに対応した修繕積立金の額がひと目で確認できるため、管理組合での的確な資金計画立案が可能になります。工事実施時期が近づくと、管理受託者から管理組合に事前調査を提案。修繕対象の部位について詳細な調査・診断を行ない、予算面の措置も含めた修繕工事計画を作成し、管理組合に提案します。</p>
+          <p class="tit-img mt30"><span>12年間の長期住宅保証サービス</span>住まいサポート12 PREMIUM（オプション・有料）</p>
+          <p class="lead">お引き渡しより、通常2年のアフターサービス期間終了後、本来ご自身で対応されることとなる住まいのトラブル対応、住宅設備機器等のリペアやメンテナンス等を、お引渡しより12年間サポートします。<span>※詳しくは係員にお尋ねください。</span></p>
+          <div class="image pb10">
+            <img src="./images/equipment05/img13.jpg" alt="" class=""><p class="annotation gothic">※アフターサービス業務規準における補修項目と異なります。詳しいサービス内容は利用規約をご覧ください。</p>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>24時間365日受付</span>住友不動産のアフターサービス</p>
+          <p class="lead">住友不動産では、「お客様センター」・「アフターサービスセンター」を開設し、原則お引渡し後2年間にわたり、お客様センターにて24時間365日体制（水曜・日曜・祝日・年末年始・お盆休暇および17時40分以降は受付のみ）で、アフターサービス業務規準に基づき、お客様へのアフターサービスに対応しています。お部屋のお引渡し後、3ヵ月・1年・2年を目途に定期点検を実施し、ご指摘事項および不具合箇所の補修をします。また、漏水などの緊急事態にも、お客様センターにて受付対応をします。<br>［お客様センター：0120-093-155］</p>
+          <div class="image">
+            <img src="./images/equipment05/img14.jpg" alt="" class=""><p class="annotation bt10 gothic">（概念図）</p>
+          </div>
+        </li>
+      </ul>
+      <h2 class="tit">サービス</h2>
+      <ul class="lists list02">
+        <li>
+          <p class="tit-img"><span>留守中でも荷物を受け取れる</span>宅配ボックス（着荷表示機能付）</p>
+          <div class="lead-box">
+          <p class="lead">留守中に届いた荷物を、24時間いつでも受け取ることができる他、宅配物の発送やクリーニングの依頼が行えます。宅配物発送料金・クリーニング料金はクレジットカードで決済することも可能。また、留守中に届いた荷物は住戸内のインターホン親機で着荷表示により確認できます。</p>
+          <div class="image">
+            <img src="./images/equipment05/img15.jpg" alt="" class=""><p class="annotation bt10 gothic">参考写真2</p>
+          </div>
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>環境負荷の抑制やエネルギー削減に貢献する</span>電気自動車充電設備</p>
+          <p class="lead">駐車場内には、電気自動車・プラグインハイブリッド車の充電に対応した設備を設置し、エコカーをより身近なものとする環境を整えました。<span>※本設備のご利用は有料となります。詳しくは係員にお尋ねください。<br>※電気自動車充電設備はレンタルとなります。</span></p>
+          <div class="image wid75 pb10">
+            <img src="./images/equipment05/img16.jpg" alt="" class=""><p class="annotation gothic">（イメージイラスト）<br> ※本イラストはイメージであり、実際のものとは異なります。）</p>
+          </div>
+        </li>
+        <li class="full">
+          <div class="tit-img mt30"><span>24時間365日受付</span>ライフサポートサービス</div>
+          <p class="lead">ご入居された皆様の「安心」「快適」「便利」をお手伝いさせていただくため、様々なサービスをご用意しました。</p>
+          <div class="image">
+            <img src="./images/equipment05/img17.jpg" alt=""  class="pc"><img src="./images/equipment05/img17-sp.jpg" alt="" class="sp">
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>お引越しをサポートする</span>お引越し無料パック</p>
+          <p class="lead">梱包資材の提供や荷物の搬出・運搬・搬入など、お引越しを無料でサポートします。また、必要に応じて家電の取付けやトランクルームの手配などの各種サービスもオプション（有料）で行います。<span>※サービスのご利用には制限がございます。詳細は係員にお尋ねください。</span></p>
+          <div class="image wid75">
+            <img src="./images/equipment05/img18.jpg" alt="">
+          </div>
+        </li>
+        <li>
+          <p class="tit-img"><span>管理費等のお支払いをおトクに</span>カード決済サービス</p>
+          <p class="lead">マンションの管理費、修繕積立金、駐車場利用料、駐輪場利用料のお支払いに、「住友不動産ショッピングシティイオンカード」によるカード決済がご利用いただけます。管理費等のお支払いでポイントがたまるなど、おトクなサービスです。<span>※カード決済は住友不動産 ショッピングシティイオンカードでのお支払いに限ります。<br>※カード決済可能な費用の詳細は係員にお尋ねください。<br>※カードの発行には所定の審査がございます。<br>※サービス内容は変更となる場合があります。</span></p>
+          <div class="image wid75">
+            <img src="./images/equipment05/img19.jpg" alt="" class="">
+          </div>
+        </li>
+        <li class="full">
+          <p class="tit-img mt30"><span>スマホでカンタン「預け入れ」「取り出し」指示ができる</span>宅配型 外部収納サービス <br class="sp">エアトランク</p>
+          <p class="lead">たまにしか使わないモノや大事にとっておきたいモノを"毎回、梱包不要、集荷・配送無料”で預けて、必要な時に玄関先までお届けします。新築物件契約時（現居）よりご利用が可能なため、新居お引っ越しの荷物量だけでなく、引っ越し作業軽減にも役立ちます。初期費用なく、最低契約期間3ヶ月にてご利用いただけます。<br><span>※本サービスは有料となります。</span>
+          <div class="image">
+            <img src="./images/equipment05/img20.png" alt="" class="pc"><img src="./images/equipment05/img20-sp.png" alt="" class="tb">
+          </div>        
+        </li>
+        <li class="full">
+        <h2 class="tit">住友不動産建物サービス（株）の提携業者によるサービス</h2>
+          <p class="tit-img"><span>ワンストップで解決！サッと対応！パッと交換！</span>プチリフォーム便</p>
+          <p class="lead">住宅設備機器の「古くなった」や「故障した」をパッと交換。また、住宅設備機器の交換だけでなく、床や壁のちょっとしたキズや網戸交換など「お部屋のちょっと困った」にもサッと対応します。住友不動産建物サービス㈱の提携業者によるリーズナブルで安心の対応を致します。<br><span>※本サービスは有料となります。<br>※ご依頼内容によって料金が異なります。<br>※詳細は係員にお尋ねください。</span>     
+        </li>
+      </ul>
+   </div>
+  </section><!-- sec02 -->
+
+
+
+  <div class="annotation-area">
+  <p class="page-annotation js-scroll wrap clearfix">※掲載の参考写真1は本物件と同様仕様のコンセプトルーム（総合マンションギャラリー秋葉原館）を撮影（2022年8月）したもので、本物件のものではありません。家具・調度品等オプション仕様は販売価格に含まれておりません。<br>※掲載の参考写真2はメーカーカタログ等の参考写真であり本物件のものではありません。<br>※設備・仕様はタイプにより異なります。</p></div>
+</main>
+
+  <div class="equipment-link equipment-link--5">
+    <a href="equipment01.html"><p>キッチン・サニタリー</p></a>
+    <a href="equipment02.html"><p>健康・エコ・省エネ</p></a>
+    <a href="equipment03.html"><p>収納</p></a>
+    <a href="equipment04.html"><p>マルチメディア</p></a>
+    <a href="equipment05.html" class="current"><p>快適提案</p></a>
+  </div>
+
+<?php require(INCLUDES."footer.php"); ?>
+</body>
+</html>

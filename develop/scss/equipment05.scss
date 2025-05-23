@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment05 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+    font-size: 70%;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+      text-align: center;
+      margin-bottom: 60px;
+      &.mb30{
+        margin-bottom: 30px;
+      }
+      &.pb10{
+        padding-bottom: 10px;
+      }
+      &.wid75{
+        width: 75%;
+        margin: 0 auto;
+      }
+    }
+    .annotation {
+      &.left{
+        right: auto;
+        left: 30%;
+        &.left01{
+          left:0;
+          text-align: left;
+        }
+        &.left02{
+          left:35%;
+        }
+        &.left03{
+          left:0;
+        }
+      }
+      &.bt10{
+        bottom: 10px;
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 12px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+      }
+      li:nth-child(3n) {
+        margin-right: auto;
+      }
+    }
+    .list02 {
+      margin-bottom: 60px;
+      .mt30{
+        margin-top: 30px;
+      }
+      .mt45{
+        margin-top: 45px;
+      }
+    }
+  } //sec01
+
+  .sec02 {
+    // margin-bottom: 60px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 48%;
+        margin-right: 2%;
+        &:nth-child(2n){
+          margin-right: auto;
+        }
+        &.full {
+          width: 100%;
+        }
+        .mt30 {
+          margin-top: 30px;
+        }
+        .mt45{
+          margin-top: 45px;
+        }
+      }
+    }
+    .list01,.list02{
+      .lead-box {
+        display: flex;
+        .lead {
+          width: 50%;
+          float: left;
+        }
+        .image {
+          width: 50%;
+          margin: auto;
+        }
+      }
+      li:nth-child(8){
+        margin-right: 2%;
+      }
+      li:last-child{
+        margin-right: auto;
+      }
+    }
+    .list02 {
+      li:nth-child(4){
+        margin-right: 2%;
+      }
+      li:nth-child(5){
+        margin-right: auto;
+      }
+    }
+  } //sec02
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1200px) {
+  }
+  @media screen and (max-width: 1024px) {
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .lead {
+        margin-bottom: 20px;
+        span {
+          font-size: 13px;
+        }
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+      .annotation.left.left01{
+        right: 0;
+        text-align: right;
+        bottom: 50%;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+      .list03 {
+        margin-bottom: 40px;
+      }
+    } //sec01
+    .sec02 {
+      //margin-bottom: 20px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px !important;
+          &.double {
+            width: 100%;
+            .image {
+              width: 100%;
+              margin-bottom: 40px;
+            }
+          }
+          &.pc {
+            display: none;
+          }
+        }
+        li:last-child {
+          width: 100%;
+          margin-bottom: 0;
+        }
+      }
+      .list01,.list02 {
+        .lead-box {
+          display: block;
+          .lead {
+            width: 100%;
+            float: none;
+            margin-bottom: 20px;
+          }
+          .image {
+            width: 60%;
+            margin: auto;
+          }
+        }
+      }
+      .list02 {
+        .full .lead,
+        .full .image {
+          width: 100%;
+        }
+        .full .image {
+          margin-bottom: 40px;
+        }
+        .half {
+          width: 100%;
+          .image {
+            margin-bottom: 20px;
+          }
+          &.pc {
+            display: none;
+          }
+        }
+      }
+    } //sec02
+
+    .sec03 {
+      .lists li {
+        width: 100%;
+        .lead {
+          width: 100%;
+        }
+        .image.right {
+          width: 100%;
+          float: none;
+        }
+        .lead.left {
+          width: 100%;
+          float: none;
+          margin-bottom: 10px;
+        }
+        &.double {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+      }
+      .list01 {
+        margin-bottom: 40px;
+      }
+    } //sec03
+
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}

@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.equipment02 main img {
+  max-width: 100%;
+}
+.equipment02 .img {
+  position: relative;
+}
+.equipment02 main {
+  font-family: "RyuminPro", serif;
+}
+.equipment02 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.equipment02 sup {
+  vertical-align: text-top;
+}
+.equipment02 .sections {
+  line-height: 1;
+}
+.equipment02 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.equipment02 .sections .image {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.equipment02 .sections .image.pt50 {
+  padding-top: 50px;
+}
+.equipment02 .sections .caps {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.equipment02 .sec01 {
+  margin-top: 40px;
+}
+.equipment02 .sec01 .lists.list01 {
+  margin-bottom: 60px;
+}
+.equipment02 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+}
+.equipment02 .sec01 .lists li.half {
+  width: 48%;
+}
+.equipment02 .sec01 .lists li.half.mr0 {
+  margin-right: 0;
+}
+.equipment02 .sec01 .lists li.double {
+  width: 66%;
+}
+.equipment02 .sec01 .lists li.full {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.equipment02 .sec01 .lists li:last-child {
+  margin-right: auto;
+}
+.equipment02 .sec01 .lists li:nth-child(3n) {
+  margin-right: auto;
+}
+.equipment02 .sec01 .list00 .text {
+  width: 70%;
+  float: left;
+}
+.equipment02 .sec01 .list00 .image {
+  width: 25%;
+  float: right;
+}
+.equipment02 .sec01 .list00 .image.full {
+  width: 100%;
+}
+.equipment02 .sec01 .list00 .image01 {
+  width: 55%;
+  float: right;
+}
+.equipment02 .sec01 .list00 .image01 .tit-img span {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.equipment02 .sec01 .list00 .image01 .img01 {
+  float: left;
+  width: 51%;
+  margin-right: 2%;
+}
+.equipment02 .sec01 .list00 .image01 .img02 {
+  float: left;
+  width: 45%;
+}
+.equipment02 .sec01 .list00 .text01 {
+  width: 40%;
+  float: left;
+}
+.equipment02 .sec01 .list00 .text01 .text01 {
+  font-size: 14px;
+}
+.equipment02 .sec01 .list02 {
+  margin-bottom: 60px;
+}
+.equipment02 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .equipment02 .sections .inner {
+    width: 84%;
+  }
+  .equipment02 .sections .lead span {
+    font-size: 13px;
+  }
+  .equipment02 .sections .text01 {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+  .equipment02 .sections .text {
+    font-size: 17px;
+  }
+  .equipment02 .sections .caps {
+    font-size: 13px;
+  }
+  .equipment02 .sec01 {
+    margin-top: 40px;
+  }
+  .equipment02 .sec01 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .lists li.half {
+    width: 100%;
+  }
+  .equipment02 .sec01 .lists li.half .lead {
+    margin-bottom: 30px;
+  }
+  .equipment02 .sec01 .lists li.full {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .list00 .text {
+    width: 100%;
+  }
+  .equipment02 .sec01 .list00 .text01 {
+    width: 100%;
+    float: none;
+  }
+  .equipment02 .sec01 .list00 .image {
+    width: 100%;
+  }
+  .equipment02 .sec01 .list00 .image img {
+    width: 40%;
+    margin: auto;
+  }
+  .equipment02 .sec01 .list00 .image.full img {
+    width: 100%;
+  }
+  .equipment02 .sec01 .list00 .image01 {
+    width: 100%;
+    float: none;
+  }
+  .equipment02 .sec01 .list00 .image01 .img01, .equipment02 .sec01 .list00 .image01 .img02 {
+    width: 100%;
+    float: none;
+  }
+  .equipment02 .sec01 .list00 .image01 .img01 {
+    margin-bottom: 30px;
+  }
+  .equipment02 .sec01 .list03 {
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .list03 li.double .image {
+    display: block;
+    width: 60%;
+    margin: 0 auto 30px;
+  }
+  .equipment02 .sec01 .list03 li.double .image.img-sub {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .list03 li.double .image.pc {
+    display: none;
+  }
+  .equipment02 .sec01 .list03 li.double .image.tb {
+    display: block;
+  }
+  .equipment02 .sec01 .list03 li.double {
+    margin-bottom: 80px;
+  }
+  .equipment02 .sec01 .list04 {
+    margin-bottom: 0;
+  }
+  .equipment02 .sec01 .list04 li .image {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .equipment02 .sec01 .list04 li .image.img02 {
+    width: 100%;
+  }
+  .equipment02 main {
+    padding-bottom: 50px;
+  }
+  .equipment02 .sec01 .list08 li:first-child .image {
+    display: block;
+    width: 70%;
+    margin: 0 auto 20px;
+  }
+  .equipment02 .sec01 .list08 li:first-child .image.img-sub {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+  .equipment02 .sec01 .list08 li:first-child .image.pc {
+    display: none;
+  }
+}/*# sourceMappingURL=equipment02.css.map */

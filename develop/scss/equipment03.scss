@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment03 {
+  main img {
+    width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 12px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+      }
+      li:nth-child(3n) {
+        margin-right: auto;
+      }
+      li:last-child{
+        margin-top: 30px;
+      }
+    }
+  } //sec01
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .lead {
+        span {
+          font-size: 13px;
+        }
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+      .list03 {
+        .img-sub {
+          width: 70%;
+          margin: 0;
+        }
+      }
+      .list05 {
+        padding-bottom: 0;
+        li:last-child {
+          margin-top: 40px;
+        }
+      }
+    } //sec01
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}

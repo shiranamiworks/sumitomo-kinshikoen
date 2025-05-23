@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment04 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      width: 40%;
+      float: right;
+    }
+    .annotation {
+      bottom: -20px;
+      font-size: 12px;
+      text-align: right;
+    }
+    .lead {
+      span {
+        display: block;
+        font-size: 12px;
+        line-height: 1.6;
+        margin-top: 10px;
+        &.bg_bl{
+          display: inline-block;
+          background-color: #000;
+          color: #fff;
+          padding: 1px 4px;
+          margin-top: 0;
+        }
+        &.box{
+          display: inline-block;
+          border: 1px solid;
+          border-radius: 5px;
+          padding: 10px;
+        }
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 12px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+        margin-bottom: 60px;
+        &.half{
+          width: 48%;
+        }
+        &.full {
+          width: 100%;
+          .lead{
+            width: 55%;
+            float: left;
+          }
+        }
+      }
+      li:nth-child(2n) {
+        margin-right: auto;
+        .image img {
+          width: 80%;
+          display: block;
+          margin: 30px auto;
+        }
+      }
+    }
+    .list02 {
+      li {
+        width: 48%;
+      }
+    }
+  } //sec01
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          &.half{
+            width: 100%;
+          }
+          &.full .lead,&.full .image{
+            width: 100%;
+            float: none;
+          }
+          &.full .image{
+            max-width: 375px;
+            margin: auto;
+          }
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+    } //sec01
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}

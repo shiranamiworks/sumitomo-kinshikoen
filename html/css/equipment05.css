@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.equipment05 main img {
+  max-width: 100%;
+}
+.equipment05 .img {
+  position: relative;
+}
+.equipment05 main {
+  font-family: "RyuminPro", serif;
+}
+.equipment05 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.equipment05 sup {
+  vertical-align: text-top;
+  font-size: 70%;
+}
+.equipment05 .sections {
+  line-height: 1;
+}
+.equipment05 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.equipment05 .sections .image {
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.equipment05 .sections .image.mb30 {
+  margin-bottom: 30px;
+}
+.equipment05 .sections .image.pb10 {
+  padding-bottom: 10px;
+}
+.equipment05 .sections .image.wid75 {
+  width: 75%;
+  margin: 0 auto;
+}
+.equipment05 .sections .annotation.left {
+  right: auto;
+  left: 30%;
+}
+.equipment05 .sections .annotation.left.left01 {
+  left: 0;
+  text-align: left;
+}
+.equipment05 .sections .annotation.left.left02 {
+  left: 35%;
+}
+.equipment05 .sections .annotation.left.left03 {
+  left: 0;
+}
+.equipment05 .sections .annotation.bt10 {
+  bottom: 10px;
+}
+.equipment05 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.equipment05 .sections .caps {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.equipment05 .sec01 {
+  margin-top: 40px;
+}
+.equipment05 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+}
+.equipment05 .sec01 .lists li:nth-child(3n) {
+  margin-right: auto;
+}
+.equipment05 .sec01 .list02 {
+  margin-bottom: 60px;
+}
+.equipment05 .sec01 .list02 .mt30 {
+  margin-top: 30px;
+}
+.equipment05 .sec01 .list02 .mt45 {
+  margin-top: 45px;
+}
+.equipment05 .sec02 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin-right: 2%;
+}
+.equipment05 .sec02 .lists li:nth-child(2n) {
+  margin-right: auto;
+}
+.equipment05 .sec02 .lists li.full {
+  width: 100%;
+}
+.equipment05 .sec02 .lists li .mt30 {
+  margin-top: 30px;
+}
+.equipment05 .sec02 .lists li .mt45 {
+  margin-top: 45px;
+}
+.equipment05 .sec02 .list01 .lead-box, .equipment05 .sec02 .list02 .lead-box {
+  display: flex;
+}
+.equipment05 .sec02 .list01 .lead-box .lead, .equipment05 .sec02 .list02 .lead-box .lead {
+  width: 50%;
+  float: left;
+}
+.equipment05 .sec02 .list01 .lead-box .image, .equipment05 .sec02 .list02 .lead-box .image {
+  width: 50%;
+  margin: auto;
+}
+.equipment05 .sec02 .list01 li:nth-child(8), .equipment05 .sec02 .list02 li:nth-child(8) {
+  margin-right: 2%;
+}
+.equipment05 .sec02 .list01 li:last-child, .equipment05 .sec02 .list02 li:last-child {
+  margin-right: auto;
+}
+.equipment05 .sec02 .list02 li:nth-child(4) {
+  margin-right: 2%;
+}
+.equipment05 .sec02 .list02 li:nth-child(5) {
+  margin-right: auto;
+}
+.equipment05 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .equipment05 .sections .inner {
+    width: 84%;
+  }
+  .equipment05 .sections .lead {
+    margin-bottom: 20px;
+  }
+  .equipment05 .sections .lead span {
+    font-size: 13px;
+  }
+  .equipment05 .sections .text {
+    font-size: 17px;
+  }
+  .equipment05 .sections .caps {
+    font-size: 13px;
+  }
+  .equipment05 .sections .annotation.left.left01 {
+    right: 0;
+    text-align: right;
+    bottom: 50%;
+  }
+  .equipment05 .sec01 {
+    margin-top: 40px;
+  }
+  .equipment05 .sec01 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment05 .sec01 .lists li:last-child {
+    width: 100%;
+  }
+  .equipment05 .sec01 .list03 {
+    margin-bottom: 40px;
+  }
+  .equipment05 .sec02 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px !important;
+  }
+  .equipment05 .sec02 .lists li.double {
+    width: 100%;
+  }
+  .equipment05 .sec02 .lists li.double .image {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment05 .sec02 .lists li.pc {
+    display: none;
+  }
+  .equipment05 .sec02 .lists li:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .equipment05 .sec02 .list01 .lead-box, .equipment05 .sec02 .list02 .lead-box {
+    display: block;
+  }
+  .equipment05 .sec02 .list01 .lead-box .lead, .equipment05 .sec02 .list02 .lead-box .lead {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .equipment05 .sec02 .list01 .lead-box .image, .equipment05 .sec02 .list02 .lead-box .image {
+    width: 60%;
+    margin: auto;
+  }
+  .equipment05 .sec02 .list02 .full .lead,
+  .equipment05 .sec02 .list02 .full .image {
+    width: 100%;
+  }
+  .equipment05 .sec02 .list02 .full .image {
+    margin-bottom: 40px;
+  }
+  .equipment05 .sec02 .list02 .half {
+    width: 100%;
+  }
+  .equipment05 .sec02 .list02 .half .image {
+    margin-bottom: 20px;
+  }
+  .equipment05 .sec02 .list02 .half.pc {
+    display: none;
+  }
+  .equipment05 .sec03 .lists li {
+    width: 100%;
+  }
+  .equipment05 .sec03 .lists li .lead {
+    width: 100%;
+  }
+  .equipment05 .sec03 .lists li .image.right {
+    width: 100%;
+    float: none;
+  }
+  .equipment05 .sec03 .lists li .lead.left {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .equipment05 .sec03 .lists li.double {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment05 .sec03 .list01 {
+    margin-bottom: 40px;
+  }
+  .equipment05 main {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=equipment05.css.map */

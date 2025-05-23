@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.equipment03 main img {
+  width: 100%;
+}
+.equipment03 .img {
+  position: relative;
+}
+.equipment03 main {
+  font-family: "RyuminPro", serif;
+}
+.equipment03 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.equipment03 sup {
+  vertical-align: text-top;
+}
+.equipment03 .sections {
+  line-height: 1;
+}
+.equipment03 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.equipment03 .sections .image {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.equipment03 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.equipment03 .sections .caps {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.equipment03 .sec01 {
+  margin-top: 40px;
+}
+.equipment03 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+}
+.equipment03 .sec01 .lists li:nth-child(3n) {
+  margin-right: auto;
+}
+.equipment03 .sec01 .lists li:last-child {
+  margin-top: 30px;
+}
+.equipment03 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .equipment03 .sections .inner {
+    width: 84%;
+  }
+  .equipment03 .sections .lead span {
+    font-size: 13px;
+  }
+  .equipment03 .sections .text {
+    font-size: 17px;
+  }
+  .equipment03 .sections .caps {
+    font-size: 13px;
+  }
+  .equipment03 .sec01 {
+    margin-top: 40px;
+  }
+  .equipment03 .sec01 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment03 .sec01 .lists li:last-child {
+    width: 100%;
+  }
+  .equipment03 .sec01 .list03 .img-sub {
+    width: 70%;
+    margin: 0;
+  }
+  .equipment03 .sec01 .list05 {
+    padding-bottom: 0;
+  }
+  .equipment03 .sec01 .list05 li:last-child {
+    margin-top: 40px;
+  }
+  .equipment03 main {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=equipment03.css.map */

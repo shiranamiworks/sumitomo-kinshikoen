@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.structure03 main img {
+  max-width: 100%;
+}
+.structure03 .img {
+  position: relative;
+}
+.structure03 main {
+  font-family: "RyuminPro", serif;
+}
+.structure03 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.structure03 sup {
+  vertical-align: text-top;
+}
+.structure03 .sections {
+  line-height: 1;
+}
+.structure03 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.structure03 .sections .image {
+  position: relative;
+  text-align: center;
+}
+.structure03 .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+.structure03 .sections .annotation.bt {
+  bottom: -20px;
+}
+.structure03 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.structure03 .sections .caps {
+  font-size: 15px;
+  line-height: 1.2;
+}
+.structure03 .sec01 {
+  margin-top: 80px;
+}
+.structure03 .sec01 .image {
+  position: relative;
+}
+.structure03 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+}
+.structure03 .sec01 .lists li.half {
+  width: 48%;
+}
+.structure03 .sec01 .lists li.half.half01 {
+  margin-right: auto;
+}
+.structure03 .sec01 .lists li.double {
+  width: 66%;
+}
+.structure03 .sec01 .lists li:last-child {
+  margin-right: auto;
+}
+.structure03 .sec01 .list01 {
+  margin-bottom: 40px;
+}
+.structure03 .sec01 .list01 .image {
+  margin-bottom: 40px;
+}
+.structure03 .sec01 .list01 .image.wid75 {
+  width: 75%;
+  margin: 0 auto 40px;
+}
+.structure03 .sec01 .list02 {
+  margin-bottom: 40px;
+}
+.structure03 .sec01 .list02 li:nth-child(3n), .structure03 .sec01 .list02 li:last-child {
+  margin-right: auto;
+}
+.structure03 .sec01 .list02 .image {
+  margin-bottom: 40px;
+}
+.structure03 .sec01 .list02 .image.wid75 {
+  width: 75%;
+  margin: 0 auto 40px;
+}
+.structure03 .sec01 .list02 .lead-box {
+  display: flex;
+}
+.structure03 .sec01 .list02 .lead-box .lead {
+  width: 35%;
+}
+.structure03 .sec01 .list02 .lead-box .lead.lead01 {
+  width: 65%;
+}
+.structure03 .sec01 .list02 .lead-box .image {
+  float: right;
+  width: 60%;
+  margin: 0 auto;
+}
+.structure03 .sec01 .list02 .lead-box .image.img01 {
+  width: 30%;
+}
+.structure03 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .structure03 .sections .inner {
+    width: 84%;
+  }
+  .structure03 .sections .text {
+    font-size: 17px;
+  }
+  .structure03 .sections .caps {
+    font-size: 13px;
+  }
+  .structure03 .sections .image img {
+    width: 100%;
+  }
+  .structure03 .sec01 {
+    margin-top: 40px;
+  }
+  .structure03 .sec01 .lists {
+    margin-bottom: 20px;
+  }
+  .structure03 .sec01 .lists li {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .structure03 .sec01 .lists li.half, .structure03 .sec01 .lists li.double {
+    width: 100%;
+  }
+  .structure03 .sec01 .list02 .lead-box {
+    display: block;
+  }
+  .structure03 .sec01 .list02 .lead-box .image {
+    width: 100%;
+    float: none;
+  }
+  .structure03 .sec01 .list02 .lead-box .image.img01 {
+    width: 100%;
+  }
+  .structure03 .sec01 .list02 .lead-box .lead {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .structure03 .sec01 .list02 .lead-box .lead.lead01 {
+    width: 100%;
+  }
+  .structure03 main {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=structure03.css.map */

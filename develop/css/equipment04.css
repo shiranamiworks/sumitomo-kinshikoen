@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.equipment04 main img {
+  max-width: 100%;
+}
+.equipment04 .img {
+  position: relative;
+}
+.equipment04 main {
+  font-family: "RyuminPro", serif;
+}
+.equipment04 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.equipment04 sup {
+  vertical-align: text-top;
+}
+.equipment04 .sections {
+  line-height: 1;
+}
+.equipment04 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.equipment04 .sections .image {
+  width: 40%;
+  float: right;
+}
+.equipment04 .sections .annotation {
+  bottom: -20px;
+  font-size: 12px;
+  text-align: right;
+}
+.equipment04 .sections .lead span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.equipment04 .sections .lead span.bg_bl {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 1px 4px;
+  margin-top: 0;
+}
+.equipment04 .sections .lead span.box {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.equipment04 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.equipment04 .sections .caps {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.equipment04 .sec01 {
+  margin-top: 40px;
+}
+.equipment04 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+  margin-bottom: 60px;
+}
+.equipment04 .sec01 .lists li.half {
+  width: 48%;
+}
+.equipment04 .sec01 .lists li.full {
+  width: 100%;
+}
+.equipment04 .sec01 .lists li.full .lead {
+  width: 55%;
+  float: left;
+}
+.equipment04 .sec01 .lists li:nth-child(2n) {
+  margin-right: auto;
+}
+.equipment04 .sec01 .lists li:nth-child(2n) .image img {
+  width: 80%;
+  display: block;
+  margin: 30px auto;
+}
+.equipment04 .sec01 .list02 li {
+  width: 48%;
+}
+.equipment04 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .equipment04 .sections .inner {
+    width: 84%;
+  }
+  .equipment04 .sections .text {
+    font-size: 17px;
+  }
+  .equipment04 .sections .caps {
+    font-size: 13px;
+  }
+  .equipment04 .sec01 {
+    margin-top: 40px;
+  }
+  .equipment04 .sec01 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment04 .sec01 .lists li.half {
+    width: 100%;
+  }
+  .equipment04 .sec01 .lists li.full .lead, .equipment04 .sec01 .lists li.full .image {
+    width: 100%;
+    float: none;
+  }
+  .equipment04 .sec01 .lists li.full .image {
+    max-width: 375px;
+    margin: auto;
+  }
+  .equipment04 .sec01 .lists li:last-child {
+    width: 100%;
+  }
+  .equipment04 main {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=equipment04.css.map */
