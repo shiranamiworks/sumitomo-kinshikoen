@@ -99,7 +99,7 @@
 .structure01 .sec01 .list03 {
   margin-bottom: 60px;
 }
-.structure01 .sec01 .list03 li:nth-child(2) {
+.structure01 .sec01 .list03 li:nth-child(2n) {
   margin-right: auto;
 }
 .structure01 .sec02 .lists {
