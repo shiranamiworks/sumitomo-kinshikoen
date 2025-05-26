@@ -57,24 +57,24 @@
   font-style: normal;
 }
 
-#design main img {
+#private main img {
   width: 100%;
 }
-#design .image {
+#private .image {
   position: relative;
 }
-#design .image .annotation {
+#private .image .annotation {
   position: absolute;
   bottom: 10px;
   right: 10px;
   text-align: right;
   font-size: 10px;
 }
-#design .image .annotation.white {
+#private .image .annotation.white {
   color: #fff;
   text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
 }
-#design main {
+#private main {
   color: #000;
   font-family: "RyuminPro", serif;
   line-height: 1;
@@ -84,98 +84,152 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-#design sup {
+#private sup {
   font-size: 10px;
   vertical-align: super;
 }
-#design sp {
+#private sp {
   display: none;
 }
-#design pc {
+#private pc {
   display: block;
 }
-#design .page-annotation {
+#private .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 0;
 }
-#design .main-visual {
+#private .main-visual {
   position: relative;
   border: none;
   margin-bottom: 100px;
 }
-#design .sections .inner {
+#private .main-visual .mini {
+  text-align: right;
+  font-size: 11px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+#private .sections .inner {
   margin: 0 auto;
   width: 84%;
   max-width: 1200px;
 }
-#design .sections .image {
+#private .sections .image {
   position: relative;
 }
-#design .sections .annotation {
+#private .sections .annotation {
   font-size: 10px;
   text-align: right;
 }
-#design .sec01 {
+#private .sec01 {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
-#design .sec01 .tit {
+#private .sec01 .tit {
   font-size: 44px;
   color: #697b85;
   letter-spacing: 0.15em;
   margin-bottom: 60px;
 }
-#design .sec01 .text {
+#private .sec01 .text {
   font-size: 30px;
   line-height: 2;
   letter-spacing: 0.12em;
-  margin-bottom: 40px;
 }
-#design .sec01 .lead {
-  font-size: 18px;
-  line-height: 1.8;
-  margin-bottom: 100px;
+#private .sec02 {
+  margin-bottom: 80px;
 }
-#design .sec02 {
+#private .sec02 .inner {
   text-align: center;
-  position: relative;
+  background: #fff;
+  border: 1px solid;
+  padding: 60px 0 0;
 }
-#design .sec02 .txt {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  text-align: left;
-  color: #fff;
+#private .sec02 .tit {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#private .sec02 .txt {
   font-size: 30px;
-  line-height: 2;
+  margin-bottom: 20px;
+}
+#private .sec02 .lead {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#private .sec02 .mini {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+#private .sec02 .image {
+  width: 40%;
+  margin: auto;
+}
+#private .sec03 {
+  margin-bottom: 80px;
+}
+#private .sec03 .inner {
+  text-align: center;
+  background: #fff;
+  border: 1px solid;
+  padding: 60px 0;
+}
+#private .sec03 .tit {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+#private .sec03 .txt {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#private .sec03 .lead {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+#private .sec03 .images .image {
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+}
+#private .sec03 .images .image.last {
+  margin: auto;
 }
 @media screen and (max-width: 768px) {
-  #design sp {
+  #private sp {
     display: block;
   }
-  #design pc {
+  #private pc {
     display: none;
   }
 }
 @media screen and (max-width: 768px) and (max-width: 768px) {
-  #design .main-visual .annotation {
+  #private .main-visual .annotation {
     bottom: -20px;
   }
-  #design .swipe-img {
+  #private .swipe-img {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
-  #design .swipe-img img {
+  #private .swipe-img img {
     max-width: auto !important;
     max-width: inherit !important;
     width: auto !important;
   }
-  #design .swipe {
+  #private .swipe {
     display: block;
     text-align: center;
     margin: 20px auto 0;
   }
-  #design .swipe img {
+  #private .swipe img {
     max-width: 75px;
     width: 15%;
     height: auto;
@@ -184,39 +238,91 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #design .main-visual {
+  #private .main-visual {
     padding-bottom: 40px;
     margin-bottom: 40px;
   }
-  #design .sec01 {
+  #private .main-visual .mini {
+    text-align: left;
+    width: 94%;
+    margin: auto;
+  }
+  #private .sec01 {
     text-align: center;
     margin-bottom: 40px;
   }
-  #design .sec01 .tit {
+  #private .sec01 .tit {
     font-size: 36px;
     line-height: 1.4;
     margin-bottom: 40px;
   }
-  #design .sec01 .text {
+  #private .sec01 .text {
     text-align: left;
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.12em;
-    margin-bottom: 20px;
   }
-  #design .sec01 .lead {
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.8;
+  #private .sec02 {
     margin-bottom: 40px;
   }
-  #design .sec02 .txt {
-    position: absolute;
-    top: 6%;
-    left: 6%;
+  #private .sec02 .inner {
+    padding: 40px 0 20px;
+  }
+  #private .sec02 .tit {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  #private .sec02 .txt {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #private .sec02 .lead {
     text-align: left;
-    color: #fff;
-    font-size: 20px;
-    line-height: 2;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  #private .sec02 .mini {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  #private .sec02 .image {
+    width: 90%;
+    margin: auto;
+  }
+  #private .sec03 {
+    margin-bottom: 40px;
+  }
+  #private .sec03 .inner {
+    text-align: center;
+    background: #fff;
+    border: 1px solid;
+    padding: 40px 0;
+  }
+  #private .sec03 .tit {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  #private .sec03 .txt {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  #private .sec03 .lead {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  #private .sec03 .images .image {
+    display: block;
+    width: 100%;
+  }
+  #private .sec03 .images .image.last {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=private.css.map */

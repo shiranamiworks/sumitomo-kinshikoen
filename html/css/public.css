@@ -119,31 +119,19 @@
   text-align: center;
   margin-bottom: 100px;
 }
-<<<<<<< HEAD
-#public .sec01 .tit {
-=======
 #public .sections .tit {
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   font-size: 44px;
   color: #697b85;
   letter-spacing: 0.15em;
   margin-bottom: 60px;
 }
-<<<<<<< HEAD
-#public .sec01 .text {
-=======
 #public .sections .text {
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   font-size: 30px;
   line-height: 2;
   letter-spacing: 0.12em;
   margin-bottom: 40px;
 }
-<<<<<<< HEAD
-#public .sec01 .lead {
-=======
 #public .sections .lead {
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 100px;
@@ -157,12 +145,6 @@
   margin-bottom: 80px;
 }
 #public .sec02 .txt {
-<<<<<<< HEAD
-  position: absolute;
-  top: 10%;
-  left: 10%;
-=======
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   text-align: left;
   font-size: 28px;
   margin-bottom: 20px;
@@ -248,42 +230,24 @@
     text-align: center;
     margin-bottom: 40px;
   }
-<<<<<<< HEAD
-  #public .sec01 .tit {
-=======
   #public .sections .tit {
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     font-size: 36px;
     line-height: 1.4;
     margin-bottom: 40px;
   }
-<<<<<<< HEAD
-  #public .sec01 .text {
-=======
   #public .sections .text {
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     text-align: left;
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.12em;
     margin-bottom: 20px;
   }
-<<<<<<< HEAD
-  #public .sec01 .lead {
-=======
   #public .sections .lead {
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     text-align: left;
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 40px;
   }
-<<<<<<< HEAD
-  #public .sec02 .txt {
-    position: absolute;
-    top: 6%;
-    left: 6%;
-=======
   #public .sec02 {
     text-align: center;
     position: relative;
@@ -296,7 +260,6 @@
     bottom: -20px;
   }
   #public .sec02 .txt {
->>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     text-align: left;
     font-size: 22px;
     margin-bottom: 20px;
