@@ -126,15 +126,24 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
           <li>
             <p><span class="f-en">PLAN</span><br>間取り</p>
           </li>
-          <li>
-            <p><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</p>
+          <li class="has-child">
+            <p class="active"><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</p>
+            <div class="sub-menu">
+              <a href="<?= $page_settings["directory_pos"]  ?>equipment01.html">キッチン・サニタリー</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>equipment02.html">健康・エコ・省エネ</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>equipment03.html">収納</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>equipment04.html">マルチメディア</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>equipment05.html">快適提案</a>
+            </div>
           </li>
-          <li>
-            <p><span class="f-en">STRUCTURE・SAFETY</span><br>構造・防災</p>
+          <li class="has-child">
+            <p class="active"><span class="f-en">STRUCTURE・SAFETY</span><br>構造・防災</p>
+            <div class="sub-menu">
+              <a href="<?= $page_settings["directory_pos"]  ?>structure01.html">基本構造</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>structure02.html">セキュリティ</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>structure03.html">防災対策</a>
+            </div>
           </li>
-          <!-- <li>
-            <p><span class="f-en">LOCATION</span><br>ロケーション</p>
-          </li> -->
           <li class="has-child">
             <p class="active"><span class="f-en">LOCATION</span><br>ロケーション</p>
             <div class="sub-menu">
@@ -174,10 +183,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         <li><a href="<?= $page_settings["directory_pos"]  ?>public.html">共用空間</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>private.html">室内空間</a></li>
         <li>間取り</li>
-        <li>設備・仕様</li>
-        <li>構造・防災</li>
-        <!-- <li>ロケーション</li>
-        <li>アクセス</li>-->
+        <li> <a href="<?= $page_settings["directory_pos"]  ?>equipment01.html">設備・仕様</a></li>
+        <li><a href="<?= $page_settings["directory_pos"]  ?>structure01.html">構造・防災</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>location01.html">ロケーション</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>access.html">アクセス</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>

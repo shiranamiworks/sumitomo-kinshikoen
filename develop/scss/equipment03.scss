@@ -46,17 +46,30 @@
   .sec01 {
     margin-top: 40px;
     .lists {
+      margin-bottom: 30px;
       li {
         display: inline-block;
         vertical-align: top;
-        width: 31%;
+        width: 48%;
         margin-right: 2%;
       }
-      li:nth-child(3n) {
-        margin-right: auto;
+      &.list01{
+        .lead{
+          width: 50%;
+          float: left;
+        }
+        .image{
+          width: 45%;
+          float: right;
+        }
+      }
+      &.list02{
+        li{
+          width: 31%;
+        }
       }
       li:last-child{
-        margin-top: 30px;
+        margin-right: auto;
       }
     }
   } //sec01
@@ -93,21 +106,18 @@
           display: block;
           width: 100%;
           margin-bottom: 40px;
+          clear: both;
+        }
+        &.list01 .lead{
+          margin-bottom: 30px;
+        }
+        &.list02 li{
+          width: 100%;
+          display: block;
+          clear: both;
         }
         li:last-child {
           width: 100%;
-        }
-      }
-      .list03 {
-        .img-sub {
-          width: 70%;
-          margin: 0;
-        }
-      }
-      .list05 {
-        padding-bottom: 0;
-        li:last-child {
-          margin-top: 40px;
         }
       }
     } //sec01
