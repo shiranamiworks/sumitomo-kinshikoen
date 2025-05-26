@@ -30,9 +30,8 @@
       max-width: 1030px;
     }
     .image {
-      width: 60%;
-      max-width: 448px;
-      margin: auto;
+      width: 40%;
+      float: right;
     }
     .annotation {
       bottom: -20px;
@@ -75,11 +74,18 @@
       li {
         display: inline-block;
         vertical-align: top;
-        width: 48%;
+        width: 31%;
         margin-right: 2%;
-        margin-bottom: 30px;
-        .mt30{
-          margin-top: 30px;
+        margin-bottom: 60px;
+        &.half{
+          width: 48%;
+        }
+        &.full {
+          width: 100%;
+          .lead{
+            width: 55%;
+            float: left;
+          }
         }
       }
       li:nth-child(2n) {
@@ -89,6 +95,11 @@
           display: block;
           margin: 30px auto;
         }
+      }
+    }
+    .list02 {
+      li {
+        width: 48%;
       }
     }
   } //sec01
@@ -120,6 +131,17 @@
           display: block;
           width: 100%;
           margin-bottom: 40px;
+          &.half{
+            width: 100%;
+          }
+          &.full .lead,&.full .image{
+            width: 100%;
+            float: none;
+          }
+          &.full .image{
+            max-width: 375px;
+            margin: auto;
+          }
         }
         li:last-child {
           width: 100%;
