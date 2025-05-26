@@ -57,24 +57,24 @@
   font-style: normal;
 }
 
-#design main img {
+#public main img {
   width: 100%;
 }
-#design .image {
+#public .image {
   position: relative;
 }
-#design .image .annotation {
+#public .image .annotation {
   position: absolute;
   bottom: 10px;
   right: 10px;
   text-align: right;
   font-size: 10px;
 }
-#design .image .annotation.white {
+#public .image .annotation.white {
   color: #fff;
   text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
 }
-#design main {
+#public main {
   color: #000;
   font-family: "RyuminPro", serif;
   line-height: 1;
@@ -84,63 +84,63 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-#design sup {
+#public sup {
   font-size: 10px;
   vertical-align: super;
 }
-#design sp {
+#public sp {
   display: none;
 }
-#design pc {
+#public pc {
   display: block;
 }
-#design .page-annotation {
+#public .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 0;
 }
-#design .main-visual {
+#public .main-visual {
   position: relative;
   border: none;
   margin-bottom: 100px;
 }
-#design .sections .inner {
+#public .sections .inner {
   margin: 0 auto;
   width: 84%;
   max-width: 1200px;
 }
-#design .sections .image {
+#public .sections .image {
   position: relative;
 }
-#design .sections .annotation {
+#public .sections .annotation {
   font-size: 10px;
   text-align: right;
 }
-#design .sec01 {
+#public .sec01 {
   text-align: center;
   margin-bottom: 40px;
 }
-#design .sec01 .tit {
+#public .sec01 .tit {
   font-size: 44px;
   color: #697b85;
   letter-spacing: 0.15em;
   margin-bottom: 60px;
 }
-#design .sec01 .text {
+#public .sec01 .text {
   font-size: 30px;
   line-height: 2;
   letter-spacing: 0.12em;
   margin-bottom: 40px;
 }
-#design .sec01 .lead {
+#public .sec01 .lead {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 100px;
 }
-#design .sec02 {
+#public .sec02 {
   text-align: center;
   position: relative;
 }
-#design .sec02 .txt {
+#public .sec02 .txt {
   position: absolute;
   top: 10%;
   left: 10%;
@@ -150,32 +150,32 @@
   line-height: 2;
 }
 @media screen and (max-width: 768px) {
-  #design sp {
+  #public sp {
     display: block;
   }
-  #design pc {
+  #public pc {
     display: none;
   }
 }
 @media screen and (max-width: 768px) and (max-width: 768px) {
-  #design .main-visual .annotation {
+  #public .main-visual .annotation {
     bottom: -20px;
   }
-  #design .swipe-img {
+  #public .swipe-img {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
-  #design .swipe-img img {
+  #public .swipe-img img {
     max-width: auto !important;
     max-width: inherit !important;
     width: auto !important;
   }
-  #design .swipe {
+  #public .swipe {
     display: block;
     text-align: center;
     margin: 20px auto 0;
   }
-  #design .swipe img {
+  #public .swipe img {
     max-width: 75px;
     width: 15%;
     height: auto;
@@ -184,33 +184,33 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #design .main-visual {
+  #public .main-visual {
     padding-bottom: 40px;
     margin-bottom: 40px;
   }
-  #design .sec01 {
+  #public .sec01 {
     text-align: center;
     margin-bottom: 40px;
   }
-  #design .sec01 .tit {
+  #public .sec01 .tit {
     font-size: 36px;
     line-height: 1.4;
     margin-bottom: 40px;
   }
-  #design .sec01 .text {
+  #public .sec01 .text {
     text-align: left;
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.12em;
     margin-bottom: 20px;
   }
-  #design .sec01 .lead {
+  #public .sec01 .lead {
     text-align: left;
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 40px;
   }
-  #design .sec02 .txt {
+  #public .sec02 .txt {
     position: absolute;
     top: 6%;
     left: 6%;
