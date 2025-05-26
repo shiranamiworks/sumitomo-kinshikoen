@@ -53,6 +53,7 @@
         vertical-align: top;
         width: 31%;
         margin-right: 2%;
+        margin-bottom: 30px;
         &.half{
           width: 48%;
           &.mr0{
@@ -66,22 +67,38 @@
           width: 100%;
           margin-bottom: 60px;
         }
+        .mt30{
+          margin-top: 30px;
+        }
       }
       li:last-child {
         margin-right: auto;
       }
-      li:nth-child(3n){
-        margin-right: auto;
+      .image{
+        .annotation.left{
+          left: 45%;
+          right: auto;
+        }
+        .annotation.left02{
+          left: 25%;
+          right: auto;
+        }
       }
     }
     .list00 {
+      li{
+        width: 48%;
+        &:nth-child(2n){
+          margin-right: auto;
+        }
+      }
       .text {
         width: 70%;
         float: left;
       }
       .image {
-        width: 25%;
-        float: right;
+        width: 80%;
+        margin: 0 auto;
         &.full{
           width: 100%;
         }
@@ -101,6 +118,10 @@
         .img02{
           float: left;
           width: 45%;
+        }
+        .img03{
+          width: 80%;
+          margin: 20px auto;
         }
       }
       .text01 {
@@ -152,7 +173,7 @@
           display: block;
           width: 100%;
           margin-bottom: 40px;
-          &.half{
+          &.double{
             width: 100%;
             .lead {
               margin-bottom: 30px;
@@ -162,6 +183,13 @@
             width: 100%;
             margin-bottom: 40px;
           }
+        }
+        .image{
+         .annotation.left02{
+          left: auto;
+          right: 0;
+          bottom: 50%;
+         }
         }
       }
       .list00 {
@@ -174,23 +202,24 @@
         }
         .image{
           width: 100%;
-          img{
-            width: 40%;
-            margin: auto;
-          }
           &.full img{
             width: 100%;
           }
         }
         .image01 {
-          width: 100%;
+          width: 80%;
           float: none;
+          margin: auto;
           .img01,.img02{
-          width: 100%;
+          width: 80%;
           float: none;
+          margin: auto;
           }
           .img01{
            margin-bottom: 30px;
+           .tit-img{
+            font-size: 1.6rem;
+           }
           }
         }
       }

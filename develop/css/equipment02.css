@@ -48,6 +48,7 @@
   vertical-align: top;
   width: 31%;
   margin-right: 2%;
+  margin-bottom: 30px;
 }
 .equipment02 .sec01 .lists li.half {
   width: 48%;
@@ -62,10 +63,24 @@
   width: 100%;
   margin-bottom: 60px;
 }
+.equipment02 .sec01 .lists li .mt30 {
+  margin-top: 30px;
+}
 .equipment02 .sec01 .lists li:last-child {
   margin-right: auto;
 }
-.equipment02 .sec01 .lists li:nth-child(3n) {
+.equipment02 .sec01 .lists .image .annotation.left {
+  left: 45%;
+  right: auto;
+}
+.equipment02 .sec01 .lists .image .annotation.left02 {
+  left: 25%;
+  right: auto;
+}
+.equipment02 .sec01 .list00 li {
+  width: 48%;
+}
+.equipment02 .sec01 .list00 li:nth-child(2n) {
   margin-right: auto;
 }
 .equipment02 .sec01 .list00 .text {
@@ -73,8 +88,8 @@
   float: left;
 }
 .equipment02 .sec01 .list00 .image {
-  width: 25%;
-  float: right;
+  width: 80%;
+  margin: 0 auto;
 }
 .equipment02 .sec01 .list00 .image.full {
   width: 100%;
@@ -95,6 +110,10 @@
 .equipment02 .sec01 .list00 .image01 .img02 {
   float: left;
   width: 45%;
+}
+.equipment02 .sec01 .list00 .image01 .img03 {
+  width: 80%;
+  margin: 20px auto;
 }
 .equipment02 .sec01 .list00 .text01 {
   width: 40%;
@@ -134,15 +153,20 @@
     width: 100%;
     margin-bottom: 40px;
   }
-  .equipment02 .sec01 .lists li.half {
+  .equipment02 .sec01 .lists li.double {
     width: 100%;
   }
-  .equipment02 .sec01 .lists li.half .lead {
+  .equipment02 .sec01 .lists li.double .lead {
     margin-bottom: 30px;
   }
   .equipment02 .sec01 .lists li.full {
     width: 100%;
     margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .lists .image .annotation.left02 {
+    left: auto;
+    right: 0;
+    bottom: 50%;
   }
   .equipment02 .sec01 .list00 .text {
     width: 100%;
@@ -154,23 +178,24 @@
   .equipment02 .sec01 .list00 .image {
     width: 100%;
   }
-  .equipment02 .sec01 .list00 .image img {
-    width: 40%;
-    margin: auto;
-  }
   .equipment02 .sec01 .list00 .image.full img {
     width: 100%;
   }
   .equipment02 .sec01 .list00 .image01 {
-    width: 100%;
+    width: 80%;
     float: none;
+    margin: auto;
   }
   .equipment02 .sec01 .list00 .image01 .img01, .equipment02 .sec01 .list00 .image01 .img02 {
-    width: 100%;
+    width: 80%;
     float: none;
+    margin: auto;
   }
   .equipment02 .sec01 .list00 .image01 .img01 {
     margin-bottom: 30px;
+  }
+  .equipment02 .sec01 .list00 .image01 .img01 .tit-img {
+    font-size: 1.6rem;
   }
   .equipment02 .sec01 .list03 {
     margin-bottom: 40px;

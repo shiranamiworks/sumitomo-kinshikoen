@@ -162,20 +162,14 @@
   font-size: 2rem;
   line-height: 1;
   margin-bottom: 15px;
-  span {
-    display: block;
-    font-size: 1.4rem;
-    border-bottom: 1px solid;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-    line-height: 1.4;
-  }
-  .mini{
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+ &.mini{
     font-size: 1.6rem;
-    border-bottom: none;
   }
-  &.mini {
-    font-size: 1.6rem;
+  &.mt30{
+    margin-top: 30px;
   }
 }
 .lead {

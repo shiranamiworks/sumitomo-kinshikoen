@@ -32,11 +32,8 @@
     .image {
       position: relative;
       text-align: center;
-      margin-bottom: 20px;
-      &.img-sub {
-        width: 60%;
-        margin-bottom: 0;
-      }
+      width: 80%;
+      margin: 0 auto;
     }
     .tit {
       font-size: 1.8rem;
@@ -45,17 +42,6 @@
       background: #1D2A56;
       margin-bottom: 30px;
       padding: 10px;
-    }
-    .lead {
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 10px;
-      span {
-        display: block;
-        font-size: 11px;
-        line-height: 1.6;
-        margin-top: 5px;
-      }
     }
     .text {
       font-size: 19px;
@@ -75,7 +61,18 @@
         vertical-align: top;
         width: 31%;
         margin-right: 2%;
-
+        margin-bottom: 30px;
+        &.full{
+          width: 100%;
+          .lead{
+            width: 70%;
+            float: left;
+          }
+          .image{
+            width: 27%;
+            float: right;
+          }
+        }
       }
       li:nth-child(3n),li:last-child {
         margin-right: auto;
@@ -97,27 +94,33 @@
       li {
         display: inline-block;
         vertical-align: top;
-        width: 31%;
+        width: 48%;
         margin-right: 2%;
+        margin-bottom: 30px;
+        .lead{
+          width: 50%;
+          float: left;
+        }
+        .image{
+          width: 45%;
+          float: right;
+        }
         &.full {
           width: 100%;
           margin-bottom: 0;
-        }
-        &.double{
-          width: 64%;
+          .lead{
+           width: 36%;
+          }
+          .image{
+            width: 60%;
+          }
         }
       }
-      li:nth-child(3n) {
+      li:nth-child(2n) {
         margin-right: auto;
       }
       li:last-child {
         margin-right: auto;
-      }
-    }
-    .list03-01{
-      li{
-        width: 100%;
-        margin-bottom: 60px;
       }
     }
   } //sec02
@@ -162,16 +165,16 @@
           display: block;
           width: 100%;
           margin-bottom: 40px;
-        }
-      }
-      .list01 {
-        margin-bottom: 0;
-      }
-      .list03 {
-        margin: auto;
-        .img-sub {
-          width: 70%;
-          margin: 0;
+          &.full{
+            .lead,.image{
+              float: none;
+              width: 100%;
+            }
+            .image{
+              width: 80%;
+              margin: 0 auto;
+            }
+          }
         }
       }
     } //sec01
@@ -183,9 +186,25 @@
           display: block;
           width: 100%;
           margin-bottom: 40px;
-        }
-        li.double{
-          width: 100%;
+          &.full{
+            margin-bottom: 30px;
+            .lead,.image{
+              float: none;
+              width: 100%;
+            }
+            .image{
+              width: 80%;
+              margin: 0 auto;
+            }
+          }
+          .lead,.image{
+            float: none;
+            width: 100%;
+          }
+          .image{
+            width: 80%;
+             margin: 0 auto;
+          }
         }
       }
     } //sec02
