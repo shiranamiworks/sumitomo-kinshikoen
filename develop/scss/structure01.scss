@@ -55,6 +55,7 @@
     .caps {
       font-size: 1.1rem;
       line-height: 1.6;
+      margin-bottom: 10px;
     }
   } //sections
   .sec01 {
@@ -144,6 +145,15 @@
       border: 1px solid;
       padding: 10px;
       box-sizing: border-box;
+    }
+    .annotation {
+      bottom: -4%;
+      &.left{
+        right: 43%
+      }
+      &.left02{
+        right: 76%
+      }
     }
   } //sec02
   main {
