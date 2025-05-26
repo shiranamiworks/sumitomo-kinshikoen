@@ -115,23 +115,35 @@
   font-size: 10px;
   text-align: right;
 }
-#public .sec01 {
+#public .sections {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
+<<<<<<< HEAD
 #public .sec01 .tit {
+=======
+#public .sections .tit {
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   font-size: 44px;
   color: #697b85;
   letter-spacing: 0.15em;
   margin-bottom: 60px;
 }
+<<<<<<< HEAD
 #public .sec01 .text {
+=======
+#public .sections .text {
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   font-size: 30px;
   line-height: 2;
   letter-spacing: 0.12em;
   margin-bottom: 40px;
 }
+<<<<<<< HEAD
 #public .sec01 .lead {
+=======
+#public .sections .lead {
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 100px;
@@ -139,15 +151,59 @@
 #public .sec02 {
   text-align: center;
   position: relative;
+  margin-bottom: 160px;
+}
+#public .sec02 .img02 {
+  margin-bottom: 80px;
 }
 #public .sec02 .txt {
+<<<<<<< HEAD
   position: absolute;
   top: 10%;
   left: 10%;
+=======
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
   text-align: left;
-  color: #fff;
-  font-size: 30px;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+#public .sec02 .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#public .sec02 .list li {
+  width: 24%;
+}
+#public .sec02 .list .name {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 10px;
+}
+#public .sec02 .mini {
+  text-align: right;
+  font-size: 11px;
+  margin-top: 10px;
+}
+#public .sec04 .list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin-right: 2%;
+}
+#public .sec04 .list li:last-child {
+  margin: auto;
+}
+#public .sec04 .list .lead {
+  text-align: left;
   line-height: 2;
+}
+#public .sec04 .list .lead span {
+  font-size: 13px;
+}
+#public .sec04 .annotation.left {
+  left: 0;
+  right: auto;
 }
 @media screen and (max-width: 768px) {
   #public sp {
@@ -188,35 +244,80 @@
     padding-bottom: 40px;
     margin-bottom: 40px;
   }
-  #public .sec01 {
+  #public .sections {
     text-align: center;
     margin-bottom: 40px;
   }
+<<<<<<< HEAD
   #public .sec01 .tit {
+=======
+  #public .sections .tit {
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     font-size: 36px;
     line-height: 1.4;
     margin-bottom: 40px;
   }
+<<<<<<< HEAD
   #public .sec01 .text {
+=======
+  #public .sections .text {
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     text-align: left;
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.12em;
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
   #public .sec01 .lead {
+=======
+  #public .sections .lead {
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     text-align: left;
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 40px;
   }
+<<<<<<< HEAD
   #public .sec02 .txt {
     position: absolute;
     top: 6%;
     left: 6%;
+=======
+  #public .sec02 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 60px;
+  }
+  #public .sec02 .img02 {
+    margin-bottom: 80px;
+  }
+  #public .sec02 .img02 .annotation {
+    bottom: -20px;
+  }
+  #public .sec02 .txt {
+>>>>>>> 5579e1827fcf71342181fedc6dd1373814e2153f
     text-align: left;
-    color: #fff;
-    font-size: 20px;
-    line-height: 2;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  #public .sec02 .list {
+    flex-wrap: wrap;
+  }
+  #public .sec02 .list li {
+    width: 48%;
+    margin-bottom: 15px;
+  }
+  #public .sec02 .mini {
+    text-align: right;
+    font-size: 11px;
+    margin-top: 0;
+  }
+  #public .sec04 .list li {
+    display: block;
+    width: 100%;
+  }
+  #public .sec04 .list li:last-child {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=public.css.map */

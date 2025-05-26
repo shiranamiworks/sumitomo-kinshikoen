@@ -116,9 +116,9 @@
     }
   } //sections
 
-  .sec01 {
+  .sections {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     .tit {
       font-size: 44px;
       color: #697b85;
@@ -136,20 +136,62 @@
       line-height: 1.8;
       margin-bottom: 100px;
     }
-  } //sec01
+  } //sections
   .sec02 {
     text-align: center;
     position: relative;
+    margin-bottom: 160px;
+    .img02 {
+      margin-bottom: 80px;
+    }
     .txt {
-      position: absolute;
-      top: 10%;
-      left: 10%;
       text-align: left;
-      color: #fff;
-      font-size: 30px;
-      line-height: 2;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        width: 24%;
+      }
+      .name {
+        font-size: 16px;
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+    .mini {
+      text-align: right;
+      font-size: 11px;
+      margin-top: 10px;
     }
   } //sec02
+  .sec04 {
+    .list {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 48%;
+        margin-right: 2%;
+      }
+      li:last-child {
+        margin: auto;
+      }
+      .lead {
+        text-align: left;
+        line-height: 2;
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+    .annotation.left {
+      left: 0;
+      right: auto;
+    }
+  }
 
   @media screen and (max-width: 1300px) {
   }
@@ -197,7 +239,7 @@
       padding-bottom: 40px;
       margin-bottom: 40px;
     }
-    .sec01 {
+    .sections {
       text-align: center;
       margin-bottom: 40px;
       .tit {
@@ -220,15 +262,43 @@
       }
     } //sec01
     .sec02 {
+      text-align: center;
+      position: relative;
+      margin-bottom: 60px;
+      .img02 {
+        margin-bottom: 80px;
+        .annotation {
+          bottom: -20px;
+        }
+      }
       .txt {
-        position: absolute;
-        top: 6%;
-        left: 6%;
         text-align: left;
-        color: #fff;
-        font-size: 20px;
-        line-height: 2;
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      .list {
+        flex-wrap: wrap;
+        li {
+          width: 48%;
+          margin-bottom: 15px;
+        }
+      }
+      .mini {
+        text-align: right;
+        font-size: 11px;
+        margin-top: 0;
       }
     } //sec02
+    .sec04 {
+      .list {
+        li {
+          display: block;
+          width: 100%;
+        }
+        li:last-child {
+          margin-top: 20px;
+        }
+      }
+    }
   } //sp
 } //public
