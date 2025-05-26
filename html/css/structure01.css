@@ -51,6 +51,7 @@
 .structure01 .sections .caps {
   font-size: 1.1rem;
   line-height: 1.6;
+  margin-bottom: 10px;
 }
 .structure01 .sec01 {
   margin-top: 80px;
@@ -132,6 +133,15 @@
   border: 1px solid;
   padding: 10px;
   box-sizing: border-box;
+}
+.structure01 .sec02 .annotation {
+  bottom: -4%;
+}
+.structure01 .sec02 .annotation.left {
+  right: 43%;
+}
+.structure01 .sec02 .annotation.left02 {
+  right: 76%;
 }
 .structure01 main {
   padding-bottom: 50px;
