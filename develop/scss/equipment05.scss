@@ -20,7 +20,6 @@
     font-family: "Noto Sans JP", sans-serif;
   }
   sup {
-    vertical-align: text-top;
     font-size: 70%;
   }
   .sections {
@@ -30,10 +29,14 @@
       width: 70%;
       max-width: 1030px;
     }
+    .mt30{
+      margin-top: 30px;
+    }
     .image {
       position: relative;
+      width: 80%;
       text-align: center;
-      margin-bottom: 60px;
+      margin: 0 auto 45px;
       &.mb30{
         margin-bottom: 30px;
       }
@@ -44,11 +47,17 @@
         width: 75%;
         margin: 0 auto;
       }
+      &.wid50{
+        width: 50%;
+      }
+      &.wid100{
+        width: 100%;
+      }
     }
     .annotation {
       &.left{
         right: auto;
-        left: 30%;
+        left: 37%;
         &.left01{
           left:0;
           text-align: left;
@@ -63,6 +72,9 @@
       &.bt10{
         bottom: 10px;
       }
+     &.bt-25{
+        bottom: -25px;
+      }
     }
     .text {
       font-size: 19px;
@@ -75,6 +87,7 @@
   } //sections
   .sec01 {
     margin-top: 40px;
+    margin-bottom: 30px;
     .lists {
       li {
         display: inline-block;
@@ -84,15 +97,6 @@
       }
       li:nth-child(3n) {
         margin-right: auto;
-      }
-    }
-    .list02 {
-      margin-bottom: 60px;
-      .mt30{
-        margin-top: 30px;
-      }
-      .mt45{
-        margin-top: 45px;
       }
     }
   } //sec01
@@ -105,17 +109,12 @@
         vertical-align: top;
         width: 48%;
         margin-right: 2%;
+        margin-bottom: 45px;
         &:nth-child(2n){
           margin-right: auto;
         }
         &.full {
           width: 100%;
-        }
-        .mt30 {
-          margin-top: 30px;
-        }
-        .mt45{
-          margin-top: 45px;
         }
       }
     }
@@ -127,23 +126,21 @@
           float: left;
         }
         .image {
-          width: 50%;
+          width: 40%;
           margin: auto;
         }
-      }
-      li:nth-child(8){
-        margin-right: 2%;
       }
       li:last-child{
         margin-right: auto;
       }
     }
     .list02 {
-      li:nth-child(4){
-        margin-right: 2%;
-      }
-      li:nth-child(5){
-        margin-right: auto;
+      .bg{
+        background-color:#eeeceb;
+        font-size:  1.4rem;
+        padding: 2.5px 5px;
+        margin-top: 0;
+        margin-bottom: 10px;
       }
     }
   } //sec02

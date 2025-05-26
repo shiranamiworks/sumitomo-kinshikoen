@@ -15,7 +15,6 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 .equipment05 sup {
-  vertical-align: text-top;
   font-size: 70%;
 }
 .equipment05 .sections {
@@ -26,10 +25,14 @@
   width: 70%;
   max-width: 1030px;
 }
+.equipment05 .sections .mt30 {
+  margin-top: 30px;
+}
 .equipment05 .sections .image {
   position: relative;
+  width: 80%;
   text-align: center;
-  margin-bottom: 60px;
+  margin: 0 auto 45px;
 }
 .equipment05 .sections .image.mb30 {
   margin-bottom: 30px;
@@ -41,9 +44,15 @@
   width: 75%;
   margin: 0 auto;
 }
+.equipment05 .sections .image.wid50 {
+  width: 50%;
+}
+.equipment05 .sections .image.wid100 {
+  width: 100%;
+}
 .equipment05 .sections .annotation.left {
   right: auto;
-  left: 30%;
+  left: 37%;
 }
 .equipment05 .sections .annotation.left.left01 {
   left: 0;
@@ -58,6 +67,9 @@
 .equipment05 .sections .annotation.bt10 {
   bottom: 10px;
 }
+.equipment05 .sections .annotation.bt-25 {
+  bottom: -25px;
+}
 .equipment05 .sections .text {
   font-size: 19px;
   line-height: 1.6;
@@ -68,6 +80,7 @@
 }
 .equipment05 .sec01 {
   margin-top: 40px;
+  margin-bottom: 30px;
 }
 .equipment05 .sec01 .lists li {
   display: inline-block;
@@ -78,32 +91,18 @@
 .equipment05 .sec01 .lists li:nth-child(3n) {
   margin-right: auto;
 }
-.equipment05 .sec01 .list02 {
-  margin-bottom: 60px;
-}
-.equipment05 .sec01 .list02 .mt30 {
-  margin-top: 30px;
-}
-.equipment05 .sec01 .list02 .mt45 {
-  margin-top: 45px;
-}
 .equipment05 .sec02 .lists li {
   display: inline-block;
   vertical-align: top;
   width: 48%;
   margin-right: 2%;
+  margin-bottom: 45px;
 }
 .equipment05 .sec02 .lists li:nth-child(2n) {
   margin-right: auto;
 }
 .equipment05 .sec02 .lists li.full {
   width: 100%;
-}
-.equipment05 .sec02 .lists li .mt30 {
-  margin-top: 30px;
-}
-.equipment05 .sec02 .lists li .mt45 {
-  margin-top: 45px;
 }
 .equipment05 .sec02 .list01 .lead-box, .equipment05 .sec02 .list02 .lead-box {
   display: flex;
@@ -113,20 +112,18 @@
   float: left;
 }
 .equipment05 .sec02 .list01 .lead-box .image, .equipment05 .sec02 .list02 .lead-box .image {
-  width: 50%;
+  width: 40%;
   margin: auto;
-}
-.equipment05 .sec02 .list01 li:nth-child(8), .equipment05 .sec02 .list02 li:nth-child(8) {
-  margin-right: 2%;
 }
 .equipment05 .sec02 .list01 li:last-child, .equipment05 .sec02 .list02 li:last-child {
   margin-right: auto;
 }
-.equipment05 .sec02 .list02 li:nth-child(4) {
-  margin-right: 2%;
-}
-.equipment05 .sec02 .list02 li:nth-child(5) {
-  margin-right: auto;
+.equipment05 .sec02 .list02 .bg {
+  background-color: #eeeceb;
+  font-size: 1.4rem;
+  padding: 2.5px 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .equipment05 main {
   padding-bottom: 50px;
