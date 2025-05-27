@@ -113,6 +113,9 @@
           }
           .image{
             width: 60%;
+            .annotation{
+              bottom: 0;
+            }
           }
         }
       }

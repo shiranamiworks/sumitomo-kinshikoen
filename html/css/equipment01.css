@@ -111,6 +111,9 @@
 .equipment01 .sec02 .lists li.full .image {
   width: 60%;
 }
+.equipment01 .sec02 .lists li.full .image .annotation {
+  bottom: 0;
+}
 .equipment01 .sec02 .lists li:nth-child(2n) {
   margin-right: auto;
 }
