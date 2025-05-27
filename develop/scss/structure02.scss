@@ -39,6 +39,9 @@
       &.bt {
         bottom: -20px;
       }
+      &.right01 {
+        right: 54%;
+      }
     }
     .text {
       font-size: 19px;
@@ -73,6 +76,9 @@
           width: 66%;
         }
         &:last-child {
+          margin-right: auto;
+        }
+        &:nth-child(3n) {
           margin-right: auto;
         }
       }

@@ -91,8 +91,17 @@
   letter-spacing: 0.12em;
   color: #fff;
   background: #1D2A56;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
   padding: 10px;
+}
+
+.tit02 {
+  font-size: 1.6rem;
+  letter-spacing: 0.12em;
+  color: #000;
+  background: #c9d4db;
+  margin-bottom: 30px;
+  padding: 8px 0;
 }
 
 .tit-img {
@@ -171,6 +180,9 @@
   }
   .sections .tit {
     font-size: 1.8rem;
+  }
+  .sections .tit02 {
+    font-size: 1.6rem;
     margin-bottom: 30px;
   }
 }

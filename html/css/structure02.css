@@ -36,6 +36,9 @@
 .structure02 .sections .annotation.bt {
   bottom: -20px;
 }
+.structure02 .sections .annotation.right01 {
+  right: 54%;
+}
 .structure02 .sections .text {
   font-size: 19px;
   line-height: 1.6;
@@ -69,6 +72,9 @@
   width: 66%;
 }
 .structure02 .sec01 .lists li:last-child {
+  margin-right: auto;
+}
+.structure02 .sec01 .lists li:nth-child(3n) {
   margin-right: auto;
 }
 .structure02 .sec01 .list00 {
