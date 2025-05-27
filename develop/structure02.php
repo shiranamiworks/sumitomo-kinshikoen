@@ -22,7 +22,7 @@
   <div class="breadcrumb sp-hide">
     <ul>
       <li><a href="./index.html">シティタワー錦糸公園｜錦糸町 マンション｜トップ</a></li>
-      <li><a href="./structure01.html">構造・防災</a></li>
+      <li><a href="./structure02.html">構造・防災</a></li>
       <li><p>防災対策</p></li>
     </ul>
   </div>
