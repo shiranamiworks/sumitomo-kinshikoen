@@ -39,6 +39,9 @@
       &.bt {
         bottom: -20px;
       }
+      &.right01 {
+        right: 54%;
+      }
     }
     .text {
       font-size: 19px;
@@ -60,6 +63,9 @@
         vertical-align: top;
         width: 31%;
         margin-right: 2%;
+        &.full {
+          width: 100%;
+        }
         &.half{
           width: 48%;
           &.half01{
@@ -72,7 +78,22 @@
         &:last-child {
           margin-right: auto;
         }
+        &:nth-child(3n) {
+          margin-right: auto;
+        }
       }
+    }
+    .list00 {
+      margin-bottom: 40px;
+      .text{
+        float: left;
+        width: 40%;
+      }
+      .image {
+        float: right;
+        width: 60%;
+        margin-right: auto;
+    }
     }
     .list01 {
       margin-bottom: 40px;
@@ -82,6 +103,9 @@
           width: 75%;
           margin: 0 auto 40px;
         }
+      }
+      li:nth-child(2n){
+        margin-right: auto;
       }
     }
     .list02 {
@@ -114,6 +138,9 @@
         }
       }
     }
+    .list03 {
+      margin-bottom: 40px;
+    }
   } //sec01
   main {
     padding-bottom: 50px;
@@ -138,6 +165,7 @@
         width: 100%;
       }
     } //sections
+
     .sec01 {
       margin-top: 40px;
       .lists {
@@ -151,6 +179,16 @@
           }
         }
       }
+      .list00 {
+      .text{
+        float: none;
+        width: 100%;
+      }
+      .image {
+        float: none;
+        width: 100%;
+    }
+    }
       .list02 {
         .lead-box {
           display: block;

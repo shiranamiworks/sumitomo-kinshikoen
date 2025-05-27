@@ -36,6 +36,9 @@
 .structure02 .sections .annotation.bt {
   bottom: -20px;
 }
+.structure02 .sections .annotation.right01 {
+  right: 54%;
+}
 .structure02 .sections .text {
   font-size: 19px;
   line-height: 1.6;
@@ -56,6 +59,9 @@
   width: 31%;
   margin-right: 2%;
 }
+.structure02 .sec01 .lists li.full {
+  width: 100%;
+}
 .structure02 .sec01 .lists li.half {
   width: 48%;
 }
@@ -68,6 +74,21 @@
 .structure02 .sec01 .lists li:last-child {
   margin-right: auto;
 }
+.structure02 .sec01 .lists li:nth-child(3n) {
+  margin-right: auto;
+}
+.structure02 .sec01 .list00 {
+  margin-bottom: 40px;
+}
+.structure02 .sec01 .list00 .text {
+  float: left;
+  width: 40%;
+}
+.structure02 .sec01 .list00 .image {
+  float: right;
+  width: 60%;
+  margin-right: auto;
+}
 .structure02 .sec01 .list01 {
   margin-bottom: 40px;
 }
@@ -77,6 +98,9 @@
 .structure02 .sec01 .list01 .image.wid75 {
   width: 75%;
   margin: 0 auto 40px;
+}
+.structure02 .sec01 .list01 li:nth-child(2n) {
+  margin-right: auto;
 }
 .structure02 .sec01 .list02 {
   margin-bottom: 40px;
@@ -108,6 +132,9 @@
 .structure02 .sec01 .list02 .lead-box .image.img01 {
   width: 30%;
 }
+.structure02 .sec01 .list03 {
+  margin-bottom: 40px;
+}
 .structure02 main {
   padding-bottom: 50px;
 }
@@ -136,6 +163,14 @@
     margin-bottom: 30px;
   }
   .structure02 .sec01 .lists li.half, .structure02 .sec01 .lists li.double {
+    width: 100%;
+  }
+  .structure02 .sec01 .list00 .text {
+    float: none;
+    width: 100%;
+  }
+  .structure02 .sec01 .list00 .image {
+    float: none;
     width: 100%;
   }
   .structure02 .sec01 .list02 .lead-box {
