@@ -75,6 +75,7 @@
         <div class="image last">
         <img src="./images/private/img03.png" alt="">
         </div>
+        <p class="annotation gothic">※設備・仕様はタイプにより異なります。</p>
       </div>
       </div><!-- wrap -->
     </div><!-- inner -->

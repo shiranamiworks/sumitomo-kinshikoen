@@ -203,6 +203,9 @@
 #private .sec03 .images .image.last {
   margin: auto;
 }
+#private .sec03 .images .annotation {
+  margin-top: 10px;
+}
 @media screen and (max-width: 768px) {
   #private sp {
     display: block;
