@@ -298,6 +298,13 @@ pc {
   height: 100%;
   overflow: hidden;
 }
+.contents-link a figure .caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
 
 .contents-link a figure img {
   width: 100%;
