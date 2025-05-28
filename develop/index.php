@@ -77,7 +77,7 @@
               <h3>アクセス</h3>
              </div>
         </a>
-         <a href="./design.html">
+         <!-- <a href="./design.html">
           <figure><img src="./images/top/img_design.jpg" alt="デザイン"><p class="caption">エントランス完成予想図</p></figure>
             <div class="contents-link__ttl">
               <p class="f-en">DESIGN</p>
@@ -97,7 +97,11 @@
               <p class="f-en">PRIVATE</p>
               <h3>室内空間</h3>
              </div>
-        </a>
+        </a> -->
+        <div class="ComingSoon">
+          <div class="contents-link__ttl">
+            <p class="f-en">Coming Soon</p>
+          </div>
         </div>
     </div>
   </section><!-- / CONTENTS -->

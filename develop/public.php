@@ -28,7 +28,7 @@
 	<!--// パンくずリスト -->
 
   <header class="main-visual clearfix">
-   <div class="image"><img src="./images/public/mv.jpg" alt="" class="pc"><img src="./images/public/mv-sp.jpg" alt="" class="tb">
+   <div class="image"><img src="./images/public/mv.jpg" alt="">
    <p class="annotation white">車寄せ完成予想図</p>
   </header><!-- main-visual -->
 

@@ -235,7 +235,7 @@
       }
       .swipe-img img {
         max-width: auto !important;
-        max-width: inherit !important;
+        max-width: 240vw !important;
         width: auto !important;
       }
       .swipe {
@@ -255,6 +255,9 @@
     .main-visual {
       padding-bottom: 40px;
       margin-bottom: 40px;
+      .image{
+        margin-bottom: 30px;
+      }
       .mini {
         text-align: left;
         width: 94%;

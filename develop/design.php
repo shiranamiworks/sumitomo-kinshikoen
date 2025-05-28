@@ -28,7 +28,8 @@
 	<!--// パンくずリスト -->
 
   <header class="main-visual clearfix">
-   <div class="image"><img src="./images/design/mv.jpg" alt="" class="pc"><img src="./images/design/mv-sp.jpg" alt="" class="tb">
+   <div class="image">
+    <img src="./images/design/mv.jpg" alt="">
    <p class="annotation white">外観完成予想図（1）</p>
   </header><!-- main-visual -->
 
