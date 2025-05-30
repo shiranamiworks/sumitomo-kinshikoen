@@ -23,12 +23,9 @@
   <ul>
 	<li class="top"><a href="/shuto/kinshikouen/">シティタワー錦糸公園 トップ</a></li>
 	<li class="concept"><a href="concept.html">コンセプト</a></li>
-	<li class="design">デザイン</li>
-	<li class="public">共用空間</li>
-	<li class="private">室内空間</li>
-	<!-- <li class="design"><a href="design.html">デザイン</a></li>
+	<li class="design"><a href="design.html">デザイン</a></li>
 	<li class="public"><a href="public.html">共用空間</a></li>
-	<li class="private"><a href="public.html">室内空間</a></li> -->
+	<li class="private"><a href="private.html">室内空間</a></li>
 	<!--li class="plan"><a href="/shuto/kinshikouen/n/list.php" target="_blank">間取り</a></li-->
 	<li class="plan">間取り</li>
 	<li class="equipment"><span>設備・仕様<br />

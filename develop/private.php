@@ -32,6 +32,7 @@
         <div class="scroll swipe-img">
           <img src="./images/private/mv.jpg" alt="" ><p class="annotation white">眺望写真</p>
         </div>
+        <div class="swipe sp"><img src="./images/access/icon_swipe.svg"></div>
    </div>
    <p class="mini">※掲載の眺望写真は現地18階相当からの眺望写真（2023年12月撮影）。 <br>※眺望等は階数・各住戸により異なり、周辺環境・眺望は将来変わる場合があります。季節・天候によっても異なる場合があります。</p>
   </header><!-- main-visual -->
