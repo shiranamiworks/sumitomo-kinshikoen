@@ -167,7 +167,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <li><a href="javascript:outline();">•¨ŒŠT—v</a></li>
           </ul>
           <div class="header-sns">
-            <a href="https://x.com/CTW_kinshipark" target="_blank"><img src="./images/common/icn_x.png" alt="Twitter"></a>
+            <!-- <a href="https://x.com/CTW_kinshipark" target="_blank"><img src="./images/common/icn_x.png" alt="Twitter"></a> -->
             <a href="https://www.instagram.com/ctw_kinshipark/" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
           </div>
         </div>
@@ -194,7 +194,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
       </ul>
     </nav>
     <div class="sp-menu-sns d-flex justify-content-center align-items-center">
-      <a href="https://x.com/CTW_kinshipark" target="_blank"><img src="./images/common/icn_x-black.png" alt="Twitter"></a>
+      <!-- <a href="https://x.com/CTW_kinshipark" target="_blank"><img src="./images/common/icn_x-black.png" alt="Twitter"></a> -->
        <a href="https://www.instagram.com/ctw_kinshipark/" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
     </div>
   </div><!--//sp-menu -->

@@ -52,7 +52,7 @@
   <section class="sec02 sections clearfix">
     <div class="image">
       <img src="./images/design/img02.jpg" alt="">
-      <p class="annotation white">エントランス完成予想図</p>
+      <p class="annotation white">外観完成予想図（2）</p>
       <p class="txt">水と緑と空とまち。<br>華やかに暮らし潤う日々へ。</p>
     </div>
   </section><!-- sec02 -->
